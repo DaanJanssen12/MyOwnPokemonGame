@@ -1,0 +1,170 @@
+﻿#-------------------------------
+[SALAREEN]
+Name = Salareen
+Types = GRASS
+BaseStats = 45,49,49,45,65,65
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = IGUAREEN,Level,16
+#-------------------------------
+[IGUAREEN]
+Name = Iguareen
+Types = GRASS
+BaseStats = 60,62,63,60,80,80
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info  
+Evolutions = DRAGUANA,Level,32
+#-------------------------------
+[DRAGUANA]
+Name = Draguana
+Types = GRASS, DRAGON
+BaseStats = 80,82,83,80,100,100
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[SNAEMBER]
+Name = Snaember
+Types = FIRE
+BaseStats = 45,49,49,45,65,65
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[CHARBRA]
+Name = Charbra
+Types = FIRE
+BaseStats = 60,62,63,60,80,80
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[FLARAGA]
+Name = Flaraga
+Types = FIRE, FLYING
+BaseStats = 80,82,83,80,100,100
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[DAMPURR]
+Name = Dampurr
+Types = WATER, NORMAL
+BaseStats = 45,49,49,45,65,65
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[RAINTHER]
+Name = Rainther
+Types = WATER, NORMAL
+BaseStats = 60,62,63,60,80,80
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[DELUGAR]
+Name = Delugar
+Types = WATER, NORMAL
+BaseStats = 80,82,83,80,100,100
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[MUSIBIRD]
+Name = Musibird
+Types = FLYING, SOUND
+BaseStats = 40,55,30,60,30,30
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[PAROWAVE]
+Name = Parowave
+Types = FLYING, SOUND
+BaseStats = 55,75,50,80,40,40
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[CHIRQUENCY]
+Name = Chirquency
+Types = FLYING, SOUND
+BaseStats = 85,120,70,100,50,60
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[AMAZEL]
+Name = Amazel
+Types = NORMAL
+BaseStats = 59,45,40,31,35,40
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[ELAZEL]
+Name = Elazel
+Types = NORMAL
+BaseStats = 79,85,60,71,55,60
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[WINBEE]
+Name = Winbee
+Types = BUG
+BaseStats = 40,60,40,30,40,40
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[WINKING]
+Name = Winking
+Types = BUG
+BaseStats = 70,90,70,40,60,70
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 
+#-------------------------------
+[WINQUEEN]
+Name = Winqueen
+Types = BUG
+BaseStats = 70,90,70,40,60,70
+Abilities = OVERGROW
+Moves = 1,TACKLE,1,GROWL
+Height = 1.0
+Pokedex = Placeholder for pokedex info 
+Evolutions = 

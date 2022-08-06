@@ -3,6 +3,6 @@
 [0]
 Filename = mapRegion.png
 Name = Neddar
-Point = 14,14,Home,Player's House,2,8,8,
-Point = 14,12,Town,,,,,
+Point = 15,14,Home,Player's House,2,8,8,
+Point = 15,12,Town,,,,,
 

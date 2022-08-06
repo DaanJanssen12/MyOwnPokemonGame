@@ -7,40 +7,40 @@ Name = Intro
 Name = Lappet Town
 Outdoor = true
 ShowArea = true
-MapPosition = 0,14,14
+MapPosition = 0,15,14
 BattleBack = field
 #-------------------------------
 [003]   # \PN's house
 Name = \PN's house
 HealingSpot = 2,8,8
-MapPosition = 0,14,14
+MapPosition = 0,15,14
 #-------------------------------
 [004]   # Pokémon Lab
 Name = Pokémon Lab
 ShowArea = false
-MapPosition = 0,14,14
+MapPosition = 0,15,14
 #-------------------------------
 [005]   # Route 1
 Name = Route 1
 Outdoor = true
 ShowArea = true
-MapPosition = 0,14,13
+MapPosition = 0,15,13
 BattleBack = field
 #-------------------------------
 [006]   # Kurt's house
 Name = Route 1
-MapPosition = 0,14,13
+MapPosition = 0,15,13
 #-------------------------------
 [007]   # Cedolan City
 Name = Cedolan City
 Outdoor = true
 ShowArea = true
-MapPosition = 0,14,12
+MapPosition = 0,15,12
 MapSize = 2,11
 #-------------------------------
 [008]   # Daisy's house
 Name = Lappet Town
-MapPosition = 0,13,12
+MapPosition = 0,14,14
 #-------------------------------
 [009]   # Cedolan City Poké Center
 Name = Cedolan City

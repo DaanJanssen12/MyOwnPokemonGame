@@ -1,12 +1,8 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [0]
-Name = Neddar
 Filename = mapRegion.png
-Point = 29,29,Home,Player's House,2,8,8,
-Point = 14,10,,,,,,
-Point = 14,15,,,,,,
-Point = 15,15,,,,,,
-Point = 15,14,,,,,,
+Name = Neddar
 Point = 14,14,Home,Player's House,2,8,8,
 Point = 14,12,Town,,,,,
+

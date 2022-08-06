@@ -3,39 +3,32 @@
 [001]   # Intro
 Name = Intro
 #-------------------------------
-[002]   # Lappet Town
-Name = Lappet Town
-Outdoor = true
-ShowArea = true
-MapPosition = 0,15,14
-BattleBack = field
-#-------------------------------
-[003]   # \PN's house
+[003]   # Player's house
 Name = \PN's house
 HealingSpot = 2,8,8
-MapPosition = 0,15,14
+MapPosition = 0,20,17
 #-------------------------------
 [004]   # Pokémon Lab
 Name = Pokémon Lab
 ShowArea = false
-MapPosition = 0,15,14
+MapPosition = 0,20,17
 #-------------------------------
 [005]   # Route 1
 Name = Route 1
 Outdoor = true
 ShowArea = true
-MapPosition = 0,15,13
+MapPosition = 0,20,16
 BattleBack = field
 #-------------------------------
 [006]   # Kurt's house
 Name = Route 1
-MapPosition = 0,15,13
+MapPosition = 0,20,16
 #-------------------------------
 [007]   # Cedolan City
 Name = Cedolan City
 Outdoor = true
 ShowArea = true
-MapPosition = 0,15,12
+MapPosition = 0,20,14
 MapSize = 2,11
 #-------------------------------
 [008]   # Daisy's house
@@ -102,6 +95,13 @@ Weather = Rain,100
 MapPosition = 0,14,8
 BattleBack = field
 MapSize = 1,11
+#-------------------------------
+[022]   # Venbridge Town
+Name = Venbridge Town
+Outdoor = true
+ShowArea = true
+MapPosition = 0,20,17
+BattleBack = field
 #-------------------------------
 [023]   # Lerucean Town
 Name = Lerucean Town

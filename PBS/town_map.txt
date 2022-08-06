@@ -3,7 +3,7 @@
 [0]
 Filename = mapRegion_Neddar.png
 Name = Neddar
-Point = 20,17,Starting Town,Your House,2,8,8,
-Point = 20,14,Big City,,,,,
+Point = 20,17,Starting Town,Your House,22,23,13,
+Point = 20,14,Big City,,7,22,30,
 
 

@@ -1,17 +1,97 @@
-﻿[SALAREEN]
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[SALAREEN]
+BackSprite = 0,0
+FrontSprite = 0,-9
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
 [IGUAREEN]
+BackSprite = 0,9
+FrontSprite = 0,13
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [DRAGUANA]
+BackSprite = 0,3
+FrontSprite = 0,7
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [SNAEMBER]
+BackSprite = 0,8
+FrontSprite = 0,20
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [CHARBRA]
-[FLARAGA]
+BackSprite = 0,13
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [DAMPURR]
+BackSprite = 0,4
+FrontSprite = 0,9
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [RAINTHER]
+BackSprite = 0,4
+FrontSprite = 0,9
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [DELUGAR]
+BackSprite = 0,2
+FrontSprite = 0,6
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [MUSIBIRD]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
 [PAROWAVE]
+BackSprite = 0,10
+FrontSprite = 0,14
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [CHIRQUENCY]
+BackSprite = 0,5
+FrontSprite = 0,9
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [AMAZEL]
+BackSprite = 0,14
+FrontSprite = 0,18
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [ELAZEL]
+BackSprite = 0,8
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [WINBEE]
+BackSprite = 0,13
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [WINKING]
+BackSprite = 0,11
+FrontSprite = 0,15
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
 [WINQUEEN]
+BackSprite = 0,12
+FrontSprite = 0,16
+ShadowX = 0
+ShadowSize = 0

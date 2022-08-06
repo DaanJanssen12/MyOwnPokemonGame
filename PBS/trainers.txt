@@ -1,3 +1,13 @@
-# See the documentation on the wiki to learn how to edit this file.
+﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-
+[LEADER_Brock,Sam,1]
+LoseText = Very good.
+Pokemon = SALAREEN,4
+#-------------------------------
+[LEADER_Brock,Sam,2]
+LoseText = Very good.
+Pokemon = SALAREEN,6
+#-------------------------------
+[CAMPER,Liam]
+LoseText = ...
+Pokemon = WINBEE,2

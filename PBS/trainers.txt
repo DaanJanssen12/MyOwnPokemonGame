@@ -16,3 +16,8 @@ Pokemon = WINBEE,2
 LoseText = ...
 Pokemon = AMAZEL,3
 Pokemon = MUSIBIRD,3
+#-------------------------------
+[YOUNGSTER,John]
+LoseText = ...
+Pokemon = WINBEE,5
+Pokemon = AMAZEL,4

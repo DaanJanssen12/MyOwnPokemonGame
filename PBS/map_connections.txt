@@ -1,6 +1,8 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Route 1 (5) - Venbridge Town (22)
-5,South,1,22,North,0
-# Cedolan City (7) - Route 1 (5)
-7,South,0,5,North,2
+# Route 1 (5) - Cedolan City (7)
+5,North,2,7,South,0
+# Route 10 (42) - Cedolan City (7)
+42,East,0,7,West,4
+# Venbridge Town (22) - Route 1 (5)
+22,North,0,5,South,1

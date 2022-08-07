@@ -21,3 +21,7 @@ Pokemon = MUSIBIRD,3
 LoseText = ...
 Pokemon = WINBEE,5
 Pokemon = AMAZEL,4
+#-------------------------------
+[FISHERMAN,Benny]
+LoseText = ...
+Pokemon = INTELLIDERP,8

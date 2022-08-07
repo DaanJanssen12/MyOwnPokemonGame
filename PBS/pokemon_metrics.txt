@@ -73,19 +73,19 @@ ShadowX = 0
 ShadowSize = 0
 #-------------------------------
 [ELAZEL]
-BackSprite = 0,8
+BackSprite = 0,-8
 FrontSprite = 0,18
 ShadowX = 0
 ShadowSize = 0
 #-------------------------------
 [WINBEE]
-BackSprite = 0,3
+BackSprite = 0,-6
 FrontSprite = 0,26
 ShadowX = 0
 ShadowSize = 0
 #-------------------------------
 [WINKING]
-BackSprite = 0,11
+BackSprite = 0,-5
 FrontSprite = 0,26
 ShadowX = 0
 ShadowSize = 0
@@ -97,7 +97,7 @@ ShadowX = 0
 ShadowSize = 0
 #-------------------------------
 [FLARAGA]
-BackSprite = 0,4
+BackSprite = 0,-8
 FrontSprite = 0,-8
 ShadowX = 0
 ShadowSize = 3

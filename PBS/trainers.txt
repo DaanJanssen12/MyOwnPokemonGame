@@ -11,3 +11,8 @@ Pokemon = SALAREEN,6
 [CAMPER,Liam]
 LoseText = ...
 Pokemon = WINBEE,2
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = ...
+Pokemon = AMAZEL,3
+Pokemon = MUSIBIRD,3

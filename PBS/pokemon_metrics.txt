@@ -1,74 +1,74 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [SALAREEN]
-BackSprite = 0,0
-FrontSprite = 0,-9
+BackSprite = 0,12
+FrontSprite = 0,12
 ShadowX = 0
-ShadowSize = 1
+ShadowSize = 2
 #-------------------------------
 [IGUAREEN]
 BackSprite = 0,9
 FrontSprite = 0,13
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [DRAGUANA]
-BackSprite = 0,3
+BackSprite = 0,4
 FrontSprite = 0,7
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [SNAEMBER]
-BackSprite = 0,8
+BackSprite = 0,16
 FrontSprite = 0,20
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [CHARBRA]
-BackSprite = 0,13
+BackSprite = 0,14
 FrontSprite = 0,17
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [DAMPURR]
-BackSprite = 0,4
-FrontSprite = 0,9
+BackSprite = 0,0
+FrontSprite = 0,12
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [RAINTHER]
 BackSprite = 0,4
 FrontSprite = 0,9
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [DELUGAR]
 BackSprite = 0,2
 FrontSprite = 0,6
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [MUSIBIRD]
-BackSprite = 0,0
-FrontSprite = 0,0
+BackSprite = 0,-3
+FrontSprite = 0,6
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [PAROWAVE]
-BackSprite = 0,10
+BackSprite = 0,11
 FrontSprite = 0,14
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [CHIRQUENCY]
 BackSprite = 0,5
 FrontSprite = 0,9
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [AMAZEL]
-BackSprite = 0,14
-FrontSprite = 0,18
+BackSprite = 0,0
+FrontSprite = 0,27
 ShadowX = 0
 ShadowSize = 0
 #-------------------------------
@@ -76,22 +76,28 @@ ShadowSize = 0
 BackSprite = 0,8
 FrontSprite = 0,12
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [WINBEE]
 BackSprite = 0,13
 FrontSprite = 0,17
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [WINKING]
 BackSprite = 0,11
 FrontSprite = 0,15
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
 #-------------------------------
 [WINQUEEN]
 BackSprite = 0,12
 FrontSprite = 0,16
 ShadowX = 0
-ShadowSize = 0
+ShadowSize = 2
+#-------------------------------
+[FLARAGA]
+BackSprite = 0,4
+FrontSprite = 0,8
+ShadowX = 0
+ShadowSize = 2

@@ -1645,7 +1645,7 @@ Description = The user steals the target's HP with a kiss. The user's HP is rest
 #-------------------------------
 [DISARMINGVOICE]
 Name = Disarming Voice
-Type = FAIRY
+Type = SOUND
 Category = Special
 Power = 40
 Accuracy = 0
@@ -2977,7 +2977,7 @@ Description = The user attacks with a blade of air that slices even the sky. It 
 #-------------------------------
 [CHATTER]
 Name = Chatter
-Type = FLYING
+Type = SOUND
 Category = Special
 Power = 65
 Accuracy = 100
@@ -4662,7 +4662,7 @@ Description = The foe is attacked with a powerful beam. The user must rest on th
 #-------------------------------
 [BOOMBURST]
 Name = Boomburst
-Type = NORMAL
+Type = SOUND
 Category = Special
 Power = 140
 Accuracy = 100
@@ -4794,7 +4794,7 @@ Description = The user releases countless shots of light. Its type varies with t
 #-------------------------------
 [HYPERVOICE]
 Name = Hyper Voice
-Type = NORMAL
+Type = SOUND
 Category = Special
 Power = 90
 Accuracy = 100
@@ -4843,7 +4843,7 @@ Description = A reckless, full-body charge attack for slamming into the foe. It 
 #-------------------------------
 [UPROAR]
 Name = Uproar
-Type = NORMAL
+Type = SOUND
 Category = Special
 Power = 90
 Accuracy = 100
@@ -4968,7 +4968,7 @@ Description = The user slashes the target with hard and sharp claws. It may also
 #-------------------------------
 [RELICSONG]
 Name = Relic Song
-Type = NORMAL
+Type = SOUND
 Category = Special
 Power = 75
 Accuracy = 100
@@ -5190,7 +5190,7 @@ Description = A spin attack that raises the user's Speed and eliminates the effe
 #-------------------------------
 [SNORE]
 Name = Snore
-Type = NORMAL
+Type = SOUND
 Category = Special
 Power = 50
 Accuracy = 100
@@ -5239,7 +5239,7 @@ Description = An attack move that varies in power and type depending on the weat
 #-------------------------------
 [ECHOEDVOICE]
 Name = Echoed Voice
-Type = NORMAL
+Type = SOUND
 Category = Special
 Power = 40
 Accuracy = 100
@@ -5629,14 +5629,14 @@ Description = A full-power attack that grows more powerful the more the user lik
 #-------------------------------
 [SONICBOOM]
 Name = Sonic Boom
-Type = NORMAL
+Type = SOUND
 Category = Special
 Power = 1
 Accuracy = 90
 TotalPP = 20
 Target = NearOther
 FunctionCode = FixedDamage20
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Sound
 Description = The target is hit with a destructive shock wave that always inflicts 20 HP damage.
 #-------------------------------
 [SPITUP]
@@ -5973,7 +5973,7 @@ Description = The user intimidates the target with the pattern on its belly to c
 #-------------------------------
 [GROWL]
 Name = Growl
-Type = NORMAL
+Type = SOUND
 Category = Status
 Accuracy = 100
 TotalPP = 40
@@ -6046,7 +6046,7 @@ Description = The user and an ally hold hands. This makes them very happy.
 #-------------------------------
 [HOWL]
 Name = Howl
-Type = NORMAL
+Type = SOUND
 Category = Status
 Accuracy = 0
 TotalPP = 40
@@ -6204,7 +6204,7 @@ Description = An attack that makes use of nature's power. Its effects vary depen
 #-------------------------------
 [NOBLEROAR]
 Name = Noble Roar
-Type = NORMAL
+Type = SOUND
 Category = Status
 Accuracy = 0
 TotalPP = 30
@@ -6321,7 +6321,7 @@ Description = The user rests to cure itself of a poisoning, burn, or paralysis.
 #-------------------------------
 [ROAR]
 Name = Roar
-Type = NORMAL
+Type = SOUND
 Category = Status
 Accuracy = 0
 TotalPP = 20
@@ -6354,7 +6354,7 @@ Description = The user frightens the target with a scary face to harshly reduce 
 #-------------------------------
 [SCREECH]
 Name = Screech
-Type = NORMAL
+Type = SOUND
 Category = Status
 Accuracy = 85
 TotalPP = 40
@@ -6396,7 +6396,7 @@ Description = The user's mysterious psychic wave changes the target's Ability to
 #-------------------------------
 [SING]
 Name = Sing
-Type = NORMAL
+Type = SOUND
 Category = Status
 Accuracy = 55
 TotalPP = 15
@@ -6510,7 +6510,7 @@ Description = The user makes a copy of itself using some of its HP. The copy ser
 #-------------------------------
 [SUPERSONIC]
 Name = Supersonic
-Type = NORMAL
+Type = SOUND
 Category = Status
 Accuracy = 55
 TotalPP = 20
@@ -8269,7 +8269,7 @@ Description = Protects itself from damage. It also harshly lowers the Attack of 
 #-------------------------------
 [METALSOUND]
 Name = Metal Sound
-Type = STEEL
+Type = SOUND
 Category = Status
 Accuracy = 85
 TotalPP = 40

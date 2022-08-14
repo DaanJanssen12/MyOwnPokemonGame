@@ -3,7 +3,7 @@
 [SALAREEN]
 Name = Salareen
 Types = GRASS
-BaseStats = 45,49,49,45,65,65
+BaseStats = 45,65,49,65,49,45
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 100
@@ -11,7 +11,7 @@ EVs =
 CatchRate = 255
 Happiness = 70
 Abilities = OVERGROW
-Moves = 1,TACKLE,1,GROWL
+Moves = 1,TACKLE,1,GROWL,6,LEAFAGE,9,SYNTHESIS,12,TWISTER,17,RAZORLEAF,20,NEEDLEARM,23,POWERUPPUNCH,28,COTTONSPORE,31,SAFEGUARD,34,LEAFBLADE,39,GRASSYTERRAIN,42,EARTHQUAKE,45,SOLARBEAM
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.3
@@ -25,7 +25,7 @@ Evolutions = IGUAREEN,Level,16
 [IGUAREEN]
 Name = Iguareen
 Types = GRASS
-BaseStats = 60,62,63,60,80,80
+BaseStats = 63,80,60,80,62,60
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 100
@@ -33,7 +33,7 @@ EVs =
 CatchRate = 255
 Happiness = 70
 Abilities = OVERGROW
-Moves = 1,TACKLE,1,GROWL
+Moves = 1,TACKLE,1,GROWL,6,LEAFAGE,9,SYNTHESIS,12,TWISTER,17,RAZORLEAF,20,NEEDLEARM,23,POWERUPPUNCH,28,COTTONSPORE,31,SAFEGUARD,34,LEAFBLADE,39,GRASSYTERRAIN,42,EARTHQUAKE,45,SOLARBEAM
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.1
@@ -47,7 +47,7 @@ Evolutions = DRAGUANA,Level,32
 [DRAGUANA]
 Name = Draguana
 Types = GRASS,DRAGON
-BaseStats = 80,82,83,80,100,100
+BaseStats = 83,100,80,100,82,80
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 100
@@ -55,7 +55,7 @@ EVs =
 CatchRate = 255
 Happiness = 70
 Abilities = OVERGROW
-Moves = 1,TACKLE,1,GROWL
+Moves = 1,TACKLE,1,GROWL,6,LEAFAGE,9,SYNTHESIS,12,TWISTER,17,RAZORLEAF,20,NEEDLEARM,23,POWERUPPUNCH,28,COTTONSPORE,31,SAFEGUARD,32,DRAGONCLAW,34,LEAFBLADE,39,GRASSYTERRAIN,42,EARTHQUAKE,45,SOLARBEAM
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.5
@@ -104,7 +104,7 @@ Height = 1.0
 Weight = 0.1
 Color = Red
 Shape = Head
-Category = ???
+Category = Fire Snake
 Pokedex = Placeholder for pokedex info
 #-------------------------------
 [FLARAGA]
@@ -125,7 +125,7 @@ Height = 1.0
 Weight = 0.1
 Color = Red
 Shape = Head
-Category = ???
+Category = Fire Snake
 Pokedex = Placeholder for pokedex info
 #-------------------------------
 [DAMPURR]
@@ -167,7 +167,7 @@ Height = 1.0
 Weight = 0.1
 Color = Red
 Shape = Head
-Category = ???
+Category = Purring
 Pokedex = Placeholder for pokedex info
 #-------------------------------
 [DELUGAR]
@@ -188,7 +188,7 @@ Height = 1.0
 Weight = 0.1
 Color = Red
 Shape = Head
-Category = ???
+Category = Purring
 Pokedex = Placeholder for pokedex info
 #-------------------------------
 [MUSIBIRD]
@@ -205,12 +205,12 @@ Abilities = TANGLEDFEET
 Moves = 1,DISARMINGVOICE,1,GROWL
 EggGroups = Undiscovered
 HatchSteps = 1
-Height = 1.0
-Weight = 0.1
+Height = 0.2
+Weight = 1.4
 Color = Red
 Shape = Head
-Category = ???
-Pokedex = Placeholder for pokedex info
+Category = Music
+Pokedex = Musibird are spry and chirpy little bird who are mostly seen in or around cities. Their whistling is always in tune and almost sounds like they are singing.
 #-------------------------------
 [PAROWAVE]
 Name = Parowave
@@ -230,7 +230,7 @@ Height = 1.0
 Weight = 0.1
 Color = Red
 Shape = Head
-Category = ???
+Category = Music
 Pokedex = Placeholder for pokedex info
 #-------------------------------
 [CHIRQUENCY]
@@ -251,7 +251,7 @@ Height = 1.0
 Weight = 0.1
 Color = Red
 Shape = Head
-Category = ???
+Category = Music
 Pokedex = Placeholder for pokedex info
 #-------------------------------
 [AMAZEL]
@@ -268,12 +268,12 @@ Abilities = OVERGROW
 Moves = 1,TACKLE,1,GROWL
 EggGroups = Undiscovered
 HatchSteps = 1
-Height = 1.0
-Weight = 0.1
+Height = 0.8
+Weight = 17.6
 Color = Red
 Shape = Head
-Category = ???
-Pokedex = Placeholder for pokedex info
+Category = Friendly
+Pokedex = These small rodents are very friendly and look at the world with a almost childlike wonder being amazed by everything they see.
 #-------------------------------
 [ELAZEL]
 Name = Elazel
@@ -293,7 +293,7 @@ Height = 1.0
 Weight = 0.1
 Color = Red
 Shape = Head
-Category = ???
+Category = Friendly
 Pokedex = Placeholder for pokedex info
 #-------------------------------
 [WINBEE]

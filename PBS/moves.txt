@@ -37,6 +37,19 @@ Flags = CanProtect,CanMirrorMove,Sound
 EffectChance = 10
 Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
 #-------------------------------
+[BLINDINGLIGHT]
+Name = Blinding Light
+Type = LIGHT
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is attacked with a quick flash of bright blinding light. This may also flinch the target.
+#-------------------------------
 [FIRSTIMPRESSION]
 Name = First Impression
 Type = BUG
@@ -432,6 +445,31 @@ FunctionCode = FlinchTarget
 Flags = CanProtect,CanMirrorMove,Pulse
 EffectChance = 20
 Description = The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.
+#-------------------------------
+[LIGHTPULSE]
+Name = Light Pulse
+Type = LIGHT
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = Other
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove,Pulse
+EffectChance = 20
+Description = The user releases a bright flash of light. It may also make the target flinch.
+#-------------------------------
+[LIGHTPULSE]
+Name = Light Pulse
+Type = LIGHT
+Category = Special
+Power = 70
+Accuracy = 95
+TotalPP = 20
+Target = Other
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the opponent with a beam of blinding light.
 #-------------------------------
 [FALSESURRENDER]
 Name = False Surrender
@@ -5141,7 +5179,7 @@ Description = The user attacks with a song. Others can join in the Round and mak
 #-------------------------------
 [SWIFT]
 Name = Swift
-Type = NORMAL
+Type = LIGHT
 Category = Special
 Power = 60
 Accuracy = 0
@@ -8129,7 +8167,7 @@ Description = The user rotates, centering the hex nut in its chest, and then str
 #-------------------------------
 [MIRRORSHOT]
 Name = Mirror Shot
-Type = STEEL
+Type = LIGHT
 Category = Special
 Power = 65
 Accuracy = 85

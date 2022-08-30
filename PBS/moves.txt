@@ -459,8 +459,8 @@ Flags = CanProtect,CanMirrorMove,Pulse
 EffectChance = 20
 Description = The user releases a bright flash of light. It may also make the target flinch.
 #-------------------------------
-[LIGHTPULSE]
-Name = Light Pulse
+[BLINDINGBEAM]
+Name = Blinding Beam
 Type = LIGHT
 Category = Special
 Power = 70

@@ -1,19 +1,23 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[LEADER_Brock,Sam,0]
+LoseText = Very good.
+Pokemon = MUSIBIRD,8
+Pokemon = PYEN,10
+#-------------------------------
 [LEADER_Brock,Sam,1]
 LoseText = Very good.
-Pokemon = SALAREEN,4
-#-------------------------------
-[LEADER_Brock,Sam,2]
-LoseText = Very good.
-Pokemon = SALAREEN,6
+Pokemon = PYEN,16
+Pokemon = PAROWAVE,18
 #-------------------------------
 [LEADER_BOB,Bob,0]
 LoseText = Very good.
+Pokemon = SQUIZARD,8
 Pokemon = DRASHIMI,10
 #-------------------------------
 [LEADER_BOB,Bob,1]
 LoseText = Very good.
+Pokemon = SQUIZARD,18
 Pokemon = TSUSHIMI,20
 #-------------------------------
 [CAMPER,Liam]
@@ -32,4 +36,4 @@ Pokemon = AMAZEL,4
 #-------------------------------
 [FISHERMAN,Benny]
 LoseText = ...
-Pokemon = INTELLIDERP,8
+Pokemon = INTELLIDERP,5

@@ -101,3 +101,93 @@ BackSprite = 0,-8
 FrontSprite = 0,-8
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[PYEN]
+BackSprite = 0,20
+FrontSprite = 0,25
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[BAOBARAFFE]
+BackSprite = 0,0
+FrontSprite = 0,9
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[BAOBY]
+BackSprite = 0,0
+FrontSprite = 0,11
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[DRASHIMI]
+BackSprite = 0,20
+FrontSprite = 0,32
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[DUSKALIGHT]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[INTELLIDERP]
+BackSprite = 0,0
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[LANYA]
+BackSprite = 0,0
+FrontSprite = -1,10
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[MINDOW]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[PYRAIN]
+BackSprite = 0,20
+FrontSprite = 0,18
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[PYRON]
+BackSprite = 0,20
+FrontSprite = 0,25
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[SLUGNAMI]
+BackSprite = 0,0
+FrontSprite = 0,13
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[SORCEPHER]
+BackSprite = 2,1
+FrontSprite = -5,3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SQUIZARD]
+BackSprite = 0,0
+FrontSprite = -5,13
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[TOBSHIMI]
+BackSprite = 0,20
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[TSUSHIMI]
+BackSprite = 0,20
+FrontSprite = 0,22
+ShadowX = 0
+ShadowSize = 0

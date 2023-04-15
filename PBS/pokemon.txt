@@ -655,3 +655,69 @@ Evolutions =
 Category = Sushi
 Pokedex =
 #-------------------------------
+[PYEN]
+Name = Pyen
+Types = DARK
+BaseStats = 35,45,35,35,30,30
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 255
+Happiness = 50
+BaseExp = 56
+Abilities = RUNAWAY,RATTLED
+Moves = 1,GROWL,1,TACKLE,4,HOWL,7,SANDATTACK,10,BITE,13,MUDSLAP,16,ROAR,19,SWAGGER,22,ASSURANCE,25,SNARL,28,HEADBUTT,31,TAUNT,34,CRUNCH,37,YAWN,40,TAKEDOWN,43,SUCKERPUNCH,46,BOOMBURST
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.4
+Weight = 11.5
+Color = Green
+Shape = Head
+Evolutions =
+Category = Howling
+Pokedex =
+#-------------------------------
+[PYRON]
+Name = Pyron
+Types = DARK,SOUND
+BaseStats = 55,75,55,55,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 127
+Happiness = 50
+BaseExp = 147
+Abilities = RUNAWAY,RATTLED
+Moves = 1,GROWL,1,TACKLE,4,HOWL,7,SANDATTACK,10,BITE,13,MUDSLAP,16,ROAR,19,SWAGGER,22,ASSURANCE,25,SNARL,28,HEADBUTT,31,TAUNT,34,CRUNCH,37,YAWN,40,TAKEDOWN,43,SUCKERPUNCH,46,BOOMBURST
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.9
+Weight = 34.5
+Color = Green
+Shape = Head
+Evolutions =
+Category = Howling
+Pokedex =
+#-------------------------------
+[PYRAIN]
+Name = Pyrain
+Types = DARK,SOUND
+BaseStats = 75,95,75,75,70,70
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 70
+Happiness = 50
+BaseExp = 210
+Abilities = RUNAWAY,RATTLED
+Moves = 1,GROWL,1,TACKLE,4,HOWL,7,SANDATTACK,10,BITE,13,MUDSLAP,16,ROAR,19,SWAGGER,22,ASSURANCE,25,SNARL,28,HEADBUTT,31,TAUNT,34,CRUNCH,37,YAWN,40,TAKEDOWN,43,SUCKERPUNCH,46,BOOMBURST
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 1.3
+Weight = 57.5
+Color = Green
+Shape = Head
+Evolutions =
+Category = Howling
+Pokedex =
+#-------------------------------

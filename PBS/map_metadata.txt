@@ -2,14 +2,10 @@
 #-------------------------------
 [001]   # Intro
 Name = Intro
-
 #-------------------------------
-[022]   # Venbridge Town
-Name = Venbridge Town
+[002]   # Route_Template
+Name = Route_Template
 Outdoor = true
-ShowArea = true
-MapPosition = 0,20,17
-BattleBack = field
 #-------------------------------
 [003]   # Player's house
 Name = \PN's house
@@ -39,6 +35,10 @@ ShowArea = true
 MapPosition = 0,20,14
 MapSize = 2,11
 #-------------------------------
+[008]   # Route 20
+Name = Route 20
+Outdoor = true
+#-------------------------------
 [009]   # Cedolan City Poké Center
 Name = Cedolan City
 HealingSpot = 8,17,11
@@ -54,6 +54,13 @@ Flags = DisableBoxLink
 [011]   # Pokémon Institute
 Name = Cedolan City
 MapPosition = 0,20,14
+#-------------------------------
+[022]   # Venbridge Town
+Name = Venbridge Town
+Outdoor = true
+ShowArea = true
+MapPosition = 0,20,17
+BattleBack = field
 #-------------------------------
 [042]   # Route 10
 Name = Route 10

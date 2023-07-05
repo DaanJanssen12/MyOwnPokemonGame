@@ -68,3 +68,6 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,20,16
 BattleBack = field
+#-------------------------------
+[077]   # Route 2
+Name = Route 2

@@ -6,7 +6,11 @@
 5,North,2,7,South,0
 # Route 20 (8) - Cedolan City (7)
 8,West,6,7,East,0
+# Route 2 (77) - Cedolan City (7)
+77,South,0,7,North,10
 # Venbridge Town (22) - Route 1 (5)
 22,North,0,5,South,1
+# Route 2 (77) - Route 20 (8)
+77,East,34,8,West,0
 # Route 10 (42) - Lerucean Town (23)
 42,0,0,23,40,8

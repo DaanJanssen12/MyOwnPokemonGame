@@ -1,0 +1,42 @@
+{
+    "name" : "Habkid",
+    "primaryType": "Steel",
+    "secondaryType": "Fighting",
+    "species": "Armored",
+    "height": "",
+    "weight": "",
+    "catchRate": 0,
+    "baseExp": 0,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Justified, Battle Armor",
+    "stats":{
+        "hp": 80,
+        "atk": 75,
+        "def": 100,
+        "spd": 50,
+        "spatk": 45,
+        "spdef": 45
+    },
+    "evolutions": [
+        {
+            "nr": "038",
+            "name": "Minsel",
+            "lvl": 0
+        },
+        {
+            "nr": "039",
+            "name": "Habkid",
+            "lvl": 28
+        },
+        {
+            "nr": "040",
+            "name": "Habknight",
+            "lvl": 40
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"}
+    ]
+}

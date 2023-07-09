@@ -1,0 +1,50 @@
+{
+    "name" : "Slugnami",
+    "primaryType": "Ghost",
+    "secondaryType": "Poison",
+    "species": "Cursed",
+    "height": "1.3",
+    "weight": "0.5",
+    "catchRate": 180,
+    "baseExp": 67,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Levitate, Cursed Body",
+    "stats":{
+        "hp": 110,
+        "atk": 50,
+        "def": 75,
+        "spd": 50,
+        "spatk": 75,
+        "spdef": 130
+    },
+    "evolutions": [
+        {
+            "nr": "026",
+            "name": "Mindow",
+            "lvl": 0
+        },
+        {
+            "nr": "027",
+            "name": "Slugnami",
+            "lvl": 32
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Confuse Ray"},
+        {"lvl": 1, "name": "Lick"},
+        {"lvl": 4, "name": "Hypnosis"},
+        {"lvl": 8, "name": "Mean Look"},
+        {"lvl": 12, "name": "Payback"},
+        {"lvl": 16, "name": "Sludge"},
+        {"lvl": 20, "name": "Curse"},
+        {"lvl": 24, "name": "Hex"},
+        {"lvl": 28, "name": "Night Shade"},
+        {"lvl": 32, "name": "Sucker Punch"},
+        {"lvl": 36, "name": "Sludge Wave"},
+        {"lvl": 40, "name": "Shadow Ball"},
+        {"lvl": 44, "name": "Destiny Bond"},
+        {"lvl": 48, "name": "Dream Eater"}
+    ]
+}

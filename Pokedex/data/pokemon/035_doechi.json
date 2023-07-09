@@ -1,0 +1,49 @@
+{
+    "name" : "Doechi",
+    "primaryType": "Fairy",
+    "secondaryType": "Light",
+    "species": "Bunny",
+    "height": "0.8",
+    "weight": "7.6",
+    "catchRate": 140,
+    "baseExp": 168,
+    "baseFriendship": 100,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Sweet Veil, Unburden",
+    "stats":{
+        "hp": 88,
+        "atk": 75,
+        "def": 58,
+        "spd": 129,
+        "spatk": 69,
+        "spdef": 61
+    },
+    "evolutions": [
+        {
+            "nr": "034",
+            "name": "Kudo",
+            "lvl": 0
+        },
+        {
+            "nr": "035",
+            "name": "Doechi",
+            "lvl": 24
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"},
+        {"lvl": 1, "name": "Play Nice"},
+        {"lvl": 4, "name": "Fairy Wind"},
+        {"lvl": 12, "name": "Draining Kiss"},
+        {"lvl": 9, "name": "Fake Tears"},
+        {"lvl": 21, "name": "Round"},
+        {"lvl": 18, "name": "Blinding Light"},
+        {"lvl": 27, "name": "Mirror Shot"},
+        {"lvl": 7, "name": "Baby-Doll Eyes"},
+        {"lvl": 15, "name": "Charm"},
+        {"lvl": 33, "name": "Play Rough"},
+        {"lvl": 24, "name": "Swift"},
+        {"lvl": 36, "name": "Blinding Beam"}
+    ]
+}

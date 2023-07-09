@@ -1,0 +1,37 @@
+{
+    "name" : "",
+    "primaryType": "",
+    "secondaryType": "",
+    "species": "",
+    "height": "",
+    "weight": "",
+    "catchRate": 0,
+    "baseExp": 0,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "",
+    "stats":{
+        "hp": 45,
+        "atk": 45,
+        "def": 45,
+        "spd": 45,
+        "spatk": 45,
+        "spdef": 45
+    },
+    "evolutions": [
+        {
+            "nr": "000",
+            "name": "Self",
+            "lvl": 0
+        },
+        {
+            "nr": "000",
+            "name": "Evo",
+            "lvl": 24
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"}
+    ]
+}

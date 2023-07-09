@@ -1,0 +1,53 @@
+{
+    "nr": "001",
+    "name" : "Salareen",
+    "primaryType": "Grass",
+    "secondaryType": "",
+    "species": "Lizard",
+    "height": "0.3",
+    "weight": "0.3",
+    "catchRate": 45,
+    "baseExp": 64,
+    "baseFriendship": 50,
+    "abilities": "Overgrow",
+    "hiddenAbilities": "Levitate",
+    "stats":{
+        "hp": 45,
+        "atk": 65,
+        "def": 49,
+        "spd": 65,
+        "spatk": 49,
+        "spdef": 45
+    },
+    "evolutions": [
+        {
+            "nr": "001",
+            "name": "Salareen",
+            "lvl": 0
+        },
+        {
+            "nr": "002",
+            "name": "Iguareen",
+            "lvl": 16
+        },
+        {
+            "nr": "003",
+            "name": "Draguana",
+            "lvl": 32
+        }
+    ],
+    "dexEntry": "Salareen's are small green lizards, the leaf on it's back can fully sustain Salareen's energy through photosynthesis. Because of how light they are, sometimes they can be seen levitating in the air.",
+    "moves": [
+        {"lvl": 1, "name": "Tackle"},
+        {"lvl": 1, "name": "Growl"},
+        {"lvl": 6, "name": "Leafage"},
+        {"lvl": 9, "name": "Synthesis"},
+        {"lvl": 12, "name": "Twister"},
+        {"lvl": 17, "name": "Razor Leaf"},
+        {"lvl": 20, "name": "Needle Arm"},
+        {"lvl": 23, "name": "Power-Up Punch"},
+        {"lvl": 32, "name": "Double-Edge"},
+        {"lvl": 27, "name": "Worry Seed"},
+        {"lvl": 39, "name": "Solar Beam"}
+    ]
+}

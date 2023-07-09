@@ -1,0 +1,26 @@
+{
+    "name" : "Intelliderp",
+    "primaryType": "Psychic",
+    "secondaryType": "",
+    "species": "Weird",
+    "height": "1.0",
+    "weight": "10.0",
+    "catchRate": 190,
+    "baseExp": 145,
+    "baseFriendship": 100,
+    "growthRate": "Medium Fast",
+    "abilities": "Serene Grace, Gluttony",
+    "hiddenAbilities": "Contrary",
+    "dexEntry": "",
+    "stats":{
+        "hp": 80,
+        "atk": 10,
+        "def": 80,
+        "spd": 10,
+        "spatk": 135,
+        "spdef": 80
+    },
+    "moves": [
+        {"lvl": 1, "name": "Confusion"}
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name" : "Elazel",
+    "primaryType": "Normal",
+    "secondaryType": "",
+    "species": "Friendly",
+    "height": "1.1",
+    "weight": "35.6",
+    "catchRate": 127,
+    "baseExp": 144,
+    "baseFriendship": 100,
+    "abilities": "Unaware,Simple",
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "stats":{
+        "hp": 69,
+        "atk": 69,
+        "def": 69,
+        "spd": 69,
+        "spatk": 69,
+        "spdef": 69
+    },
+    "evolutions": [
+        {
+            "nr": "013",
+            "name": "Amazel",
+            "lvl": 0
+        },
+        {
+            "nr": "014",
+            "name": "Elazel",
+            "lvl": 24
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"},
+        {"lvl": 1, "name": "Growl"},
+        {"lvl": 5, "name": "Tearful Look"},
+        {"lvl": 9, "name": "Defense Curl"},
+        {"lvl": 13, "name": "Rollout"},
+        {"lvl": 17, "name": "Headbutt"},
+        {"lvl": 21, "name": "Taunt"},
+        {"lvl": 25, "name": "Yawn"},
+        {"lvl": 29, "name": "Crunch"},
+        {"lvl": 33, "name": "Take Down"},
+        {"lvl": 37, "name": "Super Fang"},
+        {"lvl": 41, "name": "Swords Dance"}
+    ]
+}

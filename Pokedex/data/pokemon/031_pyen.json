@@ -1,0 +1,58 @@
+{
+    "name" : "Pyen",
+    "primaryType": "Dark",
+    "secondaryType": "",
+    "species": "Howling",
+    "height": "0.4",
+    "weight": "11.5",
+    "catchRate": 255,
+    "baseExp": 56,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Run Away, Rattled",
+    "stats":{
+        "hp": 35,
+        "atk": 45,
+        "def": 35,
+        "spd": 35,
+        "spatk": 30,
+        "spdef": 30
+    },
+    "evolutions": [
+        {
+            "nr": "031",
+            "name": "Pyen",
+            "lvl": 0
+        },
+        {
+            "nr": "032",
+            "name": "Pyron",
+            "lvl": 21
+        },
+        {
+            "nr": "033",
+            "name": "Pyrain",
+            "lvl": 42
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Growl"},
+        {"lvl": 1, "name": "Tackle"},
+        {"lvl": 4, "name": "Howl"},
+        {"lvl": 7, "name": "Sand Attack"},
+        {"lvl": 10, "name": "Bite"},
+        {"lvl": 13, "name": "Mud-Slap"},
+        {"lvl": 16, "name": "Roar"},
+        {"lvl": 19, "name": "Swagger"},
+        {"lvl": 22, "name": "Assurance"},
+        {"lvl": 25, "name": "Snarl"},
+        {"lvl": 28, "name": "Headbutt"},
+        {"lvl": 31, "name": "Taunt"},
+        {"lvl": 34, "name": "Crunch"},
+        {"lvl": 37, "name": "Yawn"},
+        {"lvl": 40, "name": "Take Down"},
+        {"lvl": 43, "name": "Sucker Punch"},
+        {"lvl": 46, "name": "Boomburst"}
+    ]
+}

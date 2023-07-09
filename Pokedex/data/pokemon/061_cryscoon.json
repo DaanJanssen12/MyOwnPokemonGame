@@ -1,0 +1,37 @@
+{
+    "name" : "Cryscoon",
+    "primaryType": "Ice",
+    "secondaryType": "",
+    "species": "Icicle",
+    "height": "0.2",
+    "weight": "12.0",
+    "catchRate": 190,
+    "baseExp": 37,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Ice Scales",
+    "stats":{
+        "hp": 30,
+        "atk": 25,
+        "def": 35,
+        "spd": 20,
+        "spatk": 45,
+        "spdef": 30
+    },
+    "evolutions": [
+        {
+            "nr": "061",
+            "name": "Cryscoon",
+            "lvl": 0
+        },
+        {
+            "nr": "062",
+            "name": "Crycing",
+            "lvl": 24
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"}
+    ]
+}

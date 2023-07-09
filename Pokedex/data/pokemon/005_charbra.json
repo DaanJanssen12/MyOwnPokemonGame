@@ -1,0 +1,51 @@
+{
+    "name" : "Charbra",
+    "primaryType": "Fire",
+    "secondaryType": "",
+    "species": "Fire Snake",
+    "height": "1.8",
+    "weight": "43.6",
+    "catchRate": 45,
+    "baseExp": 142,
+    "baseFriendship": 50,
+    "abilities": "Blaze",
+    "hiddenAbilities": "",
+    "dexEntry": "After evolving from Snaember, Charbra's fiery wings grow bigger and more defined. Some Charbra's are even seen flying for small amounts of time, but none have been able to do it consistantly",
+    "stats":{
+        "hp": 58,
+        "atk": 64,
+        "def": 58,
+        "spd": 80,
+        "spatk": 80,
+        "spdef": 65
+    },
+    "evolutions": [
+        {
+            "nr": "004",
+            "name": "Snaember",
+            "lvl": 0
+        },
+        {
+            "nr": "005",
+            "name": "Charbra",
+            "lvl": 16
+        },
+        {
+            "nr": "006",
+            "name": "Flaraga",
+            "lvl": 32
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Wrap"},
+        {"lvl": 1, "name": "Defense Curl"},
+        {"lvl": 6, "name": "Ember"},
+        {"lvl": 12, "name": "Glare"},
+        {"lvl": 17, "name": "Flame Wheel"},
+        {"lvl": 20, "name": "Headbutt"},
+        {"lvl": 23, "name": "Roost"},
+        {"lvl": 27, "name": "Sunny Day"},
+        {"lvl": 32, "name": "Flamethrower"},
+        {"lvl": 39, "name": "Inferno"}
+    ]
+}

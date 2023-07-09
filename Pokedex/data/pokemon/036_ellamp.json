@@ -1,0 +1,48 @@
+{
+    "name" : "Ellamp",
+    "primaryType": "Ghost",
+    "secondaryType": "",
+    "species": "Teapot",
+    "height": "",
+    "weight": "",
+    "catchRate": 0,
+    "baseExp": 0,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Levitate",
+    "stats":{
+        "hp": 30,
+        "atk": 50,
+        "def": 70,
+        "spd": 32,
+        "spatk": 70,
+        "spdef": 52
+    },
+    "evolutions": [
+        {
+            "nr": "036",
+            "name": "Ellamp",
+            "lvl": 0
+        },
+        {
+            "nr": "037",
+            "name": "Seiramp",
+            "lvl": 31
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Astonish"},
+        {"lvl": 1, "name": "Withdraw"},
+        {"lvl": 6, "name": "Aromatic Mist"},
+        {"lvl": 12, "name": "Mega Drain"},
+        {"lvl": 18, "name": "Protect"},
+        {"lvl": 24, "name": "Sucker Punch"},
+        {"lvl": 30, "name": "Sweet Scent"},
+        {"lvl": 36, "name": "Giga Drain"},
+        {"lvl": 42, "name": "Nasty Plot"},
+        {"lvl": 48, "name": "Shadow Ball"},
+        {"lvl": 54, "name": "Memento"},
+        {"lvl": 60, "name": "Shell Smash"}
+    ]
+}

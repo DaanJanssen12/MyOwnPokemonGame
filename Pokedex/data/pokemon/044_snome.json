@@ -1,0 +1,49 @@
+{
+    "name" : "Snome",
+    "primaryType": "Ice",
+    "secondaryType": "",
+    "species": "Gnome",
+    "height": "0.7",
+    "weight": "12.5",
+    "catchRate": 150,
+    "baseExp": 120,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Prankster, Frisk",
+    "stats":{
+        "hp": 65,
+        "atk": 65,
+        "def": 50,
+        "spd": 50,
+        "spatk": 65,
+        "spdef": 65
+    },
+    "evolutions": [
+        {
+            "nr": "044",
+            "name": "Snome",
+            "lvl": 0
+        },
+        {
+            "nr": "045",
+            "name": "Froll",
+            "lvl": 31
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Ice Shard"},
+        {"lvl": 1, "name": "Fake Out"},
+        {"lvl": 4, "name": "Taunt"},
+        {"lvl": 8, "name": "Double Team"},
+        {"lvl": 12, "name": "Protect"},
+        {"lvl": 16, "name": "Icy Wind"},
+        {"lvl": 20, "name": "Haze"},
+        {"lvl": 24, "name": "Ice Punch"},
+        {"lvl": 28, "name": "Thief"},
+        {"lvl": 33, "name": "Aromatic Mist"},
+        {"lvl": 36, "name": "Thunder Wave"},
+        {"lvl": 40, "name": "Will-O-Wisp"},
+        {"lvl": 44, "name": "Ice Hammer"}
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "name" : "Amazel",
+    "primaryType": "Normal",
+    "secondaryType": "",
+    "species": "Friendly",
+    "height": "0.7",
+    "weight": "31.5",
+    "genderRatio": "Female50Percent",
+    "growthRate": "Medium Fast",
+    "catchRate": 255,
+    "baseExp": 50,
+    "baseFriendship": 100,
+    "abilities": "Unaware,Simple",
+    "hiddenAbilities": "",
+    "dexEntry": "These small rodents are very friendly and look at the world with a almost childlike wonder being amazed by everything they see.    ",
+    "stats":{
+        "hp": 45,
+        "atk": 45,
+        "def": 45,
+        "spd": 45,
+        "spatk": 45,
+        "spdef": 45
+    },
+    "evolutions": [
+        {
+            "nr": "013",
+            "name": "Amazel",
+            "lvl": 0
+        },
+        {
+            "nr": "014",
+            "name": "Elazel",
+            "lvl": 24
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"},
+        {"lvl": 1, "name": "Growl"},
+        {"lvl": 5, "name": "Tearful Look"},
+        {"lvl": 9, "name": "Defense Curl"},
+        {"lvl": 13, "name": "Rollout"},
+        {"lvl": 17, "name": "Headbutt"},
+        {"lvl": 21, "name": "Taunt"},
+        {"lvl": 25, "name": "Yawn"},
+        {"lvl": 29, "name": "Crunch"},
+        {"lvl": 33, "name": "Take Down"},
+        {"lvl": 37, "name": "Super Fang"},
+        {"lvl": 41, "name": "Swords Dance"}
+    ]
+}

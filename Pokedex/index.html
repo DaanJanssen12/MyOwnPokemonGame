@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MixedBag</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link rel="stylesheet" href="content/pokedex.css" />
+  <link rel="stylesheet" href="content/evolution.css" />
+  <link rel="stylesheet" href="content/type-chart.css" />
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+  <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+  <script>
+	if ('serviceWorker' in navigator) {
+	  navigator.serviceWorker.register('./serviceWorker.js')
+		.then(function(registration) {
+		  // Registration was successful
+		  console.log('ServiceWorker registration successful with scope: ', registration.scope);
+		}).catch(function(err) {
+		  // registration failed :(
+		  console.log('ServiceWorker registration failed: ', err);
+		});
+	}
+  </script>
+
+  <!-- Google Fonts -->
+  <link href="assets/vendor/google/css/fonts.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/89037a9190.js" crossorigin="anonymous"></script>
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<input type="hidden" id="POKEMON_ID" value=""/>
+	<input type="hidden" id="HAS_LOADED" value="0"/>
+  <header id="header" class="fixed-top d-flex align-items-center header-scrolled"></header>
+  <main id="main" style="margin-top: 100px;"></main>
+  <footer id="footer" class="footer" role="contentinfo"></footer>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/google/js/jquery.min.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="scripts/rng.js"></script>
+
+</body>
+
+</html>

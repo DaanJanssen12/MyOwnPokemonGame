@@ -1,0 +1,49 @@
+{
+    "name" : "Baobaraffe",
+    "primaryType": "Grass",
+    "secondaryType": "",
+    "species": "Long Neck",
+    "height": "3.7",
+    "weight": "110.0",
+    "catchRate": 45,
+    "baseExp": 186,
+    "baseFriendship": 50,
+    "abilities": "Sap Sipper, Grass Pelt",
+    "stats":{
+        "hp": 123,
+        "atk": 100,
+        "def": 62,
+        "spd": 97,
+        "spatk": 81,
+        "spdef": 68
+    },
+    "evolutions": [
+        {
+            "nr": "018",
+            "name": "Baoby",
+            "lvl": 0
+        },
+        {
+            "nr": "019",
+            "name": "Baobaraffe",
+            "lvl": 32
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Growth"},
+        {"lvl": 1, "name": "Tackle"},
+        {"lvl": 7, "name": "Vine Whip"},
+        {"lvl": 9, "name": "Tail Whip"},
+        {"lvl": 12, "name": "Leech Seed"},
+        {"lvl": 13, "name": "Razor Leaf"},
+        {"lvl": 16, "name": "Worry Seed"},
+        {"lvl": 20, "name": "Synthesis"},
+        {"lvl": 22, "name": "Take Down"},
+        {"lvl": 26, "name": "Bulldoze"},
+        {"lvl": 30, "name": "Seed Bomb"},
+        {"lvl": 34, "name": "Bulk Up"},
+        {"lvl": 38, "name": "Double-Edge"},
+        {"lvl": 42, "name": "Horn Leech"},
+        {"lvl": 45, "name": "Leaf Blade"}
+    ]
+}

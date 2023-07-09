@@ -1,0 +1,52 @@
+{
+    "name" : "Delugar",
+    "primaryType": "Water",
+    "secondaryType": "Normal",
+    "species": "Purring",
+    "height": "2.6",
+    "weight": "120.0",
+    "catchRate": 45,
+    "baseExp": 239,
+    "baseFriendship": 50,
+    "abilities": "Torrent",
+    "hiddenAbilities": "",
+    "dexEntry": "Delugar are natural hunters, with their strong legs they can run with great speed and pounce and strike with great strength.",
+    "stats":{
+        "hp": 80,
+        "atk": 126,
+        "def": 74,
+        "spd": 116,
+        "spatk": 60,
+        "spdef": 74
+    },
+    "evolutions": [
+        {
+            "nr": "007",
+            "name": "Dampurr",
+            "lvl": 0
+        },
+        {
+            "nr": "008",
+            "name": "Rainther",
+            "lvl": 16
+        },
+        {
+            "nr": "009",
+            "name": "Delugar",
+            "lvl": 32
+        }
+    ],
+    "moves": [
+        { "lvl": 1, "name": "Pound"},
+        { "lvl": 1, "name": "Growl"},
+        { "lvl": 6, "name": "Water Gun"},
+        { "lvl": 9, "name": "Quick Attack"},
+        { "lvl": 12, "name": "Defense Curl"},
+        { "lvl": 17, "name": "Aqua Jet"},
+        { "lvl": 20, "name": "Headbutt"},
+        { "lvl": 23, "name": "Rain Dance"},
+        { "lvl": 27, "name": "Waterfall"},
+        { "lvl": 32, "name": "Play Rough"},
+        { "lvl": 37, "name": "Double-Edge"}
+    ]
+}

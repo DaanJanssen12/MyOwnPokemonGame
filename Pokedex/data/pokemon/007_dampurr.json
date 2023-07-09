@@ -1,0 +1,52 @@
+{
+    "name" : "Dampurr",
+    "primaryType": "Water",
+    "secondaryType": "Normal",
+    "species": "Purring",
+    "height": "0.6",
+    "weight": "7.3",
+    "catchRate": 45,
+    "baseExp": 64,
+    "baseFriendship": 50,
+    "abilities": "Torrent",
+    "hiddenAbilities": "",
+    "dexEntry": "Dampurr are playful little cats who love damp and wet weather. Their purring is in a certain frequency causing it to be amplified when the air is damp.    ",
+    "stats":{
+        "hp": 40,
+        "atk": 66,
+        "def": 54,
+        "spd": 56,
+        "spatk": 50,
+        "spdef": 54
+    },
+    "evolutions": [
+        {
+            "nr": "007",
+            "name": "Dampurr",
+            "lvl": 0
+        },
+        {
+            "nr": "008",
+            "name": "Rainther",
+            "lvl": 16
+        },
+        {
+            "nr": "009",
+            "name": "Delugar",
+            "lvl": 32
+        }
+    ],
+    "moves": [
+        { "lvl": 1, "name": "Pound"},
+        { "lvl": 1, "name": "Growl"},
+        { "lvl": 6, "name": "Water Gun"},
+        { "lvl": 9, "name": "Quick Attack"},
+        { "lvl": 12, "name": "Defense Curl"},
+        { "lvl": 17, "name": "Aqua Jet"},
+        { "lvl": 20, "name": "Headbutt"},
+        { "lvl": 23, "name": "Rain Dance"},
+        { "lvl": 27, "name": "Waterfall"},
+        { "lvl": 32, "name": "Play Rough"},
+        { "lvl": 37, "name": "Double-Edge"}
+    ]
+}

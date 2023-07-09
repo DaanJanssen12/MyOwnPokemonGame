@@ -1,0 +1,55 @@
+{
+    "name" : "Tobshimi",
+    "primaryType": "Dragon",
+    "secondaryType": "",
+    "species": "Sushi",
+    "height": "1.8",
+    "weight": "20.4",
+    "catchRate": 45,
+    "baseExp": 270,
+    "baseFriendship": 30,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Sticky Hold, Marvel Scale",
+    "stats":{
+        "hp": 99,
+        "atk": 99,
+        "def": 99,
+        "spd": 99,
+        "spatk": 99,
+        "spdef": 99
+    },
+    "evolutions": [
+        {
+            "nr": "028",
+            "name": "Drashimi",
+            "lvl": 0
+        },
+        {
+            "nr": "029",
+            "name": "Tsushimi",
+            "lvl": 29
+        },
+        {
+            "nr": "030",
+            "name": "Tobshimi",
+            "lvl": 48
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Sticky Web"},
+        {"lvl": 1, "name": "Wrap"},
+        {"lvl": 5, "name": "Twister"},
+        {"lvl": 10, "name": "Thunder Wave"},
+        {"lvl": 15, "name": "Dragon Tail"},
+        {"lvl": 20, "name": "Agility"},
+        {"lvl": 25, "name": "Slam"},
+        {"lvl": 31, "name": "Aqua Tail"},
+        {"lvl": 35, "name": "Dragon Rush"},
+        {"lvl": 40, "name": "Safe Guard"},
+        {"lvl": 45, "name": "Rain Dance"},
+        {"lvl": 50, "name": "Dragon Dance"},
+        {"lvl": 55, "name": "Outrage"},
+        {"lvl": 60, "name": "Hyper Beam"}
+    ]
+}

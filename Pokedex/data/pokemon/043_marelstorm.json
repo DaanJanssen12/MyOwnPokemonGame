@@ -1,0 +1,37 @@
+{
+    "name" : "Marelstorm",
+    "primaryType": "Water",
+    "secondaryType": "Electric",
+    "species": "Swordfish",
+    "height": "1.9",
+    "weight": "92.3",
+    "catchRate": 60,
+    "baseExp": 161,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Volt Absorb, Intrepid Sword",
+    "stats":{
+        "hp": 70,
+        "atk": 107,
+        "def": 52,
+        "spd": 98,
+        "spatk": 70,
+        "spdef": 52
+    },
+    "evolutions": [
+        {
+            "nr": "042",
+            "name": "Minamai",
+            "lvl": 0
+        },
+        {
+            "nr": "043",
+            "name": "Marelstorm",
+            "lvl": 30
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"}
+    ]
+}

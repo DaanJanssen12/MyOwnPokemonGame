@@ -1,0 +1,51 @@
+{
+    "name" : "Draguana",
+    "primaryType": "Grass",
+    "secondaryType": "Dragon",
+    "species": "Lizard",
+    "height": "3.2",
+    "weight": "230.0",
+    "catchRate": 45,
+    "baseExp": 64,
+    "baseFriendship": 50,
+    "abilities": "Overgrow",
+    "hiddenAbilities": "",
+    "dexEntry": "Growing even taller and heavier then their predecessor Draguana's have gone from walking on 2 legs to walking on 4.",
+    "stats":{
+        "hp": 83,
+        "atk": 100,
+        "def": 80,
+        "spd": 100,
+        "spatk": 82,
+        "spdef": 80
+    },
+    "evolutions": [
+        {
+            "nr": "001",
+            "name": "Salareen",
+            "lvl": 0
+        },
+        {
+            "nr": "002",
+            "name": "Iguareen",
+            "lvl": 16
+        },
+        {
+            "nr": "003",
+            "name": "Draguana",
+            "lvl": 32
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"},
+        {"lvl": 1, "name": "Growl"},
+        {"lvl": 6, "name": "Leafage"},
+        {"lvl": 12, "name": "Razor Leaf"},
+        {"lvl": 17, "name": "Synthesis"},
+        {"lvl": 20, "name": "Needle Arm"},
+        {"lvl": 23, "name": "Power-Up Punch"},
+        {"lvl": 27, "name": "Worry Seed"},
+        {"lvl": 32, "name": "Dragon Claw"},
+        {"lvl": 39, "name": "Solar Beam"}
+    ]
+}

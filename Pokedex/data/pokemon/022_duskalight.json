@@ -1,0 +1,52 @@
+{
+    "name" : "Duskalight",
+    "primaryType": "Light",
+    "secondaryType": "Dark",
+    "species": "Dim Light",
+    "height": "1.1",
+    "weight": "22.5",
+    "catchRate": 75,
+    "baseExp": 170,
+    "baseFriendship": 50,
+    "abilities": "Victory Star, Dark Aura",
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "stats":{
+        "hp": 80,
+        "atk": 70,
+        "def": 70,
+        "spd": 80,
+        "spatk": 110,
+        "spdef": 80
+    },
+    "evolutions": [
+        {
+            "nr": "020",
+            "name": "Lanya",
+            "lvl": 0
+        },
+        {
+            "nr": "021",
+            "name": "Dawntern",
+            "lvl": 30,
+            "extraInfo": "Level up during the day",
+            "alternateEvo":{
+                "nr": "022",
+                "name": "Duskalight",
+                "lvl": 30,
+                "extraInfo": "Level up during the night"
+            }
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Light Screen"},
+        {"lvl": 1, "name": "Blinding Light"},
+        {"lvl": 7, "name": "Reflect"},
+        {"lvl": 30, "name": "Dark Pulse"},
+        {"lvl": 21, "name": "Blinding Beam"},
+        {"lvl": 9, "name": "Tail Glow"},
+        {"lvl": 27, "name": "Light Pulse"},
+        {"lvl": 12, "name": "Mirror Shot"},
+        {"lvl": 17, "name": "Swift"}
+    ]
+}

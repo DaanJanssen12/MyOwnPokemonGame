@@ -1,0 +1,42 @@
+{
+    "name" : "Chargador",
+    "primaryType": "Electric",
+    "secondaryType": "Fighting",
+    "species": "Bull",
+    "height": "1.1",
+    "weight": "27.8",
+    "catchRate": 120,
+    "baseExp": 127,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "",
+    "stats":{
+        "hp": 60,
+        "atk": 60,
+        "def": 54,
+        "spd": 85,
+        "spatk": 55,
+        "spdef": 49
+    },
+    "evolutions": [
+        {
+            "nr": "058",
+            "name": "Eledor",
+            "lvl": 0
+        },
+        {
+            "nr": "059",
+            "name": "Chargador",
+            "lvl": 17
+        },
+        {
+            "nr": "060",
+            "name": "Bulltricity",
+            "lvl": 32
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"}
+    ]
+}

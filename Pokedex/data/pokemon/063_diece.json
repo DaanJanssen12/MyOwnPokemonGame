@@ -1,0 +1,26 @@
+{
+    "name" : "Diece",
+    "primaryType": "Ghost",
+    "secondaryType": "",
+    "species": "Dice",
+    "height": "0.1",
+    "weight": "0.4",
+    "catchRate": 100,
+    "baseExp": 200,
+    "baseFriendship": 23,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Super Luck, Moody",
+    "stats":{
+        "hp": 88,
+        "atk": 88,
+        "def": 88,
+        "spd": 88,
+        "spatk": 88,
+        "spdef": 88
+    },
+    "evolutions": [],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"}
+    ]
+}

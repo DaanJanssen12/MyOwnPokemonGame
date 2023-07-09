@@ -1,0 +1,56 @@
+{
+    "name" : "Winbee",
+    "primaryType": "Bug",
+    "secondaryType": "Grass",
+    "species": "Wild Flower",
+    "height": "0.6",
+    "weight": "9.5",
+    "catchRate": 255,
+    "baseExp": 50,
+    "baseFriendship": 50,
+    "abilities": "Swarm,Rivalry",
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "stats":{
+        "hp": 60,
+        "atk": 30,
+        "def": 40,
+        "spd": 60,
+        "spatk": 30,
+        "spdef": 40
+    },
+    "evolutions": [
+        {
+            "nr": "015",
+            "name": "Winbee",
+            "lvl": 0
+        },
+        {
+            "nr": "016",
+            "name": "Winking",
+            "lvl": 24,
+            "extraInfo": "Male only",
+            "alternateEvo":
+            {
+                "nr": "017",
+                "name": "Winqueen",
+                "lvl": 24,
+                "extraInfo": "Female only"
+            }
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "String Shot"},
+        {"lvl": 1, "name": "Absorb"},
+        {"lvl": 5, "name": "Infestation"},
+        {"lvl": 8, "name": "Sticky Web"},
+        {"lvl": 12, "name": "Agility"},
+        {"lvl": 15, "name": "Fell Stinger"},
+        {"lvl": 19, "name": "Flower Shield"},
+        {"lvl": 22, "name": "Attract"},
+        {"lvl": 26, "name": "Leech Life"},
+        {"lvl": 29, "name": "Petal Blizzard"},
+        {"lvl": 33, "name": "U-turn"},
+        {"lvl": 36, "name": "Glare"}
+    ]
+}

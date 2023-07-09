@@ -1,0 +1,51 @@
+{
+    "name" : "Iguareen",
+    "primaryType": "Grass",
+    "secondaryType": "",
+    "species": "Lizard",
+    "height": "1.5",
+    "weight": "80.0",
+    "catchRate": 45,
+    "baseExp": 64,
+    "baseFriendship": 50,
+    "abilities": "Overgrow",
+    "hiddenAbilities": "Levitate",
+    "dexEntry": "Whilst growing heavier Iguareen developed their back legs more needing to stand up right. This sudden need in energy caused the leaves om their backs to grow larger",
+    "stats":{
+        "hp": 63,
+        "atk": 80,
+        "def": 60,
+        "spd": 80,
+        "spatk": 62,
+        "spdef": 60
+    },
+    "evolutions": [
+        {
+            "nr": "001",
+            "name": "Salareen",
+            "lvl": 0
+        },
+        {
+            "nr": "002",
+            "name": "Iguareen",
+            "lvl": 16
+        },
+        {
+            "nr": "003",
+            "name": "Draguana",
+            "lvl": 32
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"},
+        {"lvl": 1, "name": "Growl"},
+        {"lvl": 6, "name": "Leafage"},
+        {"lvl": 12, "name": "Razor Leaf"},
+        {"lvl": 17, "name": "Synthesis"},
+        {"lvl": 20, "name": "Needle Arm"},
+        {"lvl": 23, "name": "Power-Up Punch"},
+        {"lvl": 27, "name": "Worry Seed"},
+        {"lvl": 32, "name": "Double-Edge"},
+        {"lvl": 39, "name": "Solar Beam"}
+    ]
+}

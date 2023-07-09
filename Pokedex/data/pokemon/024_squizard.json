@@ -1,0 +1,49 @@
+{
+    "name" : "Squizard",
+    "primaryType": "Water",
+    "secondaryType": "Psychic",
+    "species": "Squid",
+    "height": "0.9",
+    "weight": "45.5",
+    "catchRate": 190,
+    "baseExp": 67,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "Infiltrator, Magic Bounce",
+    "stats":{
+        "hp": 50,
+        "atk": 40,
+        "def": 40,
+        "spd": 40,
+        "spatk": 100,
+        "spdef": 70
+    },
+    "evolutions": [
+        {
+            "nr": "024",
+            "name": "Squizard",
+            "lvl": 0
+        },
+        {
+            "nr": "025",
+            "name": "Sorcepher",
+            "lvl": 30
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Teleport"},
+        {"lvl": 1, "name": "Water Gun"},
+        {"lvl": 4, "name": "Wrap"},
+        {"lvl": 8, "name": "Supersonic"},
+        {"lvl": 12, "name": "Confusion"},
+        {"lvl": 16, "name": "Water Pulse"},
+        {"lvl": 20, "name": "Psybeam"},
+        {"lvl": 24, "name": "Bubble Beam"},
+        {"lvl": 28, "name": "Octazooka"},
+        {"lvl": 32, "name": "Calm Mind"},
+        {"lvl": 40, "name": "Surf"},
+        {"lvl": 36, "name": "Future Sight"},
+        {"lvl": 44, "name": "Psychic"}
+    ]
+}

@@ -1,0 +1,195 @@
+<main id="main" class="main-content grid-container">
+    <div class="row">
+        <div class="col-md-2">
+            <span id="previous" class="pull-left">Previous</span>
+        </div>
+        <h1 class="col-md-8">$Name</h1>
+        <div class="col-md-2">
+            <span id="next" class="pull-right">Next</span>
+        </div>
+    </div>
+    <div id="dex-basics"></div>
+    <div class="tabset-basics sv-tabs-wrapper sv-tabs-onetab">
+    <div class="sv-tabs-tab-list">
+    <a class="sv-tabs-tab active" href="#tab-basic-393">$Name</a>
+    </div>
+    <div class="sv-tabs-panel-list">
+    <div class="sv-tabs-panel active" id="tab-basic-393">
+    <div class="grid-row">
+        <div class="grid-col span-md-6 span-lg-4 text-center">
+            <p>
+                <a rel="lightbox" data-title="Artwork">
+                    <picture>
+                        <img src="" height="200" id="POKEMON_IMG">
+                    </picture>
+                </a>
+            </p>
+        </div>
+        <div class="grid-col span-md-12 span-lg-8">
+            <table class="vitals-table">
+                <tbody>
+                    <tr>
+                        <th>Type</th>
+                        <td>
+                            <a class="type-icon type-$PrimaryTypeLower">$PrimaryType</a> 
+                            <a class="type-icon type-$SecondaryTypeLower">$SecondaryType</a> 
+                        </td>
+                        <th>Species</th>
+                        <td>The $Species Pokémon</td>
+                    </tr>
+                    <tr>
+                        <th>Height</th>
+                        <td>$Height&nbsp;m</td>
+                        <th>Weight</th>
+                        <td>$Weight&nbsp;kg</td>
+                    </tr>
+                    <tr>
+                        <th>Abilities</th>
+                        <td>$Abilities</td>
+                        <th>Catch rate</th>
+                        <td>$CatchRate</td>
+                    </tr>
+                    <tr>
+                        <th>Base Friendship</th>
+                        <td>$BaseFriendship</td>
+                        <th>Base Exp.</th>
+                        <td>$BaseExp</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="grid-col span-md-12 span-lg-8">
+            <div id="dex-stats"></div>
+            <h2>Base stats</h2>
+            <div class="resp-scroll">
+                <table id="StatsTable" class="vitals-table">
+                    <tbody>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>Total</th>
+                            <td class="cell-total"><b>$StatTotal</b></td>
+                            <th class="cell-barchart"></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        <div class="grid-col span-md-12 span-lg-4">
+            <h2>Type defenses</h2>
+            <p>The effectiveness of each type on <em>$Name</em>.</p>
+            <div class="resp-scroll text-center">
+                <table class="type-table type-table-pokedex">
+                    <tbody>
+                        <tr>
+                            <th><a class="type-icon type-normal type-cell type-abbr" href="/type/normal" title="Normal">Nor</a></th>
+                            <th><a class="type-icon type-fire type-cell type-abbr" href="/type/fire" title="Fire">Fir</a></th>
+                            <th><a class="type-icon type-water type-cell type-abbr" href="/type/water" title="Water">Wat</a></th>
+                            <th><a class="type-icon type-electric type-cell type-abbr" href="/type/electric" title="Electric">Ele</a></th>
+                            <th><a class="type-icon type-grass type-cell type-abbr" href="/type/grass" title="Grass">Gra</a></th>
+                            <th><a class="type-icon type-ice type-cell type-abbr" href="/type/ice" title="Ice">Ice</a></th>
+                            <th><a class="type-icon type-fighting type-cell type-abbr" href="/type/fighting" title="Fighting">Fig</a></th>
+                            <th><a class="type-icon type-poison type-cell type-abbr" href="/type/poison" title="Poison">Poi</a></th>
+                            <th><a class="type-icon type-ground type-cell type-abbr" href="/type/ground" title="Ground">Gro</a></th>
+                            <th><a class="type-icon type-sound type-cell type-abbr" href="/type/sound" title="Sound">Sou</a></th>
+                        </tr>
+                        <tr>
+                            <td class="type-fx-cell type-fx-$NormalTypeEffectivenessClass">$NormalTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$FireTypeEffectivenessClass">$FireTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$WaterTypeEffectivenessClass">$WaterTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$ElectricTypeEffectivenessClass">$ElectricTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$GrassTypeEffectivenessClass">$GrassTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$IceTypeEffectivenessClass">$IceTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$FightingTypeEffectivenessClass">$FightingTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$PoisonTypeEffectivenessClass">$PoisonTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$GroundTypeEffectivenessClass">$GroundTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$SoundTypeEffectivenessClass">$SoundTypeEffectiveness</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="type-table type-table-pokedex">
+                    <tbody>
+                        <tr>
+                            <th><a class="type-icon type-flying type-cell type-abbr" href="/type/flying" title="Flying">Fly</a></th>
+                            <th><a class="type-icon type-psychic type-cell type-abbr" href="/type/psychic" title="Psychic">Psy</a></th>
+                            <th><a class="type-icon type-bug type-cell type-abbr" href="/type/bug" title="Bug">Bug</a></th>
+                            <th><a class="type-icon type-rock type-cell type-abbr" href="/type/rock" title="Rock">Roc</a></th>
+                            <th><a class="type-icon type-ghost type-cell type-abbr" href="/type/ghost" title="Ghost">Gho</a></th>
+                            <th><a class="type-icon type-dragon type-cell type-abbr" href="/type/dragon" title="Dragon">Dra</a></th>
+                            <th><a class="type-icon type-dark type-cell type-abbr" href="/type/dark" title="Dark">Dar</a></th>
+                            <th><a class="type-icon type-steel type-cell type-abbr" href="/type/steel" title="Steel">Ste</a></th>
+                            <th><a class="type-icon type-fairy type-cell type-abbr" href="/type/fairy" title="Fairy">Fai</a></th>
+                            <th><a class="type-icon type-light type-cell type-abbr" href="/type/light" title="Light">Lig</a></th>
+                        </tr>
+                        <tr>
+                            <td class="type-fx-cell type-fx-$FlyingTypeEffectivenessClass">$FlyingTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$PsychicTypeEffectivenessClass">$PsychicTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$BugTypeEffectivenessClass">$BugTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$RockTypeEffectivenessClass">$RockTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$GhostTypeEffectivenessClass">$GhostTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$DragonTypeEffectivenessClass">$DragonTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$DarkTypeEffectivenessClass">$DarkTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$SteelTypeEffectivenessClass">$SteelTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$FairyTypeEffectivenessClass">$FairyTypeEffectiveness</td>
+                            <td class="type-fx-cell type-fx-$LightTypeEffectivenessClass">$LightTypeEffectiveness</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> 
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <h2>Pokedex Entry</h2>
+    <p>$PokedexEntry</p>
+    <div id="dex-evolution"></div>
+    <h2>Evolution chart</h2>
+    <div id="evolution-container" class="infocard-list-evo">
+    </div>
+    <div id="dex-moves"></div>
+    <h2>Moves learned by $Name</h2>
+    <div class="sv-tabs-panel-list">
+    <div class="sv-tabs-panel active" id="tab-moves-19">
+    <div class="grid-row"> 
+        <div class="grid-col span-lg-6"><h3>Moves learnt by level up</h3> <div class="resp-scroll">
+        <table id="moves-table" class="data-table">
+            <thead>
+                <tr>
+                    <th class="sorting sorting-asc" data-sort="int" data-sort-dir="asc">
+                        <div class="sortwrap">Lv.</div>
+                    </th> <th>
+                        <div>Move</div>
+                    </th> 
+                    <th>
+                        <div>Type</div>
+                    </th> 
+                    <th>
+                        <div>Cat.</div>
+                    </th> 
+                    <th>
+                        <div>Power</div>
+                    </th> <th>
+                        <div>Acc.</div>
+                    </th> 
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table></div>
+    </div>
+    <div class="grid-col span-lg-6">
+        <button type="button" onclick="toggleDiv('#dex-info')">
+            Toggle Pokemon Essentials Data
+        </button>
+        <div id="dex-info" style="display: none;">
+        
+        </div>
+    </div> 
+    </div>
+    </div>
+    </div>
+</main>
+ <script type="text/javascript" src="scripts/pokedex.js"></script>
+ <style>.cell-barchart{width:100%;min-width:150px}.barchart-bar{height:.75rem;border-radius:4px;background-color:#a3a3a3;border:1px solid #737373;border-color:rgba(0,0,0,.15)}.barchart-rank-1{background-color:#f34444}.barchart-rank-2{background-color:#ff7f0f}.barchart-rank-3{background-color:#ffdd57}.barchart-rank-4{background-color:#a0e515}.barchart-rank-5{background-color:#23cd5e}.barchart-rank-6{background-color:#00c2b8}.etymology>dd{margin-bottom:0}.sprites-table th,.sprites-table td{border-width:1px;text-align:center}.sprites-table tr:hover{background-color:transparent}.sprites-history-table th,.sprites-history-table td{padding:.75rem 1.25rem}.cell-sprite-games{width:135px;padding-top:1rem;padding-bottom:1rem;vertical-align:top !important}.cell-sprite-list{min-width:250px}.sprites-table-card{display:inline-block;vertical-align:top}.sprite-share-link{display:inline-block;border-radius:4px;padding:.5rem;transition:background-color .3s ease-in-out}.sprite-share-link:hover{background-color:#e5fbec}.sprite-share-link.sprite-anim{min-width:96px;min-height:96px;line-height:96px}.modal-content .input-text{width:100%;padding:.25rem;font-family:"Consolas","Ubuntu Mono","Menlo","Bitstream Vera Sans Mono","Courier New",monospace;font-size:.75rem}</style>

@@ -55,6 +55,10 @@ Flags = DisableBoxLink
 Name = Cedolan City
 MapPosition = 0,20,14
 #-------------------------------
+[021]   # Route 21
+Name = Route 21
+BattleBack = 
+#-------------------------------
 [022]   # Venbridge Town
 Name = Venbridge Town
 Outdoor = true

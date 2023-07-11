@@ -1,18 +1,20 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Cedolan City (7) - Route 10 (42)
-7,West,4,42,East,0
-# Lerucean Town (23) - Route 10 (42)
-23,East,8,42,West,0
 # Route 1 (5) - Cedolan City (7)
 5,North,2,7,South,0
+# Route 10 (42) - Cedolan City (7)
+42,East,0,7,West,4
 # Route 20 (8) - Cedolan City (7)
 8,West,6,7,East,0
 # Route 2 (77) - Cedolan City (7)
 77,South,0,7,North,10
 # Venbridge Town (22) - Route 1 (5)
 22,North,0,5,South,1
+# Lerucean Town (23) - Route 10 (42)
+23,East,8,42,West,0
+# Route 21 (21) - Lerucean Town (23)
+21,South,1,23,North,0
+# Route 11 (43) - Lerucean Town (23)
+43,East,0,23,West,9
 # Route 2 (77) - Route 20 (8)
 77,East,34,8,West,0
-# Route 21 (21) - Lerucean Town (23)
-21,East,0,23,West,1

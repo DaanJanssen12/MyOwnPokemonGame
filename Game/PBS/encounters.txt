@@ -1,12 +1,16 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [005] # Route 1
-Land,21
+Land,31
     34,AMAZEL,3,4
     33,MUSIBIRD,3,4
     33,WINBEE,3,4
 OldRod
     100,INTELLIDERP,5
+#-------------------------------
+[021] # Route 21
+Land,21
+    25,PYEN,12,16
 #-------------------------------
 [042] # Route 10
 Land,21

@@ -1,14 +1,14 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[LEADER_Brock,Sam]
+[LEADER_Brock_Normal,Sam]
 LoseText = Very good.
-Pokemon = MUSIBIRD,8
-Pokemon = PYEN,10
+Pokemon = MUSIBIRD,50
+Pokemon = PYEN,50
 #-------------------------------
-[LEADER_Brock,Sam,1]
+[LEADER_Brock_Normal,Sam,1]
 LoseText = Very good.
-Pokemon = PYEN,16
-Pokemon = PAROWAVE,18
+Pokemon = PYEN,21
+Pokemon = PAROWAVE,22
 #-------------------------------
 [LEADER_BOB,Bob]
 LoseText = Very good.
@@ -37,3 +37,7 @@ Pokemon = AMAZEL,4
 [FISHERMAN,Benny]
 LoseText = ...
 Pokemon = INTELLIDERP,5
+#-------------------------------
+[LEADER_Brock_Hard,Sam]
+LoseText = ...
+Pokemon = INTELLIDERP,50

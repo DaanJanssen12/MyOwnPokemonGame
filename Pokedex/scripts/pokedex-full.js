@@ -10,6 +10,7 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 $(document).ready(function(){
+    var appsettings = getAppSettings();
     readTextFile("data/pokedex-full.json", function(text){
         var data = JSON.parse(text);
         var $container = $("#pokedex");
@@ -40,21 +41,26 @@ $(document).ready(function(){
             $span2.appendTo($infocard);
             $infocard.appendTo($container);
 
-            readTextFile(`data/pokemon/${pokemon.nr}_${pokemon.name.toLowerCase()}.json`, function(pokemonJsonStr){
-                var pokemonDetails = JSON.parse(pokemonJsonStr);
-                var pbsData = setPokemonData(pokemonDetails);
-
-                $("#pbs-info").text($("#pbs-info").text() + pbsData);
-            });
+            if(appsettings.developmentMode == true){
+                readTextFile(`data/pokemon/${pokemon.nr}_${pokemon.name.toLowerCase()}.json`, function(pokemonJsonStr){
+                    var pokemonDetails = JSON.parse(pokemonJsonStr);
+                    var pbsData = setPokemonData(pokemonDetails);
+    
+                    $("#pbs-info").text($("#pbs-info").text() + pbsData);
+                });
+            }
         });
     });
-
-    $("button[copy-pbs-data]").off("click").on("click", () => {
-        var text = replaceAll($("#pbs-info").text(), "#-------------------------------#-------------------------------", "#-------------------------------");
-        text = text.substring(text.indexOf("#"));
-        text = replaceAll(text, "</br>", "\n");
-        copyTextToClipboard(text);
-    });
+    if(appsettings.developmentMode){
+        $("button[copy-pbs-data]").off("click").on("click", () => {
+            var text = replaceAll($("#pbs-info").text(), "#-------------------------------#-------------------------------", "#-------------------------------");
+            text = text.substring(text.indexOf("#"));
+            text = replaceAll(text, "</br>", "\n");
+            copyTextToClipboard(text);
+        });
+    }else{
+        $("[dev-mode]").remove();
+    }
 });
 
 function handleTypingCount(type){

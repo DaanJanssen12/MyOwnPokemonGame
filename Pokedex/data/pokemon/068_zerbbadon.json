@@ -1,7 +1,7 @@
 {
-    "name" : "",
-    "primaryType": "",
-    "secondaryType": "",
+    "name" : "Zerbbadon",
+    "primaryType": "Fire",
+    "secondaryType": "Dark",
     "species": "",
     "height": "",
     "weight": "",
@@ -22,7 +22,7 @@
     "evolutions": [
         {
             "nr": "066",
-            "name": "Taimer",
+            "name": "Taimber",
             "lvl": 0
         },
         {
@@ -31,7 +31,7 @@
             "lvl": 31
         },
         {
-            "nr": "067",
+            "nr": "068",
             "name": "Zerbbadon",
             "lvl": 48
         }

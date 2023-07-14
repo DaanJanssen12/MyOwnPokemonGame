@@ -26,6 +26,12 @@ function toggleDiv(id){
     }
 }
 
+function getAppSettings() {
+    return {
+        developmentMode: true
+    };
+}
+
 function copyTextToClipboard(text) {
     var textArea = document.createElement("textarea");
   

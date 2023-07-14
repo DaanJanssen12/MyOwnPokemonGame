@@ -415,6 +415,7 @@ function calculateTypeDefenses(primaryType, secondaryType){
 fireOnce = 0;
 
 $(document).ready(function(){
+    var appsettings = getAppSettings();
     if(fireOnce <= 0){
         fireOnce++;
         var id = $("#POKEMON_ID").val();
@@ -513,8 +514,10 @@ $(document).ready(function(){
             $("#POKEMON_IMG").attr("src", imgSrc); 
             buildStatsTable("#StatsTable", data.stats);
             buildEvolutionChart(data.evolutions);
-            var pbsData = setPokemonData(data);
-            $("#dex-info").html(pbsData);
+            if(appsettings.developmentMode){
+                var pbsData = setPokemonData(data);
+                $("#dex-info").html(pbsData);
+            }
             $(".type-hidden").hide();
             
 
@@ -554,6 +557,10 @@ $(document).ready(function(){
             var $aNext = $("<a></a>").attr("href", `index.html?page=pokedex&id=${pokemonNext.nr}_${pokemonNext.name.toLowerCase()}`).text(`#${pokemonNext.nr} - ${pokemonNext.name} >`);
             $("#next").html($aNext);
         });
+
+        if(!appsettings.developmentMode){
+            $("[dev-mode]").remove();
+        }
     }
 });
 

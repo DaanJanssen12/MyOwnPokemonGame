@@ -37,6 +37,7 @@
         }
     ],
     "moves": [
-        {"lvl": 1, "name": "Tackle"}
+        {"lvl": 1, "name": "Tackle"},
+        {"lvl": 32, "name": "Bull Rush"}
     ]
 }

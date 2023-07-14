@@ -21,6 +21,20 @@
     },
     "evolutions": [],
     "moves": [
-        {"lvl": 1, "name": "Tackle"}
+        {"lvl": 1, "name": "Defense Curl"},
+        {"lvl": 1, "name": "Rollout"},
+        {"lvl": 1, "name": "Confuse Ray"},
+        {"lvl": 5, "name": "Shadow Sneak"},
+        {"lvl": 10, "name": "Lucky Chant"},
+        {"lvl": 15, "name": "Steamroller"},
+        {"lvl": 20, "name": "Payback"},
+        {"lvl": 25, "name": "Trick"},
+        {"lvl": 30, "name": "Taunt"},
+        {"lvl": 35, "name": "Calm Mind"},
+        {"lvl": 40, "name": "Hex"},
+        {"lvl": 45, "name": "Shadow Ball"},
+        {"lvl": 50, "name": "Hypnosis"},
+        {"lvl": 55, "name": "Final Gambit"},
+        {"lvl": 60, "name": "Dream Eater"}
     ]
 }

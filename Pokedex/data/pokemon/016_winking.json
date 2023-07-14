@@ -8,6 +8,7 @@
     "catchRate": 90,
     "baseExp": 140,
     "baseFriendship": 50,
+    "genderRatio": "AlwaysMale",
     "abilities": "Swarm,Rivalry",
     "hiddenAbilities": "",
     "dexEntry": "",

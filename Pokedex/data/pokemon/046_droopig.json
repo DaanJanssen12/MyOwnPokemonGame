@@ -6,7 +6,7 @@
     "height": "",
     "weight": "",
     "catchRate": 0,
-    "baseExp": 0,
+    "baseExp": 100,
     "baseFriendship": 50,
     "hiddenAbilities": "",
     "dexEntry": "",
@@ -21,13 +21,13 @@
     },
     "evolutions": [
         {
-            "nr": "000",
-            "name": "Self",
+            "nr": "046",
+            "name": "Droopig",
             "lvl": 0
         },
         {
-            "nr": "000",
-            "name": "Evo",
+            "nr": "047",
+            "name": "Hoolihog",
             "lvl": 24
         }
     ],

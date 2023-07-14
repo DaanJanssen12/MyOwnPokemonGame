@@ -6,7 +6,7 @@
     "height": "",
     "weight": "",
     "catchRate": 0,
-    "baseExp": 0,
+    "baseExp": 100,
     "baseFriendship": 50,
     "hiddenAbilities": "",
     "dexEntry": "",
@@ -21,14 +21,14 @@
     },
     "evolutions": [
         {
-            "nr": "000",
-            "name": "Self",
+            "nr": "064",
+            "name": "Slitch",
             "lvl": 0
         },
         {
-            "nr": "000",
-            "name": "Evo",
-            "lvl": 24
+            "nr": "065",
+            "name": "Slence",
+            "lvl": 34
         }
     ],
     "moves": [

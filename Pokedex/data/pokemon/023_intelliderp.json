@@ -8,7 +8,7 @@
     "catchRate": 190,
     "baseExp": 145,
     "baseFriendship": 100,
-    "growthRate": "Medium Fast",
+    "growthRate": "Fast",
     "abilities": "Serene Grace, Gluttony",
     "hiddenAbilities": "Contrary",
     "dexEntry": "",
@@ -20,6 +20,7 @@
         "spatk": 135,
         "spdef": 80
     },
+    "evolutions": [],
     "moves": [
         {"lvl": 1, "name": "Confusion"}
     ]

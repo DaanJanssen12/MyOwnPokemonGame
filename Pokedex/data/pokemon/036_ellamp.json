@@ -6,7 +6,7 @@
     "height": "",
     "weight": "",
     "catchRate": 0,
-    "baseExp": 0,
+    "baseExp": 100,
     "baseFriendship": 50,
     "hiddenAbilities": "",
     "dexEntry": "",

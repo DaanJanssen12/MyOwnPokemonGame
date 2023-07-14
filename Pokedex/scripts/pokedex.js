@@ -1,20 +1,3 @@
-function readTextFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function() {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
-            callback(rawFile.responseText);
-        }
-    }
-    rawFile.send(null);
-}
-function replaceAll(str, find, replace){
-    return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
-}
-function escapeRegExp(string){
-    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
 function buildEvolutionChart(evolutions){
     var $container = $("#evolution-container");
     if(!evolutions || evolutions.length <= 0){
@@ -530,7 +513,8 @@ $(document).ready(function(){
             $("#POKEMON_IMG").attr("src", imgSrc); 
             buildStatsTable("#StatsTable", data.stats);
             buildEvolutionChart(data.evolutions);
-            setPokemonData(data);
+            var pbsData = setPokemonData(data);
+            $("#dex-info").html(pbsData);
             $(".type-hidden").hide();
             
 
@@ -589,74 +573,6 @@ function bindEvents(){
             }
             sortTable($("#moves-table"), "lvl", sort);
         });
-}
-
-function lowLevelFirst(a,b){
-    if(a.lvl > b.lvl) return 1;
-    if(a.lvl < b.lvl) return -1;
-    return 0;
-}
-
-function setPokemonData(pokemon){
-    var text = `#------------------------------- </br>
-    [${pokemon.name.toUpperCase()}] </br>
-    Name = ${pokemon.name} </br>
-    Types = ${pokemon.primaryType.toUpperCase()}`;
-
-    if(pokemon.secondaryType){
-        text += `,${pokemon.secondaryType.toUpperCase()}`;
-    }
-
-    text += ` </br>
-    BaseStats = ${pokemon.stats.hp},${pokemon.stats.atk},${pokemon.stats.def},${pokemon.stats.spd},${pokemon.stats.spatk},${pokemon.stats.spdef} </br>`;
-    if(pokemon.genderRatio){
-        text += `GenderRatio = ${pokemon.genderRatio} </br>`;
-    }else{
-        text += `GenderRatio = Female50Percent </br>`;
-    }
-    if(pokemon.growthRate){
-        text += `GrowthRate = ${pokemon.growthRate} </br>`;
-    }else{
-        text += `GrowthRate = Medium </br>`;
-    }
-    text += `EVs =  </br>
-    CatchRate = ${pokemon.catchRate} </br>
-    Happiness = ${pokemon.baseFriendship} </br>
-    BaseExp = ${pokemon.baseExp} </br>
-    Abilities = ${replaceAll(pokemon.abilities.toUpperCase(), " ", "")} </br>
-    Moves = `;
-
-    pokemon.moves.sort(lowLevelFirst).forEach(move => {
-        var moveName = replaceAll(replaceAll(move.name.toUpperCase(), " ", ""), "-", "");
-        text += `${move.lvl},${moveName}`
-        if(pokemon.moves[pokemon.moves.length -1] === move){
-            text += "</br>";
-        }else{
-            text += ",";
-        }
-    });
-
-    text += `
-    EggGroups = Undiscovered </br>
-    HatchSteps = 1 </br>
-    Height = ${pokemon.height} </br>
-    Weight = ${pokemon.weight} </br>
-    Color = Green </br>
-    Shape = Head </br>
-    Evolutions =  </br>
-    Category = ${pokemon.species} </br>
-    Pokedex = ${pokemon.dexEntry} </br>
-    #-------------------------------`;
-
-    $("#dex-info").html(text);
-}
-
-function toggleDiv(id){
-    if($(id).css("display") === "none"){
-        $(id).show();
-    }else{
-        $(id).hide();
-    }
 }
 
 function sortTable(table, orderProp, orderDir) {

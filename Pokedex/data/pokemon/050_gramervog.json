@@ -6,7 +6,7 @@
     "height": "",
     "weight": "",
     "catchRate": 0,
-    "baseExp": 0,
+    "baseExp": 100,
     "baseFriendship": 50,
     "hiddenAbilities": "",
     "dexEntry": "",
@@ -19,16 +19,22 @@
         "spatk": 45,
         "spdef": 45
     },
+    
     "evolutions": [
         {
-            "nr": "000",
-            "name": "Self",
+            "nr": "048",
+            "name": "Armadix",
             "lvl": 0
         },
         {
-            "nr": "000",
-            "name": "Evo",
-            "lvl": 24
+            "nr": "049",
+            "name": "Marvog",
+            "lvl": 18
+        },
+        {
+            "nr": "050",
+            "name": "Gramervog",
+            "lvl": 36
         }
     ],
     "moves": [

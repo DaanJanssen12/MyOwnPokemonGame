@@ -14,12 +14,12 @@ Moves = 1,TACKLE,1,GROWL,6,LEAFAGE,9,SYNTHESIS,12,TWISTER,17,RAZORLEAF,20,NEEDLE
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.3
-Weight = 0.3
+Weight = 0.3 
 Color = Green
 Shape = Head
-Category = Lizard
-Pokedex = Salareen's are small green lizards, the leaf on it's back can fully sustain Salareen's energy through photosynthesis. Because of how light they are, sometimes they can be seen levitating in the air.Evolutions = IGUAREEN,Level,16
 Evolutions = IGUAREEN,Level,16
+Category = Lizard
+Pokedex = Salareen's are small green lizards, the leaf on it's back can fully sustain Salareen's energy through photosynthesis. Because of how light they are, sometimes they can be seen levitating in the air. 
 #-------------------------------
 [IGUAREEN]
 Name = Iguareen
@@ -36,12 +36,12 @@ Moves = 1,TACKLE,1,GROWL,6,LEAFAGE,12,RAZORLEAF,17,SYNTHESIS,20,NEEDLEARM,23,POW
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.5
-Weight = 80.0
+Weight = 80.0 
 Color = Green
 Shape = Head
-Category = Lizard
-Pokedex = Whilst growing heavier Iguareen developed their back legs more needing to stand up right. This sudden need in energy caused the leaves om their backs to grow largerEvolutions = DRAGUANA,Level,32
 Evolutions = DRAGUANA,Level,32
+Category = Lizard
+Pokedex = Whilst growing heavier Iguareen developed their back legs more needing to stand up right. This sudden need in energy caused the leaves om their backs to grow larger 
 #-------------------------------
 [DRAGUANA]
 Name = Draguana
@@ -58,11 +58,12 @@ Moves = 1,TACKLE,1,GROWL,6,LEAFAGE,12,RAZORLEAF,17,SYNTHESIS,20,NEEDLEARM,23,POW
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 3.2
-Weight = 230.0
+Weight = 230.0 
 Color = Green
 Shape = Head
+Evolutions = 
 Category = Lizard
-Pokedex = Growing even taller and heavier then their predecessor Draguana's have gone from walking on 2 legs to walking on 4.
+Pokedex = Growing even taller and heavier then their predecessor Draguana's have gone from walking on 2 legs to walking on 4. 
 #-------------------------------
 [SNAEMBER]
 Name = Snaember
@@ -79,12 +80,12 @@ Moves = 1,WRAP,1,DEFENSECURL,6,EMBER,12,GLARE,17,FLAMEWHEEL,20,HEADBUTT,23,ROOST
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.7
-Weight = 3.1
+Weight = 3.1 
 Color = Green
 Shape = Head
-Category = Fire Snake
-Pokedex = This little fire snake spends most of it's time in bright sunlight resting on a rock taking in the heat. As Snaember takes in heat, fire starts sprouting from it's body making it look like it has little wings.
 Evolutions = CHARBRA,Level,16
+Category = Fire Snake
+Pokedex = This little fire snake spends most of it's time in bright sunlight resting on a rock taking in the heat. As Snaember takes in heat, fire starts sprouting from it's body making it look like it has little wings. 
 #-------------------------------
 [CHARBRA]
 Name = Charbra
@@ -101,12 +102,12 @@ Moves = 1,WRAP,1,DEFENSECURL,6,EMBER,12,GLARE,17,FLAMEWHEEL,20,HEADBUTT,23,ROOST
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.8
-Weight = 43.6
+Weight = 43.6 
 Color = Green
 Shape = Head
-Category = Fire Snake
-Pokedex = After evolving from Snaember, Charbra's fiery wings grow bigger and more defined. Some Charbra's are even seen flying for small amounts of time, but none have been able to do it consistantly
 Evolutions = FLARAGA,Level,32
+Category = Fire Snake
+Pokedex = After evolving from Snaember, Charbra's fiery wings grow bigger and more defined. Some Charbra's are even seen flying for small amounts of time, but none have been able to do it consistantly 
 #-------------------------------
 [FLARAGA]
 Name = Flaraga
@@ -123,11 +124,12 @@ Moves = 1,WRAP,1,DEFENSECURL,6,EMBER,12,GLARE,17,FLAMEWHEEL,20,HEADBUTT,23,ROOST
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 6.1
-Weight = 161.0
+Weight = 161.0 
 Color = Green
 Shape = Head
+Evolutions = 
 Category = Fire Snake
-Pokedex = With their wings fully grown, Flaraga can fly for long periods of time. With their slender streamlined body, they are said to reach an unthinkable speed while flying
+Pokedex = With their wings fully grown, Flaraga can fly for long periods of time. With their slender streamlined body, they are said to reach an unthinkable speed while flying 
 #-------------------------------
 [DAMPURR]
 Name = Dampurr
@@ -144,12 +146,12 @@ Moves = 1,POUND,1,GROWL,6,WATERGUN,9,QUICKATTACK,12,DEFENSECURL,17,AQUAJET,20,HE
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.6
-Weight = 7.3
+Weight = 7.3 
 Color = Green
 Shape = Head
-Category = Purring
 Evolutions = RAINTHER,Level,16
-Pokedex = Dampurr are playful little cats who love damp and wet weather. Their purring is in a certain frequency causing it to be amplified when the air is damp.
+Category = Purring
+Pokedex = Dampurr are playful little cats who love damp and wet weather. Their purring is in a certain frequency causing it to be amplified when the air is damp.     
 #-------------------------------
 [RAINTHER]
 Name = Rainther
@@ -166,12 +168,12 @@ Moves = 1,POUND,1,GROWL,6,WATERGUN,9,QUICKATTACK,12,DEFENSECURL,17,AQUAJET,20,HE
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.2
-Weight = 57.1
+Weight = 57.1 
 Color = Green
 Shape = Head
-Category = Purring
 Evolutions = DELUGAR,Level,32
-Pokedex = After battle experience Dampurr evolves into Raither losing a little bit of his playfull nature and leaning in more into his natural hunter ancestory.
+Category = Purring
+Pokedex = After battle experience Dampurr evolves into Raither losing a little bit of his playfull nature and leaning in more into his natural hunter ancestory. 
 #-------------------------------
 [DELUGAR]
 Name = Delugar
@@ -188,11 +190,12 @@ Moves = 1,POUND,1,GROWL,6,WATERGUN,9,QUICKATTACK,12,DEFENSECURL,17,AQUAJET,20,HE
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 2.6
-Weight = 120.0
+Weight = 120.0 
 Color = Green
 Shape = Head
+Evolutions = 
 Category = Purring
-Pokedex = Delugar are natural hunters, with their strong legs they can run with great speed and pounce and strike with great strength.
+Pokedex = Delugar are natural hunters, with their strong legs they can run with great speed and pounce and strike with great strength. 
 #-------------------------------
 [MUSIBIRD]
 Name = Musibird
@@ -209,12 +212,12 @@ Moves = 1,PECK,1,GROWL,7,DISARMINGVOICE,12,SONICBOOM,18,ROAR,21,SCREECH,25,GUST,
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.3
-Weight = 1.8
+Weight = 1.8 
 Color = Green
 Shape = Head
-Category = Music
 Evolutions = PAROWAVE,Level,16
-Pokedex = Musibird are spry and chirpy little bird who are mostly seen in or around cities. Their whistling is always in tune and almost sounds like they are singing.
+Category = Music
+Pokedex = Musibird are spry and chirpy little bird who are mostly seen in or around cities. Their whistling is always in tune and almost sounds like they are singing.     
 #-------------------------------
 [PAROWAVE]
 Name = Parowave
@@ -223,20 +226,20 @@ BaseStats = 55,40,50,40,75,80
 GenderRatio = Female50Percent
 GrowthRate = Medium
 EVs =
-CatchRate = 45
+CatchRate = 120
 Happiness = 50
-BaseExp = 64
-Abilities = SOUNDPROOF, TANGLEDFEET
+BaseExp = 122
+Abilities = SOUNDPROOF,TANGLEDFEET
 Moves = 1,PECK,1,GROWL,7,DISARMINGVOICE,12,SONICBOOM,18,ROAR,21,SCREECH,25,GUST,29,CHATTER,33,ROOST,37,HURRICANE,42,BOOMBURST
 EggGroups = Undiscovered
 HatchSteps = 1
-Height = 1.5
-Weight = 80.0
+Height = 1.4
+Weight = 60.0 
 Color = Green
 Shape = Head
-Category = Music
 Evolutions = CHIRQUENCY,Level,32
-Pokedex =
+Category = Music
+Pokedex =  
 #-------------------------------
 [CHIRQUENCY]
 Name = Chirquency
@@ -253,11 +256,12 @@ Moves = 1,PECK,1,GROWL,7,DISARMINGVOICE,12,SONICBOOM,18,ROAR,21,SCREECH,25,GUST,
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.9
-Weight = 90.0
+Weight = 90.0 
 Color = Green
 Shape = Head
+Evolutions = 
 Category = Music
-Pokedex =
+Pokedex =  
 #-------------------------------
 [AMAZEL]
 Name = Amazel
@@ -274,12 +278,12 @@ Moves = 1,TACKLE,1,GROWL,5,TEARFULLOOK,9,DEFENSECURL,13,ROLLOUT,17,HEADBUTT,21,T
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.7
-Weight = 31.5
+Weight = 31.5 
 Color = Green
 Shape = Head
 Evolutions = ELAZEL,Level,24
 Category = Friendly
-Pokedex = These small rodents are very friendly and look at the world with a almost childlike wonder being amazed by everything they see.
+Pokedex = These small rodents are very friendly and look at the world with a almost childlike wonder being amazed by everything they see.     
 #-------------------------------
 [ELAZEL]
 Name = Elazel
@@ -296,12 +300,12 @@ Moves = 1,TACKLE,1,GROWL,5,TEARFULLOOK,9,DEFENSECURL,13,ROLLOUT,17,HEADBUTT,21,T
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.1
-Weight = 35.6
+Weight = 35.6 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Friendly
-Pokedex =
+Pokedex =  
 #-------------------------------
 [WINBEE]
 Name = Winbee
@@ -318,12 +322,12 @@ Moves = 1,STRINGSHOT,1,ABSORB,5,INFESTATION,8,STICKYWEB,12,AGILITY,15,FELLSTINGE
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.6
-Weight = 9.5
+Weight = 9.5 
 Color = Green
 Shape = Head
-Evolutions = WINKING,LevelMale,22,WINQUEEN,LevelFemale,22
+Evolutions = WINKING,Level,24,WINQUEEN,LevelFemale,24
 Category = Wild Flower
-Pokedex =
+Pokedex =  
 #-------------------------------
 [WINKING]
 Name = Winking
@@ -340,12 +344,12 @@ Moves = 1,STRINGSHOT,1,ABSORB,5,INFESTATION,8,STICKYWEB,12,AGILITY,15,FELLSTINGE
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.1
-Weight = 35.5
+Weight = 35.5 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Wild Flower
-Pokedex =
+Pokedex =  
 #-------------------------------
 [WINQUEEN]
 Name = Winqueen
@@ -362,12 +366,12 @@ Moves = 1,STRINGSHOT,1,ABSORB,5,INFESTATION,8,STICKYWEB,12,AGILITY,15,FELLSTINGE
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.9
-Weight = 29.2
+Weight = 29.2 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Wild Flower
-Pokedex =
+Pokedex =  
 #-------------------------------
 [BAOBY]
 Name = Baoby
@@ -384,12 +388,12 @@ Moves = 1,GROWTH,1,TACKLE,7,VINEWHIP,9,TAILWHIP,12,LEECHSEED,13,RAZORLEAF,16,WOR
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.9
-Weight = 31.0
+Weight = 31.0 
 Color = Green
 Shape = Head
 Evolutions = BAOBARAFFE,Level,32
 Category = Mount
-Pokedex = undefined
+Pokedex = undefined 
 #-------------------------------
 [BAOBARAFFE]
 Name = Baobaraffe
@@ -406,12 +410,12 @@ Moves = 1,GROWTH,1,TACKLE,7,VINEWHIP,9,TAILWHIP,12,LEECHSEED,13,RAZORLEAF,16,WOR
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 3.7
-Weight = 110.0
+Weight = 110.0 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Long Neck
-Pokedex = undefined
+Pokedex = undefined 
 #-------------------------------
 [LANYA]
 Name = Lanya
@@ -428,12 +432,12 @@ Moves = 1,LIGHTSCREEN,1,BLINDINGLIGHT,7,REFLECT,9,TAILGLOW,12,MIRRORSHOT,17,SWIF
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.1
-Weight = 0.1
+Weight = 0.1 
 Color = Green
 Shape = Head
-Evolutions = DAWNTERN,LevelDay,30,DUSKALIGHT,LevelNight,30
+Evolutions = DAWNTERN,Level,30,DUSKALIGHT,Level,30
 Category = Light
-Pokedex =
+Pokedex =  
 #-------------------------------
 [DAWNTERN]
 Name = Dawntern
@@ -450,12 +454,12 @@ Moves = 1,LIGHTSCREEN,1,BLINDINGLIGHT,7,REFLECT,9,TAILGLOW,12,MIRRORSHOT,17,SWIF
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.1
-Weight = 22.5
+Weight = 22.5 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Bright Light
-Pokedex =
+Pokedex =  
 #-------------------------------
 [DUSKALIGHT]
 Name = Duskalight
@@ -472,12 +476,12 @@ Moves = 1,LIGHTSCREEN,1,BLINDINGLIGHT,7,REFLECT,9,TAILGLOW,12,MIRRORSHOT,17,SWIF
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.1
-Weight = 22.5
+Weight = 22.5 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Dim Light
-Pokedex =
+Pokedex =  
 #-------------------------------
 [INTELLIDERP]
 Name = Intelliderp
@@ -494,12 +498,12 @@ Moves = 1,CONFUSION
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.0
-Weight = 10.0
+Weight = 10.0 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Weird
-Pokedex =
+Pokedex =  
 #-------------------------------
 [SQUIZARD]
 Name = Squizard
@@ -516,12 +520,12 @@ Moves = 1,TELEPORT,1,WATERGUN,4,WRAP,8,SUPERSONIC,12,CONFUSION,16,WATERPULSE,20,
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.9
-Weight = 45.5
+Weight = 45.5 
 Color = Green
 Shape = Head
 Evolutions = SORCEPHER,Level,30
 Category = Squid
-Pokedex =
+Pokedex =  
 #-------------------------------
 [SORCEPHER]
 Name = Sorcepher
@@ -538,12 +542,12 @@ Moves = 1,TELEPORT,1,WATERGUN,4,WRAP,8,SUPERSONIC,12,CONFUSION,16,WATERPULSE,20,
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.3
-Weight = 49.5
+Weight = 49.5 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Squid
-Pokedex =
+Pokedex =  
 #-------------------------------
 [MINDOW]
 Name = Mindow
@@ -560,12 +564,12 @@ Moves = 1,CONFUSERAY,1,LICK,4,HYPNOSIS,8,MEANLOOK,12,PAYBACK,16,SLUDGE,20,CURSE,
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.3
-Weight = 0.5
+Weight = 0.5 
 Color = Green
 Shape = Head
 Evolutions = SLUGNAMI,Level,32
 Category = Cursed
-Pokedex = 
+Pokedex =  
 #-------------------------------
 [SLUGNAMI]
 Name = Slugnami
@@ -582,12 +586,12 @@ Moves = 1,CONFUSERAY,1,LICK,4,HYPNOSIS,8,MEANLOOK,12,PAYBACK,16,SLUDGE,20,CURSE,
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.3
-Weight = 0.5
+Weight = 0.5 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Cursed
-Pokedex =
+Pokedex =  
 #-------------------------------
 [DRASHIMI]
 Name = Drashimi
@@ -604,12 +608,12 @@ Moves = 1,STICKYWEB,1,WRAP,5,TWISTER,10,THUNDERWAVE,15,DRAGONTAIL,20,AGILITY,25,
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.7
-Weight = 1.5
+Weight = 1.5 
 Color = Green
 Shape = Head
 Evolutions = TSUSHIMI,Level,29
 Category = Sushi
-Pokedex = 
+Pokedex =  
 #-------------------------------
 [TSUSHIMI]
 Name = Tsushimi
@@ -626,12 +630,12 @@ Moves = 1,STICKYWEB,1,WRAP,5,TWISTER,10,THUNDERWAVE,15,DRAGONTAIL,20,AGILITY,25,
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.4
-Weight = 8.3
+Weight = 8.3 
 Color = Green
 Shape = Head
-Evolutions = TOBSHIMI,Level,29
+Evolutions = TOBSHIMI,Level,48
 Category = Sushi
-Pokedex =
+Pokedex =  
 #-------------------------------
 [TOBSHIMI]
 Name = Tobshimi
@@ -648,12 +652,12 @@ Moves = 1,STICKYWEB,1,WRAP,5,TWISTER,10,THUNDERWAVE,15,DRAGONTAIL,20,AGILITY,25,
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.8
-Weight = 20.4
+Weight = 20.4 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Sushi
-Pokedex =
+Pokedex =  
 #-------------------------------
 [PYEN]
 Name = Pyen
@@ -670,12 +674,12 @@ Moves = 1,GROWL,1,TACKLE,4,HOWL,7,SANDATTACK,10,BITE,13,MUDSLAP,16,ROAR,19,SWAGG
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.4
-Weight = 11.5
+Weight = 11.5 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = PYRON,Level,21
 Category = Howling
-Pokedex =
+Pokedex =  
 #-------------------------------
 [PYRON]
 Name = Pyron
@@ -692,12 +696,12 @@ Moves = 1,GROWL,1,TACKLE,4,HOWL,7,SANDATTACK,10,BITE,13,MUDSLAP,16,ROAR,19,SWAGG
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 0.9
-Weight = 34.5
+Weight = 34.5 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = PYRAIN,Level,42
 Category = Howling
-Pokedex =
+Pokedex =  
 #-------------------------------
 [PYRAIN]
 Name = Pyrain
@@ -714,10 +718,670 @@ Moves = 1,GROWL,1,TACKLE,4,HOWL,7,SANDATTACK,10,BITE,13,MUDSLAP,16,ROAR,19,SWAGG
 EggGroups = Undiscovered
 HatchSteps = 1
 Height = 1.3
-Weight = 57.5
+Weight = 57.5 
 Color = Green
 Shape = Head
-Evolutions =
+Evolutions = 
 Category = Howling
-Pokedex =
+Pokedex =  
+#-------------------------------
+[KUDO]
+Name = Kudo
+Types = FAIRY,LIGHT
+BaseStats = 62,59,39,82,43,42
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 200
+Happiness = 100
+BaseExp = 68
+Abilities = SWEETVEIL,UNBURDEN
+Moves = 1,TACKLE,1,PLAYNICE,4,FAIRYWIND,7,BABYDOLLEYES,9,FAKETEARS,12,DRAININGKISS,15,CHARM,18,BLINDINGLIGHT,21,ROUND,24,SWIFT,27,MIRRORSHOT,33,PLAYROUGH,36,BLINDINGBEAM
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.4
+Weight = 3.5 
+Color = Green
+Shape = Head
+Evolutions = DOECHI,Level,36
+Category = Bunny
+Pokedex =  
+#-------------------------------
+[DOECHI]
+Name = Doechi
+Types = FAIRY,LIGHT
+BaseStats = 88,75,58,129,69,61
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 140
+Happiness = 100
+BaseExp = 168
+Abilities = SWEETVEIL,UNBURDEN
+Moves = 1,TACKLE,1,PLAYNICE,4,FAIRYWIND,7,BABYDOLLEYES,9,FAKETEARS,12,DRAININGKISS,15,CHARM,18,BLINDINGLIGHT,21,ROUND,24,SWIFT,27,MIRRORSHOT,33,PLAYROUGH,36,BLINDINGBEAM
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.8
+Weight = 7.6 
+Color = Green
+Shape = Head
+Evolutions = 
+Category = Bunny
+Pokedex =  
+#-------------------------------
+[ELLAMP]
+Name = Ellamp
+Types = GHOST
+BaseStats = 30,50,70,32,70,52
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = LEVITATE
+Moves = 1,ASTONISH,1,WITHDRAW,6,AROMATICMIST,12,MEGADRAIN,18,PROTECT,24,SUCKERPUNCH,30,SWEETSCENT,36,GIGADRAIN,42,NASTYPLOT,48,SHADOWBALL,54,MEMENTO,60,SHELLSMASH
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = SEIRAMP,Level,31
+Category = Teapot
+Pokedex =  
+#-------------------------------
+[SEIRAMP]
+Name = Seiramp
+Types = GHOST
+BaseStats = 63,49,97,54,101,84
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = LEVITATE
+Moves = 1,ASTONISH,1,WITHDRAW,6,AROMATICMIST,12,MEGADRAIN,18,PROTECT,24,SUCKERPUNCH,30,SWEETSCENT,36,GIGADRAIN,42,NASTYPLOT,48,SHADOWBALL,54,MEMENTO,60,SHELLSMASH
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = 
+Category = Teapot
+Pokedex =  
+#-------------------------------
+[MINSEL]
+Name = Minsel
+Types = STEEL
+BaseStats = 60,50,80,40,35,35
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = JUSTIFIED,BATTLEARMOR
+Moves = 1,TACKLE,1,SHELTER,1,LOWKICK
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = HABKID,Level,28
+Category = Armored
+Pokedex =  
+#-------------------------------
+[HABKID]
+Name = Habkid
+Types = STEEL,FIGHTING
+BaseStats = 80,75,100,50,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = JUSTIFIED,BATTLEARMOR
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = HABKNIGHT,Level,40
+Category = Armored
+Pokedex =  
+#-------------------------------
+[HABKNIGHT]
+Name = Habknight
+Types = STEEL,FIGHTING
+BaseStats = 90,90,120,70,45,65
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = JUSTIFIED,BATTLEARMOR
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = 
+Category = Armored
+Pokedex =  
+#-------------------------------
+[SLIGMENT]
+Name = Sligment
+Types = NORMAL,ROCK
+BaseStats = 105,65,95,20,65,95
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 190
+Happiness = 50
+BaseExp = 177
+Abilities = SHELLARMOR,SOLIDROCK
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.7
+Weight = 22.7 
+Color = Green
+Shape = Head
+Evolutions = 
+Category = Snail
+Pokedex =  
+#-------------------------------
+[MINAMAI]
+Name = Minamai
+Types = WATER,ELECTRIC
+BaseStats = 45,90,20,60,55,20
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 225
+Happiness = 50
+BaseExp = 61
+Abilities = VOLTABSORB,INTREPIDSWORD
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.8
+Weight = 18.8 
+Color = Green
+Shape = Head
+Evolutions = MARELSTORM,Level,30
+Category = Swordfish
+Pokedex =  
+#-------------------------------
+[MARELSTORM]
+Name = Marelstorm
+Types = WATER,ELECTRIC
+BaseStats = 70,107,52,98,70,52
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 60
+Happiness = 50
+BaseExp = 161
+Abilities = VOLTABSORB,INTREPIDSWORD
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 1.9
+Weight = 92.3 
+Color = Green
+Shape = Head
+Evolutions = 
+Category = Swordfish
+Pokedex =  
+#-------------------------------
+[SNOME]
+Name = Snome
+Types = ICE
+BaseStats = 65,65,50,50,65,65
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 150
+Happiness = 50
+BaseExp = 120
+Abilities = PRANKSTER,FRISK
+Moves = 1,ICESHARD,1,FAKEOUT,4,TAUNT,8,DOUBLETEAM,12,PROTECT,16,ICYWIND,20,HAZE,24,ICEPUNCH,28,THIEF,33,AROMATICMIST,36,THUNDERWAVE,40,WILLOWISP,44,ICEHAMMER
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.7
+Weight = 12.5 
+Color = Green
+Shape = Head
+Evolutions = FROLL,Level,31
+Category = Gnome
+Pokedex =  
+#-------------------------------
+[FROLL]
+Name = Froll
+Types = ICE
+BaseStats = 120,80,100,40,60,95
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 45
+Happiness = 50
+BaseExp = 255
+Abilities = PRANKSTER,THICKFAT
+Moves = 1,ICESHARD,1,FAKEOUT,4,TAUNT,8,DOUBLETEAM,12,PROTECT,16,ICYWIND,20,HAZE,24,ICEPUNCH,28,THIEF,33,AROMATICMIST,36,THUNDERWAVE,40,WILLOWISP,44,ICEHAMMER
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 1.5
+Weight = 78.0 
+Color = Green
+Shape = Head
+Evolutions = 
+Category = Troll
+Pokedex =  
+#-------------------------------
+[DROOPIG]
+Name = Droopig
+Types = GROUND,NORMAL
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = HOOLIHOG,Level,24
+Category = 
+Pokedex =  
+#-------------------------------
+[HOOLIHOG]
+Name = Hoolihog
+Types = GROUND,FIGHTING
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = 
+Category = 
+Pokedex =  
+#-------------------------------
+[ARMADIX]
+Name = Armadix
+Types = GROUND
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = MARVOG,Level,18
+Category = 
+Pokedex =  
+#-------------------------------
+[MARVOG]
+Name = Marvog
+Types = GROUND
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = GRAMERVOG,Level,36
+Category = 
+Pokedex =  
+#-------------------------------
+[GRAMERVOG]
+Name = Gramervog
+Types = GROUND
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = 
+Category = 
+Pokedex =  
+#-------------------------------
+[BREENY]
+Name = Breeny
+Types = FAIRY
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = BREEZAR,Level,24
+Category = 
+Pokedex =  
+#-------------------------------
+[BREEZAR]
+Name = Breezar
+Types = FAIRY
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = 
+Category = 
+Pokedex =  
+#-------------------------------
+[MAKOCHINE]
+Name = Makochine
+Types = WATER,STEEL
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = MEGALOMATON,Level,29
+Category = 
+Pokedex =  
+#-------------------------------
+[MEGALOMATON]
+Name = Megalomaton
+Types = WATER,STEEL
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = 
+Category = 
+Pokedex =  
+#-------------------------------
+[KANKWART]
+Name = Kankwart
+Types = POISON,ROCK
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = KANKRYST,Level,24
+Category = 
+Pokedex =  
+#-------------------------------
+[KANKRYST]
+Name = Kankryst
+Types = POISON,ROCK
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = KANKERSAUR,Level,43
+Category = 
+Pokedex =  
+#-------------------------------
+[KANKERSAUR]
+Name = Kankersaur
+Types = POISON,ROCK
+BaseStats = 45,45,45,45,45,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 0
+Happiness = 50
+BaseExp = 100
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 
+Weight =  
+Color = Green
+Shape = Head
+Evolutions = 
+Category = 
+Pokedex =  
+#-------------------------------
+[ELEDOR]
+Name = Eledor
+Types = ELECTRIC,FIGHTING
+BaseStats = 45,45,34,65,40,34
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 235
+Happiness = 50
+BaseExp = 53
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.5
+Weight = 8.7 
+Color = Green
+Shape = Head
+Evolutions = CHARGADOR,Level,17
+Category = Matador
+Pokedex =  
+#-------------------------------
+[CHARGADOR]
+Name = Chargador
+Types = ELECTRIC,FIGHTING
+BaseStats = 60,60,54,85,55,49
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 120
+Happiness = 50
+BaseExp = 127
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 1.1
+Weight = 27.8 
+Color = Green
+Shape = Head
+Evolutions = BULLTRICITY,Level,32
+Category = Bull
+Pokedex =  
+#-------------------------------
+[BULLTRICITY]
+Name = Bulltricity
+Types = ELECTRIC,FIGHTING
+BaseStats = 80,95,79,120,79,70
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 45
+Happiness = 50
+BaseExp = 262
+Abilities = 
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 1.7
+Weight = 54.2 
+Color = Green
+Shape = Head
+Evolutions = 
+Category = Bull
+Pokedex =  
+#-------------------------------
+[CRYSCOON]
+Name = Cryscoon
+Types = ICE
+BaseStats = 30,25,35,20,45,30
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 190
+Happiness = 50
+BaseExp = 37
+Abilities = ICESCALES
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.2
+Weight = 12.0 
+Color = Green
+Shape = Head
+Evolutions = CRYCING,Level,24
+Category = Icicle
+Pokedex =  
+#-------------------------------
+[CRYCING]
+Name = Crycing
+Types = ICE
+BaseStats = 70,65,60,65,125,90
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 75
+Happiness = 50
+BaseExp = 166
+Abilities = ICESCALES
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 1.2
+Weight = 43.0 
+Color = Green
+Shape = Head
+Evolutions = 
+Category = Icicle
+Pokedex =  
+#-------------------------------
+[DIECE]
+Name = Diece
+Types = GHOST
+BaseStats = 88,88,88,88,88,88
+GenderRatio = Female50Percent
+GrowthRate = Medium
+EVs =
+CatchRate = 100
+Happiness = 23
+BaseExp = 200
+Abilities = SUPERLUCK,MOODY
+Moves = 1,TACKLE
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.1
+Weight = 0.4 
+Color = Green
+Shape = Head
+Evolutions = 
+Category = Dice
+Pokedex =  
 #-------------------------------

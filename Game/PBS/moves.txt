@@ -5922,6 +5922,16 @@ Target = User
 FunctionCode = RaiseUserEvasion1
 Description = By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.
 #-------------------------------
+[SHELTER]
+Name = Shelter
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = RaiseUserEvasion1RaiseUserDefense1
+Description = The user makes its skin as hard as an iron shield, raising its defensive stats. Incoming moves also become more likely to miss.
+#-------------------------------
 [ENCORE]
 Name = Encore
 Type = NORMAL

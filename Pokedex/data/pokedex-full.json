@@ -340,8 +340,108 @@
         "type": "Fire,Dark"
     },
     {
-        "nr": "0",
-        "name": "",
-        "type": "None,None"
+        "nr": "069",
+        "name": "Clowee",
+        "type": "Grass,None"
+    },
+    {
+        "nr": "070",
+        "name": "Clolly",
+        "type": "Grass,None"
+    },
+    {
+        "nr": "071",
+        "name": "Clodiva",
+        "type": "Grass,Fairy"
+    },
+    {
+        "nr": "072",
+        "name": "Snofsy",
+        "type": "Flying,None"
+    },
+    {
+        "nr": "073",
+        "name": "Snowlide",
+        "type": "Flying,None"
+    },
+    {
+        "nr": "074",
+        "name": "Plantid",
+        "type": "Bug,None"
+    },
+    {
+        "nr": "075",
+        "name": "Reaphid",
+        "type": "Bug,None"
+    },
+    {
+        "nr": "076",
+        "name": "Ninmin",
+        "type": "Fighting,None"
+    },
+    {
+        "nr": "077",
+        "name": "Rimpnint",
+        "type": "Fighting,None"
+    },
+    {
+        "nr": "078",
+        "name": "Rimpcrush",
+        "type": "Fighting,None"
+    },
+    {
+        "nr": "079",
+        "name": "Pompet",
+        "type": "Grass"
+    },
+    {
+        "nr": "080",
+        "name": "Pomprim",
+        "type": "Grass,Fighting"
+    },
+    {
+        "nr": "081",
+        "name": "Upspark",
+        "type": "Electric,None"
+    },
+    {
+        "nr": "082",
+        "name": "Zapoteur",
+        "type": "Electric,None"
+    },
+    {
+        "nr": "083",
+        "name": "Deveep",
+        "type": "Dark,None"
+    },
+    {
+        "nr": "084",
+        "name": "Dozein",
+        "type": "Dark,None"
+    },
+    {
+        "nr": "085",
+        "name": "Goatyr",
+        "type": "Fairy"
+    },
+    {
+        "nr": "086",
+        "name": "Goataur",
+        "type": "Fairy,Fighting"
+    },
+    {
+        "nr": "087",
+        "name": "Quex",
+        "type": "Water,Dragon"
+    },
+    {
+        "nr": "088",
+        "name": "Dalbex",
+        "type": "Water,Dragon"
+    },
+    {
+        "nr": "089",
+        "name": "Unex",
+        "type": "Water,Dragon"
     }
 ]

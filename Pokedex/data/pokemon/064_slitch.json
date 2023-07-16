@@ -13,11 +13,11 @@
     "abilities": "",
     "stats":{
         "hp": 45,
-        "atk": 45,
-        "def": 45,
-        "spd": 45,
-        "spatk": 45,
-        "spdef": 45
+        "atk": 50,
+        "def": 35,
+        "spd": 40,
+        "spatk": 55,
+        "spdef": 75
     },
     "evolutions": [
         {

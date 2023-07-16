@@ -1,0 +1,42 @@
+{
+    "name" : "Clodiva",
+    "primaryType": "Grass",
+    "secondaryType": "Fairy",
+    "species": "",
+    "height": "",
+    "weight": "",
+    "catchRate": 0,
+    "baseExp": 100,
+    "baseFriendship": 50,
+    "hiddenAbilities": "",
+    "dexEntry": "",
+    "abilities": "",
+    "stats":{
+        "hp": 72,
+        "atk": 50,
+        "def": 98,
+        "spd": 62,
+        "spatk": 107,
+        "spdef": 111
+    },
+    "evolutions": [
+        {
+            "nr": "069",
+            "name": "Clowee",
+            "lvl": 0
+        },
+        {
+            "nr": "070",
+            "name": "Clolly",
+            "lvl": 18
+        },
+        {
+            "nr": "071",
+            "name": "Clodiva",
+            "lvl": 31
+        }
+    ],
+    "moves": [
+        {"lvl": 1, "name": "Tackle"}
+    ]
+}

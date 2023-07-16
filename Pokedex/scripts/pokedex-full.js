@@ -44,9 +44,11 @@ $(document).ready(function(){
             if(appsettings.developmentMode == true){
                 readTextFile(`data/pokemon/${pokemon.nr}_${pokemon.name.toLowerCase()}.json`, function(pokemonJsonStr){
                     var pokemonDetails = JSON.parse(pokemonJsonStr);
-                    var pbsData = setPokemonData(pokemonDetails);
+                    if(pokemonDetails.name.length > 0){
+                        var pbsData = setPokemonData(pokemonDetails);
     
-                    $("#pbs-info").text($("#pbs-info").text() + pbsData);
+                        $("#pbs-info").text($("#pbs-info").text() + pbsData);
+                    }
                 });
             }
         });

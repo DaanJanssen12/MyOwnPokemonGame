@@ -9,7 +9,7 @@ EventHandlers.add(:on_wild_pokemon_created, :automatic_level_scaling,
     id = pbGet(LevelScalingSettings::WILD_VARIABLE)
     if id != 0
       AutomaticLevelScaling.setDifficulty(id)
-      AutomaticLevelScaling.setNewLevel(pokemon)
+      AutomaticLevelScaling.setNewLevel(pokemon, 0, 33)
     end
   }
 )
@@ -25,7 +25,7 @@ EventHandlers.add(:on_trainer_load, :automatic_level_scaling,
       avarage_level /= trainer.party.length
 
       for pokemon in trainer.party do
-        AutomaticLevelScaling.setNewLevel(pokemon, pokemon.level - avarage_level)
+        AutomaticLevelScaling.setNewLevel(pokemon, pokemon.level - avarage_level, 100)
       end
     end
   }
@@ -40,7 +40,7 @@ EventHandlers.add(:on_end_battle, :update_partner_levels,
       avarage_level /= $PokemonGlobal.partner[3].length
 
       for pokemon in $PokemonGlobal.partner[3] do
-        AutomaticLevelScaling.setNewLevel(pokemon, pokemon.level - avarage_level)
+        AutomaticLevelScaling.setNewLevel(pokemon, pokemon.level - avarage_level, 100)
       end
     end
   }

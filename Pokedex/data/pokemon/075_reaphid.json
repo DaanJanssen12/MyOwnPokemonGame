@@ -1,7 +1,7 @@
 {
-    "name" : "Slence",
+    "name" : "Reaphid",
     "primaryType": "Bug",
-    "secondaryType": "Poison",
+    "secondaryType": "Steel",
     "species": "",
     "height": "",
     "weight": "",
@@ -12,23 +12,23 @@
     "dexEntry": "",
     "abilities": "",
     "stats":{
-        "hp": 80,
-        "atk": 100,
-        "def": 60,
-        "spd": 70,
-        "spatk": 100,
-        "spdef": 145
+        "hp": 68,
+        "atk": 122,
+        "def": 102,
+        "spd": 42,
+        "spatk": 50,
+        "spdef": 70
     },
     "evolutions": [
         {
-            "nr": "064",
-            "name": "Slitch",
+            "nr": "074",
+            "name": "Plantid",
             "lvl": 0
         },
         {
-            "nr": "065",
-            "name": "Slence",
-            "lvl": 34
+            "nr": "075",
+            "name": "Reaphid",
+            "lvl": 24
         }
     ],
     "moves": [

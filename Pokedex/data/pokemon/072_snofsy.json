@@ -1,7 +1,7 @@
 {
-    "name" : "Slence",
-    "primaryType": "Bug",
-    "secondaryType": "Poison",
+    "name" : "Snofsy",
+    "primaryType": "Flying",
+    "secondaryType": "Ice",
     "species": "",
     "height": "",
     "weight": "",
@@ -12,23 +12,23 @@
     "dexEntry": "",
     "abilities": "",
     "stats":{
-        "hp": 80,
-        "atk": 100,
-        "def": 60,
-        "spd": 70,
-        "spatk": 100,
-        "spdef": 145
+        "hp": 70,
+        "atk": 70,
+        "def": 50,
+        "spd": 45,
+        "spatk": 40,
+        "spdef": 45
     },
     "evolutions": [
         {
-            "nr": "064",
-            "name": "Slitch",
+            "nr": "072",
+            "name": "Snofsy",
             "lvl": 0
         },
         {
-            "nr": "065",
-            "name": "Slence",
-            "lvl": 34
+            "nr": "073",
+            "name": "Snowlide",
+            "lvl": 25
         }
     ],
     "moves": [

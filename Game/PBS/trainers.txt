@@ -2,8 +2,8 @@
 #-------------------------------
 [LEADER_Brock_Normal,Sam]
 LoseText = Very good.
-Pokemon = MUSIBIRD,50
-Pokemon = PYEN,50
+Pokemon = MUSIBIRD,14
+Pokemon = PYEN,15
 #-------------------------------
 [LEADER_Brock_Normal,Sam,1]
 LoseText = Very good.

@@ -357,12 +357,12 @@
     {
         "nr": "072",
         "name": "Snofsy",
-        "type": "Flying,None"
+        "type": "Flying,Ice"
     },
     {
         "nr": "073",
         "name": "Snowlide",
-        "type": "Flying,None"
+        "type": "Flying,Ice"
     },
     {
         "nr": "074",
@@ -372,7 +372,7 @@
     {
         "nr": "075",
         "name": "Reaphid",
-        "type": "Bug,None"
+        "type": "Bug,Steel"
     },
     {
         "nr": "076",
@@ -382,12 +382,12 @@
     {
         "nr": "077",
         "name": "Rimpnint",
-        "type": "Fighting,None"
+        "type": "Fighting,Ground"
     },
     {
         "nr": "078",
         "name": "Rimpcrush",
-        "type": "Fighting,None"
+        "type": "Fighting,Ground"
     },
     {
         "nr": "079",
@@ -402,12 +402,12 @@
     {
         "nr": "081",
         "name": "Upspark",
-        "type": "Electric,None"
+        "type": "Normal,Electric"
     },
     {
         "nr": "082",
         "name": "Zapoteur",
-        "type": "Electric,None"
+        "type": "Electric,Normal"
     },
     {
         "nr": "083",

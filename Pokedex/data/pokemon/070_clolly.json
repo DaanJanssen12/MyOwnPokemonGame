@@ -1,6 +1,6 @@
 {
-    "name" : "",
-    "primaryType": "",
+    "name" : "Clolly",
+    "primaryType": "Grass",
     "secondaryType": "",
     "species": "",
     "height": "",
@@ -12,23 +12,28 @@
     "dexEntry": "",
     "abilities": "",
     "stats":{
-        "hp": 45,
-        "atk": 45,
+        "hp": 52,
+        "atk": 38,
         "def": 45,
-        "spd": 45,
-        "spatk": 45,
-        "spdef": 45
+        "spd": 38,
+        "spatk": 52,
+        "spdef": 62
     },
     "evolutions": [
         {
-            "nr": "000",
-            "name": "Self",
+            "nr": "069",
+            "name": "Clowee",
             "lvl": 0
         },
         {
-            "nr": "000",
-            "name": "Evo",
-            "lvl": 24
+            "nr": "070",
+            "name": "Clolly",
+            "lvl": 18
+        },
+        {
+            "nr": "071",
+            "name": "Clodiva",
+            "lvl": 31
         }
     ],
     "moves": [

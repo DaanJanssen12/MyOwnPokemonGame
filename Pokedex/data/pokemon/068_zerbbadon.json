@@ -12,12 +12,12 @@
     "dexEntry": "",
     "abilities": "",
     "stats":{
-        "hp": 45,
-        "atk": 45,
-        "def": 45,
-        "spd": 45,
-        "spatk": 45,
-        "spdef": 45
+        "hp": 95,
+        "atk": 115,
+        "def": 90,
+        "spd": 90,
+        "spatk": 80,
+        "spdef": 60
     },
     "evolutions": [
         {

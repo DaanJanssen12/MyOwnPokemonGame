@@ -39,7 +39,7 @@ class AutomaticLevelScaling
     return level
   end
 
-  def self.setNewLevel(pokemon, difference_from_average = 0)
+  def self.setNewLevel(pokemon, difference_from_average = 0, autoEvolvePercentage = 100)
     new_level = AutomaticLevelScaling.getScaledLevel
 
     # Checks for only_scale_if_higher and only_scale_if_lower
@@ -56,7 +56,7 @@ class AutomaticLevelScaling
       pokemon.level = new_level
 
       # Evolution part
-      AutomaticLevelScaling.setNewStage(pokemon) if @@settings[:automatic_evolutions]
+      AutomaticLevelScaling.setNewStage(pokemon) if @@settings[:automatic_evolutions] and autoEvolvePercentage >= rand(100) + 1
 
       pokemon.calc_stats
       pokemon.reset_moves if @@settings[:update_moves]

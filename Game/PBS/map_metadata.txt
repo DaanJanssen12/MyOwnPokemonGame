@@ -28,7 +28,7 @@ BattleBack = field
 Name = Route 1
 MapPosition = 0,20,16
 #-------------------------------
-[007]   # Cedolan City
+[007]   # Furnend City
 Name = Cedolan City
 Outdoor = true
 ShowArea = true
@@ -57,6 +57,10 @@ MapPosition = 0,20,14
 #-------------------------------
 [021]   # Route 21
 Name = Route 21
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,13
 BattleBack = 
 #-------------------------------
 [022]   # Venbridge Town
@@ -66,12 +70,32 @@ ShowArea = true
 MapPosition = 0,20,17
 BattleBack = field
 #-------------------------------
+[023]   # Caydam Town
+Name = Caydam Town
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,14
+#-------------------------------
+[024]   # Caydam Town Poké Center
+Name = Caydam Town Poké Center
+ShowArea = false
+#-------------------------------
+[030]   # Backdrop
+Name = Backdrop
+#-------------------------------
 [042]   # Route 10
 Name = Route 10
 Outdoor = true
 ShowArea = true
 MapPosition = 0,20,16
 BattleBack = field
+#-------------------------------
+[043]   # Route 11
+Name = Route 11
+Name = 
+Outdoor = true
+ShowArea = true
+Bicycle = true
 #-------------------------------
 [077]   # Route 2
 Name = Route 2

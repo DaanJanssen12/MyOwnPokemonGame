@@ -30,8 +30,8 @@ module LevelScalingSettings
   #   "random_increase" is a randomly selected value between 0 and the value provided (optional)
   # (These variables can also store negative values)
   DIFICULTIES = [
-    Difficulty.new(id: 1, fixed_increase: -5, random_increase: 4),  # Easy
-    Difficulty.new(id: 2, fixed_increase: -3, random_increase: 3),  # Medium
+    Difficulty.new(id: 1, fixed_increase: -3, random_increase: 3),  # Easy
+    Difficulty.new(id: 2, fixed_increase: -2, random_increase: 3),  # Medium
     Difficulty.new(id: 3, fixed_increase: 0, random_increase: 0),  # Hard
   ]
 

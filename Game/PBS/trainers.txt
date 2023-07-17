@@ -41,3 +41,37 @@ Pokemon = INTELLIDERP,5
 [LEADER_Brock_Hard,Sam]
 LoseText = ...
 Pokemon = INTELLIDERP,50
+#-------------------------------
+[YOUNGSTER,Joshua]
+LoseText = ...
+Pokemon = BAOBY,7
+Pokemon = MUSIBIRD,4
+#-------------------------------
+[YOUNGSTER,Jim]
+LoseText = ...
+Pokemon = MUSIBIRD,6
+Pokemon = AMAZEL,6
+Pokemon = WINBEE,6
+#-------------------------------
+[YOUNGSTER,Derek]
+LoseText = ...
+Pokemon = LANYA,10
+Pokemon = SORCEPHER,10
+#-------------------------------
+[BEAUTY,Emily]
+LoseText = ...
+Pokemon = AMAZEL,10
+Pokemon = LANYA,10
+Pokemon = KUDO,10
+#-------------------------------
+[GENTLEMAN,Johnson]
+LoseText = ...
+Pokemon = WINBEE,10
+Pokemon = WINBEE,10
+Pokemon = BAOBY,12
+#-------------------------------
+[YOUNGCOUPLE,Peter & Hailey]
+LoseText = ...
+Pokemon = SQUIZARD,8
+Pokemon = INTELLIDERP,10
+Pokemon = MINDOW,10

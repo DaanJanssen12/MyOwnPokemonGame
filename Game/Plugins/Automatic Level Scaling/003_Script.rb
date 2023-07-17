@@ -24,8 +24,14 @@ class AutomaticLevelScaling
   end
 
   def self.getScaledLevel
-    level = pbBalancedLevel($player.party) - 2 # pbBalancedLevel increses level by 2 to challenge the player
-
+    level = 0 # pbBalancedLevel($player.party) - 2 # pbBalancedLevel increses level by 2 to challenge the player
+	
+	for i in 0...$player.party.length
+		if $player.party[i].level > level
+			level = $player.party[i].level
+		end
+	end
+	
     # Difficulty modifiers
     level += @@selectedDifficulty.fixed_increase
     if @@selectedDifficulty.random_increase < 0

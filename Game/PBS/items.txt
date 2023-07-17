@@ -6082,3 +6082,39 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
+#-------------------------------
+[EXPALL]
+Name = Exp Share
+NamePlural = Exp Shares
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = TURNED ON. An item that gives all Pokemon experience.
+#-------------------------------
+[EXPALLOFF]
+Name = Exp Share
+NamePlural = Exp Shares
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = TURNED OFF. An item that gives all Pokemon experience.
+#-------------------------------
+[POKEVIAL]
+Name = Poke Vial
+NamePlural = Poke Vials
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Heals your party. Recharges at the PokéCenter.
+#-------------------------------
+[POKEVIALEMPTY]
+Name = Poke Vial
+NamePlural = Poke Vials
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = This vial is empty, recharge it at the PokéCenter.

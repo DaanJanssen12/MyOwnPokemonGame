@@ -10,13 +10,25 @@ LoseText = Very good.
 Pokemon = PYEN,21
 Pokemon = PAROWAVE,22
 #-------------------------------
-[LEADER_BOB,Bob]
+[LEADER_Bob_Easy,Bob]
 LoseText = Very good.
-Pokemon = SQUIZARD,8
-Pokemon = DRASHIMI,10
+SkillLevel = 50
+Pokemon = SQUIZARD,13
+	Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
+Pokemon = DRASHIMI,15
+	Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
 #-------------------------------
-[LEADER_BOB,Bob,1]
+[LEADER_Bob_Normal,Bob]
 LoseText = Very good.
+SkillLevel = 100
+Pokemon = SQUIZARD,13
+	Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
+Pokemon = DRASHIMI,15
+	Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
+#-------------------------------
+[LEADER_Bob_Hard,Bob]
+LoseText = Very good.
+SkillLevel = 255
 Pokemon = SQUIZARD,18
 Pokemon = TSUSHIMI,20
 #-------------------------------

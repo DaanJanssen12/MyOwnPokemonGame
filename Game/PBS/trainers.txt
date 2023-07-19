@@ -12,23 +12,20 @@ Pokemon = PAROWAVE,22
 #-------------------------------
 [LEADER_Bob_Easy,Bob]
 LoseText = Very good.
-SkillLevel = 50
 Pokemon = SQUIZARD,13
-	Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
+    Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
 Pokemon = DRASHIMI,15
-	Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
+    Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
 #-------------------------------
 [LEADER_Bob_Normal,Bob]
 LoseText = Very good.
-SkillLevel = 100
 Pokemon = SQUIZARD,13
-	Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
+    Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
 Pokemon = DRASHIMI,15
-	Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
+    Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
 #-------------------------------
 [LEADER_Bob_Hard,Bob]
 LoseText = Very good.
-SkillLevel = 255
 Pokemon = SQUIZARD,18
 Pokemon = TSUSHIMI,20
 #-------------------------------
@@ -87,3 +84,9 @@ LoseText = ...
 Pokemon = SQUIZARD,8
 Pokemon = INTELLIDERP,10
 Pokemon = MINDOW,10
+#-------------------------------
+[HIKER,Chris]
+LoseText = ...
+Pokemon = PYEN,15
+Pokemon = CLOLLY,15
+Pokemon = WINQUEEN,16

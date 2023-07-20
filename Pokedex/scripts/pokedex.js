@@ -468,7 +468,12 @@ $(document).ready(function(){
             html = replaceAll(html, "$CatchRate", data.catchRate);
             html = replaceAll(html, "$BaseExp", data.baseExp);
             html = replaceAll(html, "$BaseFriendship", data.baseFriendship);
-            html = replaceAll(html, "$Abilities", replaceAll(data.abilities, ",", "</br>"));
+
+            var allAbilities = data.abilities;
+            if(data.hiddenAbilities && data.hiddenAbilities !== ""){
+                allAbilities += `,${data.hiddenAbilities} (hidden ability)`
+            }
+            html = replaceAll(html, "$Abilities", replaceAll(allAbilities, ",", "</br>"));
             html = replaceAll(html, "$PokedexEntry", data.dexEntry);
 
             var stats = calculateTypeDefenses(data.primaryType, data.secondaryType);

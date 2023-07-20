@@ -24,7 +24,7 @@ function setPokemonData(pokemon){
     }else{
         text += `GrowthRate = Medium</br>`;
     }
-    text += `EVs =</br>CatchRate = ${pokemon.catchRate}</br>Happiness = ${pokemon.baseFriendship}</br>BaseExp = ${pokemon.baseExp}</br>Abilities = ${replaceAll(pokemon.abilities.toUpperCase(), " ", "")}</br>Moves = `;
+    text += `EVs =</br>CatchRate = ${pokemon.catchRate}</br>Happiness = ${pokemon.baseFriendship}</br>BaseExp = ${pokemon.baseExp}</br>Abilities = ${replaceAll(pokemon.abilities.toUpperCase(), " ", "")}</br>HiddenAbilities = ${replaceAll(pokemon.hiddenAbilities.toUpperCase(), " ", "")}</br>Moves = `;
 
     pokemon.moves.sort(lowLevelFirst).forEach(move => {
         var moveName = replaceAll(replaceAll(move.name.toUpperCase(), " ", ""), "-", "");

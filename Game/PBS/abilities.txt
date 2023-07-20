@@ -136,6 +136,10 @@ Description = Boosts the Pokémon's Speed in rain.
 Name = Chlorophyll
 Description = Boosts the Pokémon's Speed in sunshine.
 #-------------------------------
+[PHOTOSYNTHESIS]
+Name = Photosynthesis
+Description = In sunshine: Slightly boosts Speed and Heals every turn.
+#-------------------------------
 [ILLUMINATE]
 Name = Illuminate
 Description = Raises the likelihood of meeting wild Pokémon.

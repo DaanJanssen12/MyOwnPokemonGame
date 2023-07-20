@@ -9,7 +9,7 @@
     "baseExp": 64,
     "baseFriendship": 50,
     "abilities": "Overgrow",
-    "hiddenAbilities": "Levitate",
+    "hiddenAbilities": "Photosynthesis",
     "dexEntry": "Whilst growing heavier Iguareen developed their back legs more needing to stand up right. This sudden need in energy caused the leaves om their backs to grow larger",
     "stats":{
         "hp": 63,
@@ -47,5 +47,6 @@
         {"lvl": 27, "name": "Worry Seed"},
         {"lvl": 32, "name": "Double-Edge"},
         {"lvl": 39, "name": "Solar Beam"}
-    ]
+    ],
+    "tutorMoves": ["Focus Punch", "Bullet Seed", "Work Up", "Sunny Day", "Protect", "Giga Drain", "Solar Beam", "Iron Tail", "Rest", "Energy Ball", "Swords Dance", "Stealth Rock", "Grass Knot", "Dragon Claw"]
 }

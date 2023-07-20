@@ -9,8 +9,8 @@
     "baseExp": 240,
     "baseFriendship": 50,
     "abilities": "Blaze",
+    "hiddenAbilities": "Solar Power",
     "dexEntry": "With their wings fully grown, Flaraga can fly for long periods of time. With their slender streamlined body, they are said to reach an unthinkable speed while flying",
-    "hiddenAbilities": "",
     "stats":{
         "hp": 78,
         "atk": 78,

@@ -337,6 +337,7 @@ VictoryBGM = Battle victory leader
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
+SkillLevel = 99
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
@@ -344,6 +345,7 @@ VictoryBGM = Battle victory leader
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
+SkillLevel = 150
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
@@ -351,6 +353,7 @@ VictoryBGM = Battle victory leader
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
+SkillLevel = 255
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------

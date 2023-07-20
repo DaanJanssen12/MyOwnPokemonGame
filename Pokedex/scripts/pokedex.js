@@ -6,13 +6,18 @@ function buildEvolutionChart(evolutions){
         
     evolutions.forEach(evolution => {
         //Arrow
-        if(evolution.lvl > 0){
+        if(evolution.lvl){
             var $arrowSpan = $("<span></span>").addClass("infocard infocard-arrow");
 
             var $arrowI = $("<i></i>").addClass("icon-arrow icon-arrow-e");
-            var $arrowSmall = $("<small></small>").text(`Level ${evolution.lvl}`);
-            if(evolution.extraInfo){
-                $arrowSmall.html($arrowSmall.text() + "</br>" + `(${evolution.extraInfo})`);
+            var $arrowSmall = $("<small></small>");
+            if(evolution.lvl > 0){
+                $arrowSmall.text(`Level ${evolution.lvl}`);
+                if(evolution.extraInfo){
+                    $arrowSmall.html($arrowSmall.text() + "</br>" + `(${evolution.extraInfo})`);
+                }
+            }else if (evolution.extraInfo){
+                $arrowSmall.text(`${evolution.extraInfo}`);
             }
             $arrowI.appendTo($arrowSpan);
             $arrowSmall.appendTo($arrowSpan);
@@ -121,6 +126,27 @@ function buildMovesTable(movesDB, table, moves){
         }
     });
 }
+
+function buildTutorMovesTable(movesDB, table, tms){
+    tms.forEach(tm => {
+        if(movesDB.filter(f => f.move === tm.move).length > 0){
+            var dbMove = movesDB.filter(f => f.move === tm.move)[0];
+            $("tbody", $(table)).append(createMoveRow(tm.tm, dbMove));
+        }else{
+            $.get(`https://pokeapi.co/api/v2/move/${tm.move.toLowerCase().replace(" ", "-")}`, null, (data) => {
+                var pokeApiMove = data;
+            $("tbody", $(table)).append(createMoveRow(tm.tm, {
+                    move: tm.move,
+                    type: pokeApiMove.type.name,
+                    category: pokeApiMove.damage_class.name,
+                    power: pokeApiMove.power,
+                    accuracy: pokeApiMove.accuracy
+                }));
+            });
+        }
+    });
+}
+
 function createMoveRow(lvl, move){
     $tr = $("<tr></tr>").attr("lvl", lvl);
     $td1 = $("<td></td>").addClass("cell-num").text(lvl);
@@ -520,15 +546,25 @@ $(document).ready(function(){
             }
             $(".type-hidden").hide();
             
-
+            var movesDB = null;
             readTextFile("data/moves.json", function(moveText){
-                var movesDB = JSON.parse(moveText);
-                buildMovesTable(movesDB, "#moves-table", data.moves.sort(lowLevelFirst));
+                movesDB = JSON.parse(moveText);
+                buildMovesTable(movesDB, "#moves-table", data.moves);
                 
                 setTimeout(() => {
                     sortTable($("#moves-table"), "lvl", "asc");
                 }, 1000);
             });
+
+            readTextFile("data/tms.json", function(tmText){
+                var tms = JSON.parse(tmText);
+
+                buildTutorMovesTable(movesDB, "#tm-table", tms.filter(f => data.tutorMoves.includes(f.move)));
+                
+                setTimeout(() => {
+                    sortTable($("#tm-table"), "lvl", "asc");
+                }, 1000);
+            })
 
             bindEvents();
         });

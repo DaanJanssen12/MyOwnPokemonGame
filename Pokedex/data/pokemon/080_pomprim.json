@@ -1,7 +1,7 @@
 {
-    "name" : "",
-    "primaryType": "",
-    "secondaryType": "",
+    "name" : "Pomprim",
+    "primaryType": "Grass",
+    "secondaryType": "Fighting",
     "species": "",
     "height": "",
     "weight": "",
@@ -21,14 +21,15 @@
     },
     "evolutions": [
         {
-            "nr": "000",
-            "name": "Self",
+            "nr": "079",
+            "name": "Pompet",
             "lvl": 0
         },
         {
-            "nr": "000",
-            "name": "Evo",
-            "lvl": 24
+            "nr": "080",
+            "name": "Pomprim",
+            "lvl": -1,
+            "extraInfo": "Leaf Stone"
         }
     ],
     "moves": [

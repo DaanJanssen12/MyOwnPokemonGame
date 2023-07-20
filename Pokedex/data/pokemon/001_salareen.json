@@ -49,5 +49,6 @@
         {"lvl": 32, "name": "Double-Edge"},
         {"lvl": 27, "name": "Worry Seed"},
         {"lvl": 39, "name": "Solar Beam"}
-    ]
+    ],
+    "tutorMoves": ["Focus Punch"]
 }

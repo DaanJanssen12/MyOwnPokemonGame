@@ -1,6 +1,6 @@
 {
-    "name" : "",
-    "primaryType": "",
+    "name" : "Rimpcrush",
+    "primaryType": "Fighting",
     "secondaryType": "",
     "species": "",
     "height": "",
@@ -21,14 +21,19 @@
     },
     "evolutions": [
         {
-            "nr": "000",
-            "name": "Self",
+            "nr": "076",
+            "name": "Ninmin",
             "lvl": 0
         },
         {
-            "nr": "000",
-            "name": "Evo",
+            "nr": "077",
+            "name": "Rimpnint",
             "lvl": 24
+        },
+        {
+            "nr": "078",
+            "name": "Rimpcrush",
+            "lvl": 42
         }
     ],
     "moves": [

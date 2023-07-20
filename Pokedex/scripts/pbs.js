@@ -36,6 +36,19 @@ function setPokemonData(pokemon){
         }
     });
 
+    if(pokemon.tutorMoves){
+        text += `TutorMoves = `
+        pokemon.tutorMoves.forEach(tm => {
+            var moveName = replaceAll(replaceAll(tm.toUpperCase(), " ", ""), "-", "");
+            text += `${moveName}`
+            if(pokemon.tutorMoves[pokemon.tutorMoves.length -1] === tm){
+                text += "</br>";
+            }else{
+                text += ",";
+            }
+        });
+    }
+
     text += `EggGroups = Undiscovered</br>HatchSteps = 1</br>Height = ${pokemon.height}</br>Weight = ${pokemon.weight} </br>Color = Green</br>Shape = Head</br>Evolutions = ${getEvolutionPBSDataString(pokemon)}</br>Category = ${pokemon.species}</br>Pokedex = ${pokemon.dexEntry} </br>#-------------------------------`;
 
    return text;
@@ -52,7 +65,7 @@ function getEvolutionPBSDataString(pokemon){
     }
 
     var self = pokemon.evolutions.filter(f => f.name === pokemon.name)[0];
-    var evosAfterSelf = pokemon.evolutions.filter(f => f.lvl > self.lvl);
+    var evosAfterSelf = pokemon.evolutions.filter(f => f.lvl > self.lvl || (f.lvl == -1 && f.lvl !== self.lvl));
     if(evosAfterSelf.length <= 0) return "";
 
     var str = `${getEvolutionPBSString(evosAfterSelf[0])}`;
@@ -68,6 +81,8 @@ function getEvolutionPBSString(evo){
 
 function getEvolutionParamPBSString(evolution){
     switch(evolution.extraInfo){
+        case "Leaf Stone":
+            return "LEAFSTONE";
         default:
             return evolution.lvl;
     }
@@ -77,6 +92,8 @@ function getEvolutionMethodPBSString(evolution){
     switch(evolution.extraInfo){
         case "Female only":
             return "LevelFemale";
+        case "Leaf Stone":
+            return "Item";
         default:
             return "Level";
     }

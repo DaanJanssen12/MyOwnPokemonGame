@@ -1,0 +1,402 @@
+[
+    {
+        "tm": "01",
+        "move": "Focus Punch"
+    },
+    {
+        "tm": "02",
+        "move": "Dragon Claw"
+    },
+    {
+        "tm": "03",
+        "move": "Water Pulse"
+    },
+    {
+        "tm": "04",
+        "move": "Calm Mind"
+    },
+    {
+        "tm": "05",
+        "move": "Roar"
+    },
+    {
+        "tm": "06",
+        "move": "Toxic"
+    },
+    {
+        "tm": "07",
+        "move": "Hail"
+    },
+    {
+        "tm": "08",
+        "move": "Bulk Up"
+    },
+    {
+        "tm": "09",
+        "move": "Bullet Seed"
+    },
+    {
+        "tm": "10",
+        "move": "Work Up"
+    },
+    {
+        "tm": "11",
+        "move": "Sunny Day"
+    },
+    {
+        "tm": "12",
+        "move": "Taunt"
+    },
+    {
+        "tm": "13",
+        "move": "Ice Beam"
+    },
+    {
+        "tm": "14",
+        "move": "Blizzard"
+    },
+    {
+        "tm": "15",
+        "move": "Hyper Beam"
+    },
+    {
+        "tm": "16",
+        "move": "Light Screen"
+    },
+    {
+        "tm": "17",
+        "move": "Protect"
+    },
+    {
+        "tm": "18",
+        "move": "Rain Dance"
+    },
+    {
+        "tm": "19",
+        "move": "Gige Drain"
+    },
+    {
+        "tm": "20",
+        "move": "Safeguard"
+    },
+    {
+        "tm": "21",
+        "move": "Dazzling Gleam"
+    },
+    {
+        "tm": "22",
+        "move": "Solar Beam"
+    },
+    {
+        "tm": "23",
+        "move": "Iron Tail"
+    },
+    {
+        "tm": "24",
+        "move": "Thunderbolt"
+    },
+    {
+        "tm": "25",
+        "move": "Thunder"
+    },
+    {
+        "tm": "26",
+        "move": "Earthquake"
+    },
+    {
+        "tm": "27",
+        "move": "Low Sweep"
+    },
+    {
+        "tm": "28",
+        "move": "Dig"
+    },
+    {
+        "tm": "29",
+        "move": "Psychic"
+    },
+    {
+        "tm": "30",
+        "move": "Shadow Ball"
+    },
+    {
+        "tm": "31",
+        "move": "Brick Break"
+    },
+    {
+        "tm": "32",
+        "move": "Double Team"
+    },
+    {
+        "tm": "33",
+        "move": "Reflect"
+    },
+    {
+        "tm": "34",
+        "move": "Shock Wave"
+    },
+    {
+        "tm": "35",
+        "move": "Flamethrower"
+    },
+    {
+        "tm": "36",
+        "move": "Sludge Bomb"
+    },
+    {
+        "tm": "37",
+        "move": "Sandstorm"
+    },
+    {
+        "tm": "38",
+        "move": "Fire Blast"
+    },
+    {
+        "tm": "39",
+        "move": "Rock Tomb"
+    },
+    {
+        "tm": "40",
+        "move": "Aerial Ace"
+    },
+    {
+        "tm": "41",
+        "move": "Torment"
+    },
+    {
+        "tm": "42",
+        "move": "Facade"
+    },
+    {
+        "tm": "43",
+        "move": "Volt Switch"
+    },
+    {
+        "tm": "44",
+        "move": "Rest"
+    },
+    {
+        "tm": "45",
+        "move": "Attract"
+    },
+    {
+        "tm": "46",
+        "move": "Thief"
+    },
+    {
+        "tm": "47",
+        "move": "Steel Wing"
+    },
+    {
+        "tm": "48",
+        "move": "Skill Swap"
+    },
+    {
+        "tm": "49",
+        "move": "Scald"
+    },
+    {
+        "tm": "50",
+        "move": "Overheat"
+    },
+    {
+        "tm": "51",
+        "move": "Roost"
+    },
+    {
+        "tm": "52",
+        "move": "Focus Blast"
+    },
+    {
+        "tm": "53",
+        "move": "Energy Ball"
+    },
+    {
+        "tm": "54",
+        "move": "False Swipe"
+    },
+    {
+        "tm": "55",
+        "move": "Brine"
+    },
+    {
+        "tm": "56",
+        "move": "Fling"
+    },
+    {
+        "tm": "57",
+        "move": "Charge Beam"
+    },
+    {
+        "tm": "58",
+        "move": "Endure"
+    },
+    {
+        "tm": "59",
+        "move": "Dragon Pulse"
+    },
+    {
+        "tm": "60",
+        "move": "Drain Punch"
+    },
+    {
+        "tm": "61",
+        "move": "Will-O-Wisp"
+    },
+    {
+        "tm": "62",
+        "move": "Bug Buzz"
+    },
+    {
+        "tm": "63",
+        "move": "Nasty Plot"
+    },
+    {
+        "tm": "64",
+        "move": "Explosion"
+    },
+    {
+        "tm": "65",
+        "move": "Shadow Claw"
+    },
+    {
+        "tm": "66",
+        "move": "Payback"
+    },
+    {
+        "tm": "67",
+        "move": "Recycle"
+    },
+    {
+        "tm": "68",
+        "move": "Giga Impact"
+    },
+    {
+        "tm": "69",
+        "move": "Rock Polisg"
+    },
+    {
+        "tm": "70",
+        "move": "Flash"
+    },
+    {
+        "tm": "71",
+        "move": "Stone Edge"
+    },
+    {
+        "tm": "72",
+        "move": "Avalanche"
+    },
+    {
+        "tm": "73",
+        "move": "Thunder Wave"
+    },
+    {
+        "tm": "74",
+        "move": "Gyro Ball"
+    },
+    {
+        "tm": "75",
+        "move": "Swords Dance"
+    },
+    {
+        "tm": "76",
+        "move": "Stealth Rock"
+    },
+    {
+        "tm": "77",
+        "move": "Psych Up"
+    },
+    {
+        "tm": "78",
+        "move": "Snarl"
+    },
+    {
+        "tm": "79",
+        "move": "Dark Pulse"
+    },
+    {
+        "tm": "80",
+        "move": "Rock Slide"
+    },
+    {
+        "tm": "81",
+        "move": "X-Scissor"
+    },
+    {
+        "tm": "82",
+        "move": "Sleep Talk"
+    },
+    {
+        "tm": "83",
+        "move": "Bulldoze"
+    },
+    {
+        "tm": "84",
+        "move": "Poison Jab"
+    },
+    {
+        "tm": "85",
+        "move": "Dream Eater"
+    },
+    {
+        "tm": "86",
+        "move": "Grass Knot"
+    },
+    {
+        "tm": "87",
+        "move": "Swagger"
+    },
+    {
+        "tm": "88",
+        "move": "Pluck"
+    },
+    {
+        "tm": "89",
+        "move": "U-turn"
+    },
+    {
+        "tm": "90",
+        "move": "Substitute"
+    },
+    {
+        "tm": "91",
+        "move": "Flash Cannon"
+    },
+    {
+        "tm": "92",
+        "move": "Trick Room"
+    },
+    {
+        "tm": "93",
+        "move": "Cut"
+    },
+    {
+        "tm": "94",
+        "move": "Fly"
+    },
+    {
+        "tm": "95",
+        "move": "Surf"
+    },
+    {
+        "tm": "96",
+        "move": "Strength"
+    },
+    {
+        "tm": "97",
+        "move": "Defog"
+    },
+    {
+        "tm": "98",
+        "move": "Rock Smash"
+    },
+    {
+        "tm": "99",
+        "move": "Waterfall"
+    },
+    {
+        "tm": "100",
+        "move": "Rock Climb"
+    }
+]

@@ -26,8 +26,10 @@ Pokemon = DRASHIMI,15
 #-------------------------------
 [LEADER_Bob_Hard,Bob]
 LoseText = Very good.
-Pokemon = SQUIZARD,18
-Pokemon = TSUSHIMI,20
+Pokemon = SQUIZARD,13
+    Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
+Pokemon = DRASHIMI,15
+    Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
 #-------------------------------
 [CAMPER,Liam]
 LoseText = ...

@@ -41,7 +41,7 @@ $(document).ready(function(){
             $span2.appendTo($infocard);
             $infocard.appendTo($container);
 
-            if(appsettings.developmentMode == true){
+            if(appsettings.developmentMode){
                 readTextFile(`data/pokemon/${pokemon.nr}_${pokemon.name.toLowerCase()}.json`, function(pokemonJsonStr){
                     var pokemonDetails = JSON.parse(pokemonJsonStr);
                     if(pokemonDetails.name.length > 0){

@@ -7,7 +7,9 @@ class DiegoWTsStarterSelection
     @frame = 0
     @selframe = 0 
     @endscene = 0
-    @pkmn1 = pkmn1; @pkmn2 = pkmn2; @pkmn3 = pkmn3
+    @pkmn1 = Randomizer.randomizeSpecies(pkmn1, false, true); 
+	@pkmn2 = Randomizer.randomizeSpecies(pkmn2, false, true); 
+	@pkmn3 = Randomizer.randomizeSpecies(pkmn3, false, true);
     
     @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport.z = 99999
@@ -83,10 +85,13 @@ class DiegoWTsStarterSelection
     @data = {}
     @data["pkmn_1"] = Pokemon.new(@pkmn1,StarterSelSettings::STARTERL)
     @data["pkmn_1"].form = StarterSelSettings::STARTER1F
+    @data["pkmn_1"].ability = Randomizer.getRandomizedAbility(@pkmn1, @data["pkmn_1"].ability_id)
     @data["pkmn_2"] = Pokemon.new(@pkmn2,StarterSelSettings::STARTERL)
     @data["pkmn_2"].form = StarterSelSettings::STARTER2F
+    @data["pkmn_2"].ability = Randomizer.getRandomizedAbility(@pkmn2, @data["pkmn_2"].ability_id)
     @data["pkmn_3"] = Pokemon.new(@pkmn3,StarterSelSettings::STARTERL)
     @data["pkmn_3"].form = StarterSelSettings::STARTER3F
+    @data["pkmn_3"].ability = Randomizer.getRandomizedAbility(@pkmn3, @data["pkmn_3"].ability_id)
     for i in 1..3
       @sprites["pkmn_#{i}"] = PokemonSprite.new(@viewport)
       @sprites["pkmn_#{i}"].setOffset(PictureOrigin::CENTER)
@@ -477,7 +482,7 @@ class DiegoWTsStarterSelection
       $game_variables[7] = @select if $game_variables[7] == 0
       @endscene = 1
       pbCloseScene
-      pbAddPokemon(@data["pkmn_#{@select}"],StarterSelSettings::STARTERL)
+      pbAddPokemon(@data["pkmn_#{@select}"],StarterSelSettings::STARTERL,'starter')
     else
       @sprites["textbox"].y = @oldMsgY
       @sprites["textbox"].text = _INTL("<ac>Choose a Pokémon.</ac>")

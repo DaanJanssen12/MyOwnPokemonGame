@@ -8,6 +8,7 @@
     "catchRate": 255,
     "baseExp": 50,
     "baseFriendship": 50,
+    "growthRate": "Fast",
     "abilities": "Swarm,Rivalry",
     "hiddenAbilities": "",
     "dexEntry": "",

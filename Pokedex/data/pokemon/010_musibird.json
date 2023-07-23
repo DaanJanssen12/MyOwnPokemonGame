@@ -9,6 +9,7 @@
     "baseExp": 50,
     "baseFriendship": 50,
     "abilities": "Soundproof,Tangled Feet",
+    "growthRate": "Fast",
     "hiddenAbilities": "",
     "dexEntry": "Musibird are spry and chirpy little bird who are mostly seen in or around cities. Their whistling is always in tune and almost sounds like they are singing.    ",
     "stats":{

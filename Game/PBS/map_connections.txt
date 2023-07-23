@@ -2,17 +2,17 @@
 #-------------------------------
 # Route 2 (77) - Route 20 (8)
 77,East,34,8,West,0
-# Route 1 (5) - Route 21 (21)
-5,0,0,21,92,123
-# Furnend City (7) - Route 1 (5)
-7,South,0,5,North,2
+# Route 10 (42) - Caydam Town (23)
+42,0,0,23,40,9
+# Furnend City (7) - Route 10 (42)
+7,West,4,42,East,0
+# Route 1 (5) - Furnend City (7)
+5,North,2,7,South,0
 # Venbridge Town (22) - Route 1 (5)
 22,North,0,5,South,1
-# Route 10 (42) - Furnend City (7)
-42,East,0,7,West,4
-# Route 21 (21) - Caydam Town (23)
-21,1,75,23,0,0
-# Route 21 (21) - Other Town (28)
-21,38,0,28,0,2
-# Route 21 (21) - Backdrop (30)
-21,0,0,30,98,15
+# Caydam Town (23) - Route 21 (21)
+23,0,0,21,1,75
+# Caydam Town (23) - Starby City (28)
+23,37,0,28,0,77
+# Caydam Town (23) - Backdrop (30)
+23,0,0,30,99,90

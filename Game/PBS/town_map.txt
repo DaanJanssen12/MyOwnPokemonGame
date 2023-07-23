@@ -3,10 +3,16 @@
 [0]
 Name = Neddar
 Filename = mapRegion_Neddar.png
-Point = 20,17,Starting Town,Your House,22,23,13,
-Point = 20,14,Big City,,7,22,30,
+Point = 20,17,Venbridge Town,Your House,22,23,13,
+Point = 20,14,Furnend City,,7,22,30,
 Point = 16,14,Caydam Town,,,,,
-Point = 16,9,Other town,,,,,
+Point = 16,9,Starby City,,28,24,12,
 Point = 20,16,Route 1,,,,,
 Point = 20,15,Route 1,,,,,
-Point = 18,14,,,,,,
+Point = 18,14,Route 10,,,,,
+Point = 19,14,Route 10,,,,,
+Point = 17,14,Route 10,,,,,
+Point = 16,13,Route 21,,,,,
+Point = 16,12,Route 21,,,,,
+Point = 16,11,Route 21,,,,,
+Point = 16,10,Route 21,,,,,

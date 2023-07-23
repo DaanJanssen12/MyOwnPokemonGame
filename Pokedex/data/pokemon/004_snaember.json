@@ -9,6 +9,7 @@
     "baseExp": 64,
     "baseFriendship": 50,
     "abilities": "Blaze",
+    "growthRate": "Fast",
     "hiddenAbilities": "Solar Power",
     "dexEntry": "This little fire snake spends most of it's time in bright sunlight resting on a rock taking in the heat. As Snaember takes in heat, fire starts sprouting from it's body making it look like it has little wings.",
     "stats":{

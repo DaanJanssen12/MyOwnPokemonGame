@@ -8,6 +8,13 @@ Land,31
 OldRod
     100,INTELLIDERP,5
 #-------------------------------
+[007] # Furnend City
+Land,41
+    33,AMAZEL,5
+    33,CLOLLY,5
+LandEvening,41
+    30,LANYA,5
+#-------------------------------
 [021] # Route 21
 Land,21
     25,PYEN,12,16

@@ -84,8 +84,12 @@ Pokemon = BAOBY,12
 [YOUNGCOUPLE,Peter & Hailey]
 LoseText = ...
 Pokemon = SQUIZARD,8
-Pokemon = INTELLIDERP,10
+    Ball = LOVEBALL
+Pokemon = CLOLLY,10
+    Moves = ABSORB,SLEEPPOWDER,HELPINGHAND
+    Ball = LOVEBALL
 Pokemon = MINDOW,10
+    Ball = LOVEBALL
 #-------------------------------
 [HIKER,Chris]
 LoseText = ...

@@ -29,7 +29,7 @@ Name = Route 1
 MapPosition = 0,20,16
 #-------------------------------
 [007]   # Furnend City
-Name = Cedolan City
+Name = Furnend City
 Outdoor = true
 ShowArea = true
 MapPosition = 0,20,14
@@ -80,8 +80,22 @@ MapPosition = 0,16,14
 Name = Caydam Town Poké Center
 ShowArea = false
 #-------------------------------
+[028]   # Starby City
+Name = Starby City
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,9
+MapSize = 0,
+#-------------------------------
 [030]   # Backdrop
 Name = Backdrop
+#-------------------------------
+[035]   # Starby City Poké Center
+Name = Starby City Poké Center
+Outdoor = false
+ShowArea = false
+Bicycle = false
+HealingSpot = 28,24,12
 #-------------------------------
 [042]   # Route 10
 Name = Route 10

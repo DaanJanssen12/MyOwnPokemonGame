@@ -96,3 +96,14 @@ LoseText = ...
 Pokemon = PYEN,15
 Pokemon = CLOLLY,15
 Pokemon = WINQUEEN,16
+#-------------------------------
+[HIKER,Stephan]
+LoseText = ...
+Pokemon = PYEN,16
+Pokemon = KANKWART,18
+#-------------------------------
+[TEAMROCKET_M,Jim]
+LoseText = ...
+Pokemon = NINMIN,18
+Pokemon = NINMIN,18
+Pokemon = PYRON,20

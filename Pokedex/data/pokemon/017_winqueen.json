@@ -10,8 +10,8 @@
     "baseFriendship": 50,
     "genderRatio": "AlwaysFemale",
     "abilities": "Swarm,Rivalry",
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Sheer Force",
+    "dexEntry": "When female Winbee evolve they turn into Winqueen. When a Winqueen finds a Winking she likes they are said to mate for life.",
     "stats":{
         "hp": 70,
         "atk": 50,

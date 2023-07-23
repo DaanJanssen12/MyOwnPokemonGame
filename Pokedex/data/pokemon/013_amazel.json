@@ -11,7 +11,7 @@
     "baseExp": 50,
     "baseFriendship": 100,
     "abilities": "Unaware,Simple",
-    "hiddenAbilities": "",
+    "hiddenAbilities": "Moody",
     "dexEntry": "These small rodents are very friendly and look at the world with a almost childlike wonder being amazed by everything they see.    ",
     "stats":{
         "hp": 45,

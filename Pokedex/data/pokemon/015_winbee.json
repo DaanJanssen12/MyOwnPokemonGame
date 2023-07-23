@@ -10,8 +10,8 @@
     "baseFriendship": 50,
     "growthRate": "Fast",
     "abilities": "Swarm,Rivalry",
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Hustle",
+    "dexEntry": "Winbee have many natural predators, so they use flower petals to disguise themselves.",
     "stats":{
         "hp": 60,
         "atk": 30,

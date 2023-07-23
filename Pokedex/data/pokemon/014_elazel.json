@@ -9,8 +9,8 @@
     "baseExp": 144,
     "baseFriendship": 100,
     "abilities": "Unaware,Simple",
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Moody",
+    "dexEntry": "Elazel are very friendly pokemon, because of their helpfull nature you will see them a lot around cities helping people where they can.",
     "stats":{
         "hp": 69,
         "atk": 69,

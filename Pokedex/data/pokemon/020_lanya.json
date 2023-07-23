@@ -8,9 +8,9 @@
     "catchRate": 190,
     "baseExp": 60,
     "baseFriendship": 50,
-    "abilities": "Victory Star, Lightning Rod",
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "abilities": "Illuminate, Lightning Rod",
+    "hiddenAbilities": "Volt Absorb",
+    "dexEntry": "Lanya float about using their never-ending light to illuminate road ahead.",
     "stats":{
         "hp": 55,
         "atk": 40,

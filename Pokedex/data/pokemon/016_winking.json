@@ -10,7 +10,7 @@
     "baseFriendship": 50,
     "genderRatio": "AlwaysMale",
     "abilities": "Swarm,Rivalry",
-    "hiddenAbilities": "",
+    "hiddenAbilities": "Sheer Force",
     "dexEntry": "",
     "stats":{
         "hp": 70,

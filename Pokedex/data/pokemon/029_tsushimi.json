@@ -1,7 +1,7 @@
 {
     "name" : "Tsushimi",
     "primaryType": "Dragon",
-    "secondaryType": "",
+    "secondaryType": "Poison",
     "species": "Sushi",
     "height": "1.4",
     "weight": "8.3",

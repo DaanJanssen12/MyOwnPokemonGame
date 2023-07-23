@@ -8,7 +8,9 @@
     "catchRate": 200,
     "baseExp": 70,
     "baseFriendship": 50,
-    "abilities": "Sap Sipper,Grass Pelt",
+    "abilities": "Sap Sipper",
+    "hiddenAbilities": "Grass Pelt",
+    "dexEntry": "Baoby are very happy and playfull. Baoby are not shy, even in front of people. If you feed one of them, it will quickly take a liking to you.",
     "stats":{
         "hp": 66,
         "atk": 65,

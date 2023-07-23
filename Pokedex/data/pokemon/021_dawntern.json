@@ -8,9 +8,9 @@
     "catchRate": 75,
     "baseExp": 170,
     "baseFriendship": 50,
-    "abilities": "Victory Star, Psychic Surge",
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "abilities": "Illuminate, Psychic Surge",
+    "hiddenAbilities": "Volt Absorb",
+    "dexEntry": "Dawntern have such bright light that standing too close to it for too long can result into blindness. For that reason Dawntern have learned to see without having their eyes open.",
     "stats":{
         "hp": 80,
         "atk": 70,

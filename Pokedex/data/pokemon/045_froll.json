@@ -1,7 +1,7 @@
 {
     "name" : "Froll",
     "primaryType": "Ice",
-    "secondaryType": "",
+    "secondaryType": "Fairy",
     "species": "Troll",
     "height": "1.5",
     "weight": "78.0",

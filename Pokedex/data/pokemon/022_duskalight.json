@@ -8,9 +8,9 @@
     "catchRate": 75,
     "baseExp": 170,
     "baseFriendship": 50,
-    "abilities": "Victory Star, Dark Aura",
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "abilities": "Illuminate, Dark Aura",
+    "hiddenAbilities": "Volt Absorb",
+    "dexEntry": "Duskalight are nocternal creatures. They can brighten and dim their light at will, making them good at adapting to the situation.",
     "stats":{
         "hp": 80,
         "atk": 70,

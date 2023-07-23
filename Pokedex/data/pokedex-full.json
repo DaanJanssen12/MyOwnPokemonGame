@@ -137,17 +137,17 @@
     {
         "nr": "028",
         "name": "Drashimi",
-        "type": "Dragon,None"
+        "type": "Dragon,Poison"
     },
     {
         "nr": "029",
         "name": "Tsushimi",
-        "type": "Dragon,None"
+        "type": "Dragon,Poison"
     },
     {
         "nr": "030",
         "name": "Tobshimi",
-        "type": "Dragon,None"
+        "type": "Dragon,Poison"
     },
     {
         "nr": "031",
@@ -217,12 +217,12 @@
     {
         "nr": "044",
         "name": "Snome",
-        "type": "Ice,None"
+        "type": "Ice,Fairy"
     },
     {
         "nr": "045",
         "name": "Froll",
-        "type": "Ice,None"
+        "type": "Ice,Fairy"
     },
     {
         "nr": "046",
@@ -432,16 +432,16 @@
     {
         "nr": "087",
         "name": "Quex",
-        "type": "Water,Dragon"
+        "type": "Dragon,None"
     },
     {
         "nr": "088",
         "name": "Dalbex",
-        "type": "Water,Dragon"
+        "type": "Dragon,None"
     },
     {
         "nr": "089",
         "name": "Unex",
-        "type": "Water,Dragon"
+        "type": "Dragon,None"
     }
 ]

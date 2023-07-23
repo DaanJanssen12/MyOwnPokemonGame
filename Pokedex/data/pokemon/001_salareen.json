@@ -9,7 +9,6 @@
     "catchRate": 45,
     "baseExp": 64,
     "baseFriendship": 50,
-    "growthRate": "Fast",
     "abilities": "Overgrow",
     "hiddenAbilities": "Photosynthesis",
     "stats":{

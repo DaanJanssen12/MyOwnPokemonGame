@@ -8,7 +8,9 @@
     "catchRate": 45,
     "baseExp": 186,
     "baseFriendship": 50,
-    "abilities": "Sap Sipper, Grass Pelt",
+    "abilities": "Sap Sipper",
+    "hiddenAbilities": "Grass Pelt",
+    "dexEntry": "Baobaraffe are friendly pokemon. Seeing them in the wild is a rare sight, since most of the time they are taking care of any young Baoby.",
     "stats":{
         "hp": 123,
         "atk": 100,

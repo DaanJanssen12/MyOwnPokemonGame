@@ -8315,6 +8315,17 @@ Priority = 4
 FunctionCode = ProtectUserFromDamagingMovesKingsShield
 Description = Protects itself from damage. It also harshly lowers the Attack of attackers that make contact.
 #-------------------------------
+[QUEENSSHIELD]
+Name = Queen's Shield
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = ProtectUserFromDamagingMovesQueensShield
+Description = Protects itself from damage. It also harshly lowers the Defense of attackers that make contact.
+#-------------------------------
 [METALSOUND]
 Name = Metal Sound
 Type = SOUND

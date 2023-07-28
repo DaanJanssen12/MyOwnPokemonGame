@@ -9,7 +9,7 @@
     "baseExp": 140,
     "baseFriendship": 50,
     "genderRatio": "AlwaysFemale",
-    "abilities": "Swarm,Rivalry",
+    "abilities": "Queenly Majesty,Rivalry",
     "hiddenAbilities": "Sheer Force",
     "dexEntry": "When female Winbee evolve they turn into Winqueen. When a Winqueen finds a Winking she likes they are said to mate for life.",
     "stats":{
@@ -41,6 +41,7 @@
         }
     ],
     "moves": [
+        {"lvl": 0, "name": "Queens Shield"},
         {"lvl": 1, "name": "String Shot"},
         {"lvl": 1, "name": "Absorb"},
         {"lvl": 5, "name": "Infestation"},

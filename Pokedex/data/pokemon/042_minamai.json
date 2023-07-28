@@ -8,9 +8,9 @@
     "catchRate": 225,
     "baseExp": 61,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
+    "hiddenAbilities": "Intrepid Sword",
     "dexEntry": "",
-    "abilities": "Volt Absorb, Intrepid Sword",
+    "abilities": "Volt Absorb, Rough Skin",
     "stats":{
         "hp": 45,
         "atk": 90,

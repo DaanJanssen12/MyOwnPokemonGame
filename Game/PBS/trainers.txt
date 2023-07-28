@@ -1,35 +1,58 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[LEADER_Brock_Normal,Sam]
-LoseText = Very good.
-Pokemon = MUSIBIRD,14
-Pokemon = PYEN,15
-#-------------------------------
-[LEADER_Brock_Normal,Sam,1]
-LoseText = Very good.
-Pokemon = PYEN,21
-Pokemon = PAROWAVE,22
-#-------------------------------
 [LEADER_Bob_Easy,Bob]
 LoseText = Very good.
-Pokemon = SQUIZARD,13
+Pokemon = SQUIZARD,12
     Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
-Pokemon = DRASHIMI,15
+Pokemon = DRASHIMI,14
     Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
 #-------------------------------
 [LEADER_Bob_Normal,Bob]
 LoseText = Very good.
-Pokemon = SQUIZARD,13
-    Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
-Pokemon = DRASHIMI,15
+Pokemon = DRASHIMI,14
     Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
+Pokemon = SQUIZARD,15
+    Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
 #-------------------------------
 [LEADER_Bob_Hard,Bob]
 LoseText = Very good.
-Pokemon = SQUIZARD,13
+Pokemon = SQUIZARD,14
     Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
-Pokemon = DRASHIMI,15
+    AbilityIndex = 0
+    Item = RINDOBERRY
+Pokemon = DRASHIMI,14
     Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
+    AbilityIndex = 1
+    Item = DRAGONFANG
+Pokemon = MINAMAI,15
+    Moves = SPARK,AQUAJET,SWORDSDANCE,PROTECT
+    AbilityIndex = 1
+    Item = ROCKYHELMET
+#-------------------------------
+[LEADER_Matt_Easy,Matthew,1]
+LoseText = Very good.
+Pokemon = MUSIBIRD,14
+Pokemon = PYEN,15
+#-------------------------------
+[LEADER_Matt_Normal,Matthew,1]
+LoseText = Very good.
+Pokemon = MUSIBIRD,14
+Pokemon = PYEN,15
+#-------------------------------
+[LEADER_Matt_Hard,Matthew,1]
+LoseText = Very good.
+Pokemon = SNOME,22
+    Moves = ICESHARD,THIEF,TAUNT,THUNDERWAVE
+    AbilityIndex = 0
+    Item = SITRUSBERRY
+Pokemon = SQUIZARD,22
+    Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
+    AbilityIndex = 0
+    Item = RINDOBERRY
+Pokemon = HABKID,23
+    Moves = SHELTER,IRONDEFENSE,TRIPLEKICK,METALCLAW
+    AbilityIndex = 1
+    Item = ROCKYHELMET
 #-------------------------------
 [CAMPER,Liam]
 LoseText = ...

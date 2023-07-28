@@ -8,7 +8,7 @@
     "catchRate": 190,
     "baseExp": 177,
     "baseFriendship": 50,
-    "hiddenAbilities": "Contrary",
+    "hiddenAbilities": "Weak Armor",
     "dexEntry": "",
     "abilities": "Shell Armor, Solid Rock",
     "stats":{
@@ -21,6 +21,21 @@
     },
     "evolutions": [],
     "moves": [
-        {"lvl": 1, "name": "Tackle"}
-    ]
+        {"lvl": 1, "name": "Constrict"},
+        {"lvl": 1, "name": "Harden"},
+        {"lvl": 5, "name": "Rollout"},
+        {"lvl": 10, "name": "Double Slap"},
+        {"lvl": 15, "name": "Headbutt"},
+        {"lvl": 20, "name": "Rock Throw"},
+        {"lvl": 25, "name": "Acupressure"},
+        {"lvl": 30, "name": "Assist"},
+        {"lvl": 35, "name": "Rock Slide"},
+        {"lvl": 40, "name": "Shell Smash"},
+        {"lvl": 45, "name": "Endure"},
+        {"lvl": 50, "name": "Explosion"},
+        {"lvl": 55, "name": "Rock Polish"},
+        {"lvl": 60, "name": "Head Smash"},
+        {"lvl": 65, "name": "Rock Wrecker"}
+    ],
+    "tutorMoves": [ "Water Pulse", "Calm Mind", "Roar", "Toxic", "Hail", "Bulk Up", "Bullet Seed", "Work Up", "Sunny Day", "Taunt", "Ice Beam", "Hyper Beam", "Light Screen", "Protect", "Rain Dance", "Giga Drain", "Safeguard", "Solar Beam", "Earthquake", "Dig", "Double Team", "Reflect", "Sludge Bomb", "Sandstorm", "Rock Tomb", "Rest", "Attract", "Thief", "Endure", "Will-O-Wisp", "Bug Buzz", "Explosion", "Giga Impact", "Rock Polish", "Flash", "Stone Edge", "Stealth Rock", "Psych Up", "Rock Slide", "Sleep Talk", "Bulldoze", "Poison Jab", "Swagger", "U-turn", "Substitute", "Strength", "Rock Smash", "Rock Climb" ]
 }

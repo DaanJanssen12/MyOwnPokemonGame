@@ -19,6 +19,13 @@ LandEvening,41
 Land,21
     25,PYEN,12,16
 #-------------------------------
+[028] # Starby City
+LandAfternoon,21
+    40,LANYA,5
+Water,2
+    20,SQUIZARD,5
+    20,MAKOCHINE,5
+#-------------------------------
 [042] # Route 10
 Land,21
     34,AMAZEL,3,4

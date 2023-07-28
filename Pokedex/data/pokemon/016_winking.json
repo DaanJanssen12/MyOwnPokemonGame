@@ -11,7 +11,7 @@
     "genderRatio": "AlwaysMale",
     "abilities": "Swarm,Rivalry",
     "hiddenAbilities": "Sheer Force",
-    "dexEntry": "",
+    "dexEntry": "When male Winbee evolve they turn into Winking. When a Winking finds a Winqueen he likes they are said to mate for life.",
     "stats":{
         "hp": 70,
         "atk": 90,
@@ -41,6 +41,7 @@
         }
     ],
     "moves": [
+        {"lvl": 0, "name": "Kings Shield"},
         {"lvl": 1, "name": "String Shot"},
         {"lvl": 1, "name": "Absorb"},
         {"lvl": 5, "name": "Infestation"},

@@ -39,6 +39,21 @@
     "moves": [
         {"lvl": 1, "name": "Tackle"},
         {"lvl": 1, "name": "Shelter"},
-        {"lvl": 1, "name": "Low Kick"}
-    ]
+        {"lvl": 5, "name": "Low Kick"},
+        {"lvl": 8, "name": "Triple Kick"},
+        {"lvl": 11, "name": "Detect"},
+        {"lvl": 14, "name": "Metal Claw"},
+        {"lvl": 17, "name": "Iron Defense"},
+        {"lvl": 21, "name": "Gear Up"},
+        {"lvl": 24, "name": "Drain Punch"},
+        {"lvl": 27, "name": "Slam"},
+        {"lvl": 31, "name": "Kings Shield"},
+        {"lvl": 35, "name": "Heavy Slam"},
+        {"lvl": 37, "name": "Close Combat"},
+        {"lvl": 39, "name": "Fake Out"},
+        {"lvl": 43, "name": "Autotomize"},
+        {"lvl": 47, "name": "Iron Head"},
+        {"lvl": 52, "name": "Hammer Arm"}
+    ],
+    "tutorMoves": [ "Focus Punch", "Dragon Claw", "Bulk Up", "Work Up", "Taunt", "Iron Tail", "Low Sweep", "Dig", "Brick Break", "Double Team", "Rock Tomb", "Aerial Ace", "Torment", "Facade", "Steel Wing", "Skill Swap", "Focus Blast", "Energy Ball", "False Swipe", "Fling", "Endure", "Drain Punch", "Will-O-Wisp", "Nasty Plot", "Shadow Claw", "Payback", "Giga Impact", "Rock Polish", "Flash", "Stone Edge", "Swords Dance", "Stealth Rock", "Rock Slide", "X-Scissor", "Bulldoze", "U-turn", "Substitute", "Flash Cannon", "Cut", "Strength", "Rock Smash", "Rock Climb" ]
 }

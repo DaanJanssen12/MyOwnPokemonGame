@@ -560,6 +560,13 @@
         "accuracy": "100"
     },
     {
+        "move": "Queens Shield",
+        "type": "Fairy",
+        "category": "Status",
+        "power": "-",
+        "accuracy": "100"
+    },
+    {
         "move": "",
         "type": "",
         "category": "",

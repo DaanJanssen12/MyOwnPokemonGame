@@ -1,7 +1,7 @@
 {
     "name" : "Snome",
     "primaryType": "Ice",
-    "secondaryType": "",
+    "secondaryType": "Fairy",
     "species": "Gnome",
     "height": "0.7",
     "weight": "12.5",

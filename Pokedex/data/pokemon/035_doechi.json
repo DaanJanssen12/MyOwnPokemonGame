@@ -8,8 +8,8 @@
     "catchRate": 140,
     "baseExp": 168,
     "baseFriendship": 100,
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Pixilate",
+    "dexEntry": "Doechi still have some of the sweet innocence of Kudo, but they are also very capable to fend for themselves. In the night their starry ears and moon-shaped tail glow and they are able to reach unthinkable speeds",
     "abilities": "Sweet Veil, Unburden",
     "stats":{
         "hp": 88,
@@ -28,10 +28,11 @@
         {
             "nr": "035",
             "name": "Doechi",
-            "lvl": 24
+            "lvl": 31
         }
     ],
     "moves": [
+        {"lvl": 0, "name": "Moonblast"},
         {"lvl": 1, "name": "Tackle"},
         {"lvl": 1, "name": "Play Nice"},
         {"lvl": 4, "name": "Fairy Wind"},

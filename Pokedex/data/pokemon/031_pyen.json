@@ -8,8 +8,8 @@
     "catchRate": 255,
     "baseExp": 56,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Intimidate",
+    "dexEntry": "Pyen have tons of energy and like to play with other Pyen. The 'playing' can sometimes get too rough and has to be interrupted.",
     "abilities": "Run Away, Rattled",
     "stats":{
         "hp": 35,

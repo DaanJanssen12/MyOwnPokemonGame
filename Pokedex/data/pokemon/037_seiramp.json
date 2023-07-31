@@ -8,8 +8,8 @@
     "catchRate": 0,
     "baseExp": 100,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Weak Armor",
+    "dexEntry": "When Ellamp get stronger and more confidant they can evolve into Seiramp. Seiramp don't shy away from showing themselves.",
     "abilities": "Levitate",
     "stats":{
         "hp": 63,

@@ -8,8 +8,8 @@
     "catchRate": 70,
     "baseExp": 210,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Intimidate",
+    "dexEntry": "Pyrain are the strongest of the Pyen line. They are alpha creatures that like to lead their pack solo. Seeing two or more Pyrain work together is extremely rare.",
     "abilities": "Run Away, Rattled",
     "stats":{
         "hp": 75,

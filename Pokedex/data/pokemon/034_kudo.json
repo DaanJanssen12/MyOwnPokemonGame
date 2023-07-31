@@ -8,8 +8,8 @@
     "catchRate": 200,
     "baseExp": 68,
     "baseFriendship": 100,
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Pixilate",
+    "dexEntry": "Kudo are these sweet innocent creatures who spend most of their days just hopping around with wonder.",
     "abilities": "Sweet Veil, Unburden",
     "stats":{
         "hp": 62,
@@ -28,7 +28,7 @@
         {
             "nr": "035",
             "name": "Doechi",
-            "lvl": 36
+            "lvl": 31
         }
     ],
     "moves": [

@@ -8,8 +8,8 @@
     "catchRate": 180,
     "baseExp": 67,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Liquid Ooze",
+    "dexEntry": "Mindow are created from lost souls wandering around, whilst growing stronger they create this ooze-like substance to give them a more tangible form",
     "abilities": "Levitate, Cursed Body",
     "stats":{
         "hp": 80,

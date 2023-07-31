@@ -23,8 +23,8 @@ Land,21
 LandAfternoon,21
     40,LANYA,5
 Water,2
-    20,SQUIZARD,5
     20,MAKOCHINE,5
+    20,SQUIZARD,5
 #-------------------------------
 [042] # Route 10
 Land,21
@@ -35,3 +35,13 @@ Water,2
     100,SQUIZARD,12
 OldRod
     100,INTELLIDERP,6,7
+#-------------------------------
+[043] # Route 11
+Land,21
+    30,BAOBY,5
+    20,KUDO,5
+    30,DROOPIG,5
+OldRod
+    20,SQUIZARD,5
+LandEvening,21
+    20,LANYA,5

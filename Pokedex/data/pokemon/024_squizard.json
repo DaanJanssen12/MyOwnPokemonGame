@@ -8,8 +8,8 @@
     "catchRate": 190,
     "baseExp": 67,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Telepathy",
+    "dexEntry": "Squizard are intelligent creatures. They get their name because of the top of their heads which looks like a wizard hat.",
     "abilities": "Infiltrator, Magic Bounce",
     "stats":{
         "hp": 50,

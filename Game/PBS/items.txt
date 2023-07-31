@@ -7363,8 +7363,8 @@ Flags = KeyItem
 Description = This vial is empty, recharge it at the PokéCenter.
 #-------------------------------
 [SURFITEM]
-Name = Poke Vial
-NamePlural = Poke Vials
+Name = Pool Floatie
+NamePlural = Pool Floaties
 Pocket = 8
 Price = 0
 FieldUse = Direct

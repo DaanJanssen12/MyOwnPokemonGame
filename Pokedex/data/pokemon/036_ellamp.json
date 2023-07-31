@@ -8,8 +8,8 @@
     "catchRate": 0,
     "baseExp": 100,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Weak Armor",
+    "dexEntry": "Ellamp are shy spirits who possess teapots to have a protective shell where they can hide in.",
     "abilities": "Levitate",
     "stats":{
         "hp": 30,

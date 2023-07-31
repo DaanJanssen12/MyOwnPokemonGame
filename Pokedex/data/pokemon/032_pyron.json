@@ -8,8 +8,8 @@
     "catchRate": 127,
     "baseExp": 147,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Intimidate",
+    "dexEntry": "Pyron is the evolved form of Pyen, these are the ones that are still standing after many 'play' sessions with their brethren.",
     "abilities": "Run Away, Rattled",
     "stats":{
         "hp": 55,

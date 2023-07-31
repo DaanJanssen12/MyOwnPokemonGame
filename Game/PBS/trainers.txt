@@ -18,16 +18,20 @@ Pokemon = SQUIZARD,15
 LoseText = Very good.
 Pokemon = SQUIZARD,14
     Moves = CONFUSION,SUPERSONIC,WATERGUN,TOXIC
-    AbilityIndex = 0
+    AbilityIndex = 1
     Item = RINDOBERRY
 Pokemon = DRASHIMI,14
-    Moves = STICKYWEB,TWISTER,THUNDERWAVE,TOXIC
+    Moves = POISONSTING,TWISTER,PURIFY,TOXIC
     AbilityIndex = 1
-    Item = DRAGONFANG
-Pokemon = MINAMAI,15
-    Moves = SPARK,AQUAJET,SWORDSDANCE,PROTECT
+    Item = TOXICORB
+Pokemon = SLIGMENT,15
+    Moves = ROLLOUT,DOUBLESLAP,HARDEN,TOXIC
     AbilityIndex = 1
     Item = ROCKYHELMET
+Pokemon = MINAMAI,15
+    Moves = NUZZLE,AQUAJET,SOAK,PROTECT
+    AbilityIndex = 2
+    Item = MYSTICWATER
 #-------------------------------
 [LEADER_Matt_Easy,Matthew,1]
 LoseText = Very good.

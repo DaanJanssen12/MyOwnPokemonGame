@@ -8,8 +8,8 @@
     "catchRate": 180,
     "baseExp": 67,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
-    "dexEntry": "",
+    "hiddenAbilities": "Liquid Ooze",
+    "dexEntry": "Slugnami are created when 3 Mindow band together connected by their ooze. Each Mindow is responsible for one limb.",
     "abilities": "Levitate, Cursed Body",
     "stats":{
         "hp": 110,

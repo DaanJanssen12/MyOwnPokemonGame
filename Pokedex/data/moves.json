@@ -561,7 +561,7 @@
     },
     {
         "move": "Queens Shield",
-        "type": "Fairy",
+        "type": "Poison",
         "category": "Status",
         "power": "-",
         "accuracy": "100"

@@ -39,12 +39,12 @@ MapSize = 2,11
 Name = Route 20
 Outdoor = true
 #-------------------------------
-[009]   # Cedolan City Poké Center
+[009]   # Furnend City Poké Center
 Name = Cedolan City
 HealingSpot = 8,17,11
 MapPosition = 0,20,14
 #-------------------------------
-[010]   # Cedolan Gym
+[010]   # Furnend City Gym
 Name = Cedolan City
 MapPosition = 0,20,14
 BattleBack = indoor3

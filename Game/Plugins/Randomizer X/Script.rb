@@ -6,7 +6,6 @@
 module Randomizer
   @@randomizer = false
   @@rules = []
-  @@ABILITY_CHANGES = []
   #-----------------------------------------------------------------------------
   #  check if randomizer is on
   #-----------------------------------------------------------------------------
@@ -104,7 +103,6 @@ module Randomizer
       for i in 0...data[key].pokemon.length
         next if !species_exclusions.nil? && species_exclusions.include?(data[key].pokemon[i][:species])
         data[key].pokemon[i][:species] = self.all_species.sample
-		puts data[key].pokemon[i][:ability]
       end
     end
     return data
@@ -169,10 +167,12 @@ module Randomizer
 	abilitiesArr = []
 	
 	GameData::Species.each { |species|
-	    abilitiesArr.push(AbilityChangeClass.new(species.id, species.abilities, array[rand(array.length)]))
+		species.abilities.each { |ability|
+			abilitiesArr.push(AbilityChangeClass.new(species.id, ability, array[rand(array.length)]))
+		}
 	}
 	
-	@@ABILITY_CHANGES = abilitiesArr
+	return abilitiesArr;
   end
   #-----------------------------------------------------------------------------
   #  begins the process of randomizing all data
@@ -210,9 +210,12 @@ module Randomizer
   def self.getRandomizedAbility(species, ability)
 	return ability if !self.on?
 	if $PokemonGlobal && $PokemonGlobal.randomizedData && $PokemonGlobal.randomizedData.has_key?(:ABILITIES)
-		rec = @@ABILITY_CHANGES.find {|record| record.species == species && record.old_ability == ability}
+		rec = $PokemonGlobal.randomizedData[:ABILITIES].find {|record| record.species == species && record.old_ability == ability}
 		if rec.nil?
-			rec = @@ABILITY_CHANGES.find {|record| record.species == species}
+			rec = $PokemonGlobal.randomizedData[:ABILITIES].find {|record| record.species == species}
+			if rec.nil?
+				return ability
+			end
 		end
 		return rec.new_ability
     end
@@ -428,6 +431,7 @@ class PokemonGlobalMetadata
   attr_accessor :randomizedData
   attr_accessor :isRandomizer
   attr_accessor :randomizerRules
+  attr_accessor :ABILITY_CHANGES
 end
 #===============================================================================
 #  refresh cache on load
@@ -443,6 +447,13 @@ class PokemonLoadScreen
     end
     return ret
   end
+end
+
+def ReloadCache()
+	if $PokemonGlobal && $PokemonGlobal.isRandomizer
+      Randomizer.start(true)
+      Randomizer.set_rules($PokemonGlobal.randomizerRules) if !$PokemonGlobal.randomizerRules.nil?
+    end
 end
 #===============================================================================
 #  AbilityChangeClass

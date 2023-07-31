@@ -1,7 +1,7 @@
 {
     "name" : "Rainther",
     "primaryType": "Water",
-    "secondaryType": "Normal",
+    "secondaryType": "Sound",
     "species": "Purring",
     "height": "1.2",
     "weight": "57.1",
@@ -9,7 +9,7 @@
     "baseExp": 147,
     "baseFriendship": 50,
     "abilities": "Torrent",
-    "hiddenAbilities": "Drizzle",
+    "hiddenAbilities": "Enhanced Sound",
     "dexEntry": "After battle experience Dampurr evolves into Raither losing a little bit of his playfull nature and leaning in more into his natural hunter ancestory.",
     "stats":{
         "hp": 60,

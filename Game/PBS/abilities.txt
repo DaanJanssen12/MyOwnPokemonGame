@@ -1200,3 +1200,7 @@ Description = Transforms into its Hero Form when it switches out.
 Name = Photosynthesis
 Description = In sunshine: Slightly boosts Speed and Heals every turn.
 #-------------------------------
+[ENHANCEDSOUND]
+Name = Enhanced Sound
+Description = Normal-type moves become Sound-type and powered up.
+#-------------------------------

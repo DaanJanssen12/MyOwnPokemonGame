@@ -8,16 +8,16 @@
     "catchRate": 0,
     "baseExp": 100,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
+    "hiddenAbilities": "Defiant",
     "dexEntry": "",
-    "abilities": "",
+    "abilities": "Gluttony, Thick Fat",
     "stats":{
-        "hp": 45,
-        "atk": 45,
-        "def": 45,
-        "spd": 45,
-        "spatk": 45,
-        "spdef": 45
+        "hp": 40,
+        "atk": 55,
+        "def": 75,
+        "spd": 35,
+        "spatk": 35,
+        "spdef": 65
     },
     "evolutions": [
         {
@@ -28,10 +28,25 @@
         {
             "nr": "047",
             "name": "Hoolihog",
-            "lvl": 24
+            "lvl": 26
         }
     ],
     "moves": [
-        {"lvl": 1, "name": "Tackle"}
+        {"lvl": 1, "name": "Pound"},
+        {"lvl": 1, "name": "Rollout"},
+        {"lvl": 1, "name": "Defense Curl"},
+        {"lvl": 1, "name": "Sand Attack"},
+        {"lvl": 5, "name": "Mud-Slap"},
+        {"lvl": 8, "name": "Sand Tomb"},
+        {"lvl": 12, "name": "Headbutt"},
+        {"lvl": 17, "name": "Bulldoze"},
+        {"lvl": 22, "name": "Double Slap"},
+        {"lvl": 25, "name": "Belly Drum"},
+        {"lvl": 29, "name": "Spikes"},
+        {"lvl": 33, "name": "Yawn"},
+        {"lvl": 36, "name": "Rest"},
+        {"lvl": 40, "name": "Dig"},
+        {"lvl": 44, "name": "Sleep Talk"},
+        {"lvl": 48, "name": "Earthquake"}
     ]
 }

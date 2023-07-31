@@ -53,7 +53,7 @@ function setPokemonData(pokemon){
         text += `HiddenAbilities = ${replaceAll(pokemon.hiddenAbilities.toUpperCase(), " ", "")}</br>`;
     }
 
-    text += `EggGroups = Undiscovered</br>HatchSteps = 1</br>Height = ${pokemon.height}</br>Weight = ${pokemon.weight} </br>Color = Green</br>Shape = Head</br>Evolutions = ${getEvolutionPBSDataString(pokemon)}</br>Category = ${pokemon.species}</br>Pokedex = ${pokemon.dexEntry} </br>#-------------------------------`;
+    text += `EggGroups = Undiscovered</br>HatchSteps = 100</br>Height = ${pokemon.height}</br>Weight = ${pokemon.weight} </br>Color = Green</br>Shape = Head</br>Evolutions = ${getEvolutionPBSDataString(pokemon)}</br>Category = ${pokemon.species}</br>Pokedex = ${pokemon.dexEntry} </br>#-------------------------------`;
 
    return text;
 }

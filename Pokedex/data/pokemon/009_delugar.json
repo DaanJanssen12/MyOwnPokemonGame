@@ -1,15 +1,15 @@
 {
     "name" : "Delugar",
     "primaryType": "Water",
-    "secondaryType": "Normal",
-    "species": "Purring",
+    "secondaryType": "Sound",
+    "species": "Roaring",
     "height": "2.6",
     "weight": "120.0",
     "catchRate": 45,
     "baseExp": 239,
     "baseFriendship": 50,
     "abilities": "Torrent",
-    "hiddenAbilities": "Drizzle",
+    "hiddenAbilities": "Enhanced Sound",
     "dexEntry": "Delugar are natural hunters, with their strong legs they can run with great speed and pounce and strike with great strength.",
     "stats":{
         "hp": 80,

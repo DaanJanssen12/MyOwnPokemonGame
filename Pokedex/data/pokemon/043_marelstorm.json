@@ -32,6 +32,20 @@
         }
     ],
     "moves": [
-        {"lvl": 1, "name": "Tackle"}
+        {"lvl": 1, "name": "Tackle"},
+        {"lvl": 44, "name": "Swords Dance"},
+        {"lvl": 28, "name": "Sacred Sword"},
+        {"lvl": 37, "name": "Secret Sword"},
+        {"lvl": 6, "name": "Bubble"},
+        {"lvl": 9, "name": "Soak"},
+        {"lvl": 1, "name": "Withdraw"},
+        {"lvl": 17, "name": "Slash"},
+        {"lvl": 22, "name": "Aqua Cutter"},
+        {"lvl": 12, "name": "Nuzzle"},
+        {"lvl": 31, "name": "Wild Charge"},
+        {"lvl": 29, "name": "Charge Beam"},
+        {"lvl": 40, "name": "Thunder"},
+        {"lvl": 21, "name": "Charge"},
+        {"lvl": 34, "name": "Magnet Rise"}
     ]
 }

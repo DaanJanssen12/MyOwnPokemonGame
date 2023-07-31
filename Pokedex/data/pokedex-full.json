@@ -32,17 +32,17 @@
     {
         "nr": "007",
         "name": "Dampurr",
-        "type": "Water,Normal"
+        "type": "Water,Sound"
     },
     {
         "nr": "008",
         "name": "Rainther",
-        "type": "Water,Normal"
+        "type": "Water,Sound"
     },
     {
         "nr": "009",
         "name": "Delugar",
-        "type": "Water,Normal"
+        "type": "Water,Sound"
     },
     {
         "nr": "010",
@@ -242,12 +242,12 @@
     {
         "nr": "049",
         "name": "Marvog",
-        "type": "Ground,None"
+        "type": "Ground,Steel"
     },
     {
         "nr": "050",
         "name": "Gramervog",
-        "type": "Ground,None"
+        "type": "Ground,Steel"
     },
     {
         "nr": "051",
@@ -272,17 +272,17 @@
     {
         "nr": "055",
         "name": "Kankwart",
-        "type": "Poison,Rock"
+        "type": "Rock,None"
     },
     {
         "nr": "056",
         "name": "Kankryst",
-        "type": "Poison,Rock"
+        "type": "Rock,None"
     },
     {
         "nr": "057",
         "name": "Kankersaur",
-        "type": "Poison,Rock"
+        "type": "Rock,Poison"
     },
     {
         "nr": "058",
@@ -443,5 +443,35 @@
         "nr": "089",
         "name": "Unex",
         "type": "Dragon,None"
+    },
+    {
+        "nr": "090",
+        "name": "Rockid",
+        "type": "Rock,Normal"
+    },
+    {
+        "nr": "091",
+        "name": "Stubhorn",
+        "type": "Rock,Normal"
+    },
+    {
+        "nr": "092",
+        "name": "Lumini",
+        "type": "Light,None"
+    },
+    {
+        "nr": "093",
+        "name": "Lumedi",
+        "type": "Light,None"
+    },
+    {
+        "nr": "094",
+        "name": "Lumaxi",
+        "type": "Light,Psychic"
+    },
+    {
+        "nr": "095",
+        "name": "Lunapede",
+        "type": "Light,Bug"
     }
 ]

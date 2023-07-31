@@ -13,11 +13,11 @@
     "abilities": "",
     "stats":{
         "hp": 45,
-        "atk": 45,
-        "def": 45,
-        "spd": 45,
-        "spatk": 45,
-        "spdef": 45
+        "atk": 65,
+        "def": 57,
+        "spatk": 35,
+        "spdef": 35,
+        "spd": 55
     },
     "evolutions": [
         {
@@ -28,12 +28,12 @@
         {
             "nr": "049",
             "name": "Marvog",
-            "lvl": 18
+            "lvl": 29
         },
         {
             "nr": "050",
             "name": "Gramervog",
-            "lvl": 36
+            "lvl": 42
         }
     ],
     "moves": [

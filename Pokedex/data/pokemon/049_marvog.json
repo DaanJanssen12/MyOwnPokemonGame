@@ -2,22 +2,22 @@
     "name" : "Marvog",
     "primaryType": "Ground",
     "secondaryType": "Steel",
-    "species": "",
-    "height": "",
-    "weight": "",
-    "catchRate": 0,
-    "baseExp": 100,
+    "species": "Armored",
+    "height": "0.9",
+    "weight": "70.2",
+    "catchRate": 90,
+    "baseExp": 151,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
+    "hiddenAbilities": "Sand Rush",
     "dexEntry": "",
-    "abilities": "",
+    "abilities": "Rock Head, Sturdy",
     "stats":{
-        "hp": 45,
-        "atk": 45,
-        "def": 45,
-        "spd": 45,
+        "hp": 65,
+        "atk": 85,
+        "def": 77,
         "spatk": 45,
-        "spdef": 45
+        "spdef": 50,
+        "spd": 75
     },
     "evolutions": [
         {
@@ -28,15 +28,31 @@
         {
             "nr": "049",
             "name": "Marvog",
-            "lvl": 18
+            "lvl": 29
         },
         {
             "nr": "050",
             "name": "Gramervog",
-            "lvl": 36
+            "lvl": 42
         }
     ],
     "moves": [
-        {"lvl": 1, "name": "Tackle"}
+        {"lvl": 1, "name": "Defense Curl"},
+        {"lvl": 1, "name": "Rollout"},
+        {"lvl": 4, "name": "Sand Attack"},
+        {"lvl": 8, "name": "Mud Slap"},
+        {"lvl": 12, "name": "Accelerock"},
+        {"lvl": 16, "name": "Bulldoze"},
+        {"lvl": 20, "name": "Iron Defense"},
+        {"lvl": 24, "name": "Metal Claw"},
+        {"lvl": 28, "name": "Iron Tail"},
+        {"lvl": 33, "name": "Earth Power"},
+        {"lvl": 36, "name": "Protect"},
+        {"lvl": 40, "name": "Autotomize"},
+        {"lvl": 44, "name": "Earthquake"},
+        {"lvl": 48, "name": "Heavy Slam"},
+        {"lvl": 52, "name": "Double-Edge"},
+        {"lvl": 56, "name": "Metal Burst"},
+        {"lvl": 60, "name": "Iron Head"}
     ]
 }

@@ -2,15 +2,15 @@
     "name" : "Armadix",
     "primaryType": "Ground",
     "secondaryType": "",
-    "species": "",
-    "height": "",
-    "weight": "",
-    "catchRate": 0,
+    "species": "Armadillo",
+    "height": "0.6",
+    "weight": "20.0",
+    "catchRate": 180,
     "baseExp": 100,
     "baseFriendship": 50,
-    "hiddenAbilities": "",
+    "hiddenAbilities": "Sand Rush",
     "dexEntry": "",
-    "abilities": "",
+    "abilities": "Rock Head, Sturdy",
     "stats":{
         "hp": 45,
         "atk": 65,
@@ -37,6 +37,22 @@
         }
     ],
     "moves": [
-        {"lvl": 1, "name": "Tackle"}
+        {"lvl": 1, "name": "Defense Curl"},
+        {"lvl": 1, "name": "Rollout"},
+        {"lvl": 4, "name": "Sand Attack"},
+        {"lvl": 8, "name": "Mud Slap"},
+        {"lvl": 12, "name": "Accelerock"},
+        {"lvl": 16, "name": "Bulldoze"},
+        {"lvl": 20, "name": "Iron Defense"},
+        {"lvl": 24, "name": "Metal Claw"},
+        {"lvl": 28, "name": "Iron Tail"},
+        {"lvl": 33, "name": "Earth Power"},
+        {"lvl": 36, "name": "Protect"},
+        {"lvl": 40, "name": "Autotomize"},
+        {"lvl": 44, "name": "Earthquake"},
+        {"lvl": 48, "name": "Heavy Slam"},
+        {"lvl": 52, "name": "Double-Edge"},
+        {"lvl": 56, "name": "Metal Burst"},
+        {"lvl": 60, "name": "Iron Head"}
     ]
 }
